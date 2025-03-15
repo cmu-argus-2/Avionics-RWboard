@@ -7012,6 +7012,18 @@
 		)
 		(uuid "815435de-8134-4391-b949-d15dae4c7349")
 	)
+	(text "What is the I2C address?"
+		(exclude_from_sim no)
+		(at 201.168 140.716 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 255 0 0 1)
+			)
+			(justify left top)
+		)
+		(uuid "8847533c-333b-460d-a784-ec5ba2bea4ab")
+	)
 	(text "Motor Driver and Motor"
 		(exclude_from_sim no)
 		(at 161.036 24.13 0)
@@ -7297,7 +7309,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "0150ae6e-591c-48d1-b050-2ef34764e053")
-		(property "Reference" "TP3"
+		(property "Reference" "TP5"
 			(at 91.44 29.972 90)
 			(do_not_autoplace yes)
 			(effects
@@ -7348,7 +7360,7 @@
 		(instances
 			(project "Avionics-RWboard"
 				(path "/833dc880-24c2-430b-8cf7-cc984eb87a9d/6fe6dcb0-4022-4a1b-8f5d-25ced07893ae"
-					(reference "TP3")
+					(reference "TP5")
 					(unit 1)
 				)
 			)
@@ -7606,7 +7618,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "1213cefc-8f5c-47a6-8f0b-45253db1e910")
-		(property "Reference" "TP4"
+		(property "Reference" "TP7"
 			(at 55.88 108.712 90)
 			(do_not_autoplace yes)
 			(effects
@@ -7657,7 +7669,7 @@
 		(instances
 			(project "Avionics-RWboard"
 				(path "/833dc880-24c2-430b-8cf7-cc984eb87a9d/6fe6dcb0-4022-4a1b-8f5d-25ced07893ae"
-					(reference "TP4")
+					(reference "TP7")
 					(unit 1)
 				)
 			)
@@ -8759,7 +8771,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "52a446c9-c960-430d-a37f-dd1fe6c223fa")
-		(property "Reference" "TP5"
+		(property "Reference" "TP8"
 			(at 63.5 108.712 90)
 			(do_not_autoplace yes)
 			(effects
@@ -8810,7 +8822,7 @@
 		(instances
 			(project "Avionics-RWboard"
 				(path "/833dc880-24c2-430b-8cf7-cc984eb87a9d/6fe6dcb0-4022-4a1b-8f5d-25ced07893ae"
-					(reference "TP5")
+					(reference "TP8")
 					(unit 1)
 				)
 			)
@@ -9239,7 +9251,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "6155f878-fb2a-4435-8d1a-9cc42d0a0858")
-		(property "Reference" "TP1"
+		(property "Reference" "TP9"
 			(at 184.15 75.438 0)
 			(do_not_autoplace yes)
 			(effects
@@ -9290,7 +9302,7 @@
 		(instances
 			(project ""
 				(path "/833dc880-24c2-430b-8cf7-cc984eb87a9d/6fe6dcb0-4022-4a1b-8f5d-25ced07893ae"
-					(reference "TP1")
+					(reference "TP9")
 					(unit 1)
 				)
 			)
@@ -10306,7 +10318,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "9109faa8-f956-40d4-8cac-4fce43ef8abe")
-		(property "Reference" "TP2"
+		(property "Reference" "TP10"
 			(at 35.56 122.428 0)
 			(do_not_autoplace yes)
 			(effects
@@ -10357,7 +10369,7 @@
 		(instances
 			(project "Avionics-RWboard"
 				(path "/833dc880-24c2-430b-8cf7-cc984eb87a9d/6fe6dcb0-4022-4a1b-8f5d-25ced07893ae"
-					(reference "TP2")
+					(reference "TP10")
 					(unit 1)
 				)
 			)
