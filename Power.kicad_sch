@@ -3282,18 +3282,6 @@
 		)
 		(uuid "33492381-742e-4e38-b252-f666483dcb6a")
 	)
-	(text "Check voltages and check placement order"
-		(exclude_from_sim no)
-		(at 154.432 131.318 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(color 255 0 0 1)
-			)
-			(justify left bottom)
-		)
-		(uuid "3dc7bfc9-0dcb-4b17-becc-450bbe8bbb83")
-	)
 	(text "I_limit = V_limit / R_sense = 0.1V / 0.05 R = 2 A\nPower: I x I x R = 2 x 2 x 0.05 = 0.2 Watts worst case\n"
 		(exclude_from_sim no)
 		(at 168.402 123.698 0)
