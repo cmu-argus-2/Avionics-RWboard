@@ -205,28 +205,28 @@
 		)
 	)
 	(junction
-		(at 63.5 166.37)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "21f92671-97f9-43bd-82f4-c7f5e7518434")
-	)
-	(junction
 		(at 40.64 166.37)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "3ae295d6-3699-4c99-ab00-fe3836905e7c")
 	)
 	(junction
-		(at 82.55 166.37)
+		(at 60.96 166.37)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "71d2f368-a4ef-4f48-81b8-3b2effab89a3")
+		(uuid "41b11e54-0698-4f66-98cf-b63377c49131")
 	)
 	(junction
 		(at 68.58 66.04)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7c071c88-43a8-489d-bb9d-85b97b999c09")
+	)
+	(junction
+		(at 81.28 166.37)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d23205c2-c57c-4f92-8ec0-911cda3bbbea")
 	)
 	(junction
 		(at 66.04 63.5)
@@ -243,6 +243,16 @@
 			(type dash)
 		)
 		(uuid "0bb9e623-32bc-46ad-b53d-e46fb5662803")
+	)
+	(wire
+		(pts
+			(xy 60.96 166.37) (xy 81.28 166.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0e2c93bc-9a63-4e49-b9aa-d9df7decada5")
 	)
 	(wire
 		(pts
@@ -286,7 +296,7 @@
 	)
 	(wire
 		(pts
-			(xy 40.64 166.37) (xy 63.5 166.37)
+			(xy 40.64 166.37) (xy 60.96 166.37)
 		)
 		(stroke
 			(width 0)
@@ -396,16 +406,6 @@
 	)
 	(wire
 		(pts
-			(xy 82.55 166.37) (xy 101.6 166.37)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "929201ce-a1a3-46f9-9a49-42eda70b3049")
-	)
-	(wire
-		(pts
 			(xy 58.42 109.22) (xy 58.42 73.66)
 		)
 		(stroke
@@ -423,6 +423,16 @@
 			(type default)
 		)
 		(uuid "ad4b3334-517c-44c2-bd1f-fbdaf5cf147e")
+	)
+	(wire
+		(pts
+			(xy 81.28 166.37) (xy 101.6 166.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b07daa79-9211-4b3e-9bb3-e0e4e704450a")
 	)
 	(polyline
 		(pts
@@ -446,17 +456,7 @@
 	)
 	(wire
 		(pts
-			(xy 63.5 166.37) (xy 82.55 166.37)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c937dbb9-c160-4a06-b337-da7d8499cced")
-	)
-	(wire
-		(pts
-			(xy 63.5 160.02) (xy 63.5 166.37)
+			(xy 60.96 160.02) (xy 60.96 166.37)
 		)
 		(stroke
 			(width 0)
@@ -466,7 +466,7 @@
 	)
 	(wire
 		(pts
-			(xy 82.55 160.02) (xy 82.55 166.37)
+			(xy 81.28 160.02) (xy 81.28 166.37)
 		)
 		(stroke
 			(width 0)
@@ -539,16 +539,16 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole_Pad")
-		(at 99.06 160.02 90)
+		(at 58.42 160.02 90)
 		(unit 1)
 		(exclude_from_sim yes)
 		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "0094b5e8-6205-4a7d-9673-af79001ebe74")
-		(property "Reference" "H4"
-			(at 97.79 153.67 90)
+		(uuid "34acd71f-0d12-44c5-ac94-1e5b62ff96b5")
+		(property "Reference" "H2"
+			(at 57.15 153.67 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -556,15 +556,15 @@
 			)
 		)
 		(property "Value" "MountingHole_Pad"
-			(at 97.79 156.21 90)
+			(at 57.15 156.21 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad_TopBottom"
-			(at 99.06 160.02 0)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_Pad_Via"
+			(at 58.42 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -573,7 +573,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 99.06 160.02 0)
+			(at 58.42 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -582,7 +582,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole with connection"
-			(at 99.06 160.02 0)
+			(at 58.42 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -591,12 +591,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "1f656937-fe5a-4632-a620-def1297e50e7")
+			(uuid "dd25195a-723b-444c-a126-3822c98f8f54")
 		)
 		(instances
 			(project "Avionics-RWboard"
 				(path "/833dc880-24c2-430b-8cf7-cc984eb87a9d"
-					(reference "H4")
+					(reference "H2")
 					(unit 1)
 				)
 			)
@@ -628,7 +628,7 @@
 				)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad_TopBottom"
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_Pad_Via"
 			(at 38.1 160.02 0)
 			(effects
 				(font
@@ -662,135 +662,6 @@
 			(project "Avionics-RWboard"
 				(path "/833dc880-24c2-430b-8cf7-cc984eb87a9d"
 					(reference "H1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Mechanical:MountingHole_Pad")
-		(at 60.96 160.02 90)
-		(unit 1)
-		(exclude_from_sim yes)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(uuid "82360470-6fad-42e4-a72c-9d1eb725ffa8")
-		(property "Reference" "H2"
-			(at 59.69 153.67 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "MountingHole_Pad"
-			(at 57.15 156.21 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad_TopBottom"
-			(at 60.96 160.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 60.96 160.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Mounting Hole with connection"
-			(at 60.96 160.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "a7383219-a804-43b9-a487-021ed3696d93")
-		)
-		(instances
-			(project "Avionics-RWboard"
-				(path "/833dc880-24c2-430b-8cf7-cc984eb87a9d"
-					(reference "H2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Mechanical:MountingHole_Pad")
-		(at 80.01 160.02 90)
-		(unit 1)
-		(exclude_from_sim yes)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "9debbc89-d884-4d51-bed9-ea412632e0d3")
-		(property "Reference" "H3"
-			(at 78.74 153.67 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "MountingHole_Pad"
-			(at 78.74 156.21 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad_TopBottom"
-			(at 80.01 160.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 80.01 160.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Mounting Hole with connection"
-			(at 80.01 160.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "aa371a51-dcae-44da-ac45-4adc123489f6")
-		)
-		(instances
-			(project "Avionics-RWboard"
-				(path "/833dc880-24c2-430b-8cf7-cc984eb87a9d"
-					(reference "H3")
 					(unit 1)
 				)
 			)
@@ -856,6 +727,136 @@
 			(project "Avionics-RWboard"
 				(path "/833dc880-24c2-430b-8cf7-cc984eb87a9d"
 					(reference "#PWR044")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 78.74 160.02 90)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e19ab597-6c8e-4975-8cc8-a565addd8081")
+		(property "Reference" "H3"
+			(at 77.47 153.67 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MountingHole_Pad"
+			(at 77.47 156.21 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_Pad_Via"
+			(at 78.74 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 78.74 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 78.74 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f907e1dc-4097-47bd-b14f-f80068894003")
+		)
+		(instances
+			(project "Avionics-RWboard"
+				(path "/833dc880-24c2-430b-8cf7-cc984eb87a9d"
+					(reference "H3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 99.06 160.02 90)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e72a69a8-0617-453c-84fb-516d3ce86f02")
+		(property "Reference" "H4"
+			(at 97.79 153.67 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MountingHole_Pad"
+			(at 97.79 156.21 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_Pad_Via"
+			(at 99.06 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 99.06 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 99.06 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6033e8a2-ee95-4fa9-ab05-c52face91b8c")
+		)
+		(instances
+			(project "Avionics-RWboard"
+				(path "/833dc880-24c2-430b-8cf7-cc984eb87a9d"
+					(reference "H4")
 					(unit 1)
 				)
 			)
