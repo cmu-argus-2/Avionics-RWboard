@@ -1891,16 +1891,16 @@
 		(uuid "13d65cd1-c13b-4676-a382-88adb91f804e")
 	)
 	(junction
-		(at 83.82 45.72)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "1a668c84-ec5d-4f1c-9793-b887461026cc")
-	)
-	(junction
 		(at 109.22 111.76)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "21b02e10-d114-47b8-b299-d5d58e956dcc")
+	)
+	(junction
+		(at 43.18 63.5)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2804b523-7b51-4f43-a26c-b81e7aba2074")
 	)
 	(junction
 		(at 240.03 52.07)
@@ -1909,10 +1909,16 @@
 		(uuid "29a8e228-e8ca-4ff4-ad0b-d3509be86901")
 	)
 	(junction
-		(at 91.44 35.56)
+		(at 48.26 45.72)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "392974cd-3471-44b1-88d7-bde48fde87d2")
+		(uuid "2c893eee-ad7a-4209-ab36-2e2dbd67c49d")
+	)
+	(junction
+		(at 33.02 63.5)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "335111e1-8c29-439c-b170-24d0f94892b2")
 	)
 	(junction
 		(at 101.6 172.72)
@@ -1921,22 +1927,34 @@
 		(uuid "3a7ed10a-f528-47c8-abeb-8be2901f5475")
 	)
 	(junction
+		(at 55.88 45.72)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3e64ee1d-0c7d-4338-aa01-6e7e1314495b")
+	)
+	(junction
+		(at 48.26 35.56)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "44110169-4904-4fa2-a966-9c4ea4dad729")
+	)
+	(junction
 		(at 33.02 35.56)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "441ab151-9b4a-4183-86ab-8a980f374e59")
 	)
 	(junction
-		(at 73.66 45.72)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "56eb8e8b-abcb-42b4-99b2-e4874087dd9c")
-	)
-	(junction
 		(at 181.61 34.29)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5d306d85-5bce-4692-8ae0-fe758719bcc7")
+	)
+	(junction
+		(at 78.74 45.72)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6106f1dd-d19f-4928-a428-98b08f3f9c2c")
 	)
 	(junction
 		(at 247.65 120.65)
@@ -1951,16 +1969,40 @@
 		(uuid "63aec41d-2da8-43ba-b276-9b7aa911a770")
 	)
 	(junction
-		(at 43.18 35.56)
+		(at 40.64 35.56)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "72cceadc-c4b1-42fe-a185-567d16b5916f")
+		(uuid "75ba090f-2b02-447c-a9ab-ec8cca881326")
+	)
+	(junction
+		(at 78.74 35.56)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7935eae6-01bd-435b-b96f-e0edd3994301")
+	)
+	(junction
+		(at 55.88 35.56)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7cf1f112-0fa2-4bd0-ac67-b7ce9426da85")
 	)
 	(junction
 		(at 63.5 45.72)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "77ed9948-5f3f-44e4-8efe-e074da5b98a0")
+		(uuid "7e68f482-446e-4d2b-b48a-b219b958c1ef")
+	)
+	(junction
+		(at 43.18 73.66)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7f0174dd-5a66-48cc-a90c-887c1980f9c1")
+	)
+	(junction
+		(at 71.12 35.56)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "84a87ee4-9eb2-46be-82d7-bab1fc5c5138")
 	)
 	(junction
 		(at 181.61 36.83)
@@ -1981,16 +2023,22 @@
 		(uuid "9afcdfa0-b076-4482-a15f-96fdb147478e")
 	)
 	(junction
-		(at 63.5 35.56)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "9b99e888-a870-45b5-8335-81216b703b20")
-	)
-	(junction
 		(at 255.27 105.41)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9d628c99-3e50-4303-aa7b-d0f6a3a5c2ea")
+	)
+	(junction
+		(at 40.64 45.72)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a0328273-2a33-4df4-91f2-6d4fc42ea9de")
+	)
+	(junction
+		(at 33.02 73.66)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a68d83db-1e65-44c5-a2a1-7c8e4fce1dbb")
 	)
 	(junction
 		(at 240.03 62.23)
@@ -1999,16 +2047,10 @@
 		(uuid "adf783fc-a727-4b3f-97b7-18b13121a94d")
 	)
 	(junction
-		(at 73.66 35.56)
+		(at 63.5 35.56)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "bc866acf-02b6-420b-a1b7-3e8e0186e2e7")
-	)
-	(junction
-		(at 83.82 35.56)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "c1f65274-acee-40d3-8e60-90cfe1886309")
+		(uuid "b4600cf6-cb52-4513-a28c-a00db40f5436")
 	)
 	(junction
 		(at 255.27 95.25)
@@ -2017,22 +2059,16 @@
 		(uuid "c2c58192-d15c-44b1-803e-f3c51ca7e73b")
 	)
 	(junction
-		(at 53.34 35.56)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "cdd26747-ab21-4c2a-9e8f-c44acafbaafd")
-	)
-	(junction
 		(at 247.65 118.11)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ddaeeddc-b5e5-44f0-b0d6-5be4be5376aa")
 	)
 	(junction
-		(at 43.18 45.72)
+		(at 71.12 45.72)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "deac17a7-eff3-4c94-8c86-82bef7c9b7a7")
+		(uuid "e121e8f6-7916-423f-b99f-fa125c4cf202")
 	)
 	(junction
 		(at 275.59 67.31)
@@ -2059,6 +2095,12 @@
 		(uuid "ee65211e-e4c3-40a4-b098-b9db0b0a61f5")
 	)
 	(junction
+		(at 86.36 35.56)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f2415405-dd50-499d-b37c-647d212fb08a")
+	)
+	(junction
 		(at 255.27 100.33)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2081,12 +2123,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f7a7efa7-06f1-49ae-99fa-6c0db97f995c")
-	)
-	(junction
-		(at 53.34 45.72)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "ffdadd51-2ddc-4bec-b8d6-d6611745e57d")
 	)
 	(no_connect
 		(at 186.69 82.55)
@@ -2180,6 +2216,16 @@
 	)
 	(wire
 		(pts
+			(xy 43.18 63.5) (xy 33.02 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "10b22b91-27b6-4f97-b142-ed6e20d72691")
+	)
+	(wire
+		(pts
 			(xy 33.02 35.56) (xy 33.02 38.1)
 		)
 		(stroke
@@ -2190,7 +2236,17 @@
 	)
 	(wire
 		(pts
-			(xy 83.82 38.1) (xy 83.82 35.56)
+			(xy 33.02 45.72) (xy 40.64 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1536846b-de6f-460f-aa0b-14dfd4bb187b")
+	)
+	(wire
+		(pts
+			(xy 78.74 38.1) (xy 78.74 35.56)
 		)
 		(stroke
 			(width 0)
@@ -2217,6 +2273,16 @@
 			(type default)
 		)
 		(uuid "16baa723-44dd-4607-be90-20e5059dd08a")
+	)
+	(wire
+		(pts
+			(xy 33.02 73.66) (xy 33.02 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "16e9099a-0bb2-4539-be30-a897b9b2d5f0")
 	)
 	(wire
 		(pts
@@ -2250,13 +2316,13 @@
 	)
 	(wire
 		(pts
-			(xy 91.44 45.72) (xy 83.82 45.72)
+			(xy 48.26 43.18) (xy 48.26 45.72)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "1d993c06-72fc-4714-9f50-23a63119048e")
+		(uuid "1dc22368-fd10-4036-949b-e334bdda4ee2")
 	)
 	(wire
 		(pts
@@ -2267,16 +2333,6 @@
 			(type default)
 		)
 		(uuid "1dcee37c-fcbb-4acd-93fb-911b388b948f")
-	)
-	(wire
-		(pts
-			(xy 53.34 35.56) (xy 43.18 35.56)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "21436e22-3e51-4b16-9708-5814f3a0904c")
 	)
 	(wire
 		(pts
@@ -2300,13 +2356,33 @@
 	)
 	(wire
 		(pts
-			(xy 33.02 71.12) (xy 33.02 76.2)
+			(xy 60.96 71.12) (xy 60.96 76.2)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "25620db6-f11a-4985-aa69-a07ef7369761")
+	)
+	(wire
+		(pts
+			(xy 33.02 35.56) (xy 40.64 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "26b741c1-b6b3-4c14-9ded-1d01ebad79ed")
+	)
+	(wire
+		(pts
+			(xy 43.18 63.5) (xy 43.18 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "26e1529b-e823-4483-be73-0828a4229465")
 	)
 	(wire
 		(pts
@@ -2380,16 +2456,6 @@
 	)
 	(wire
 		(pts
-			(xy 73.66 45.72) (xy 63.5 45.72)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2f085071-10fa-4796-974f-54693700b253")
-	)
-	(wire
-		(pts
 			(xy 38.1 121.92) (xy 38.1 119.38)
 		)
 		(stroke
@@ -2400,7 +2466,7 @@
 	)
 	(wire
 		(pts
-			(xy 83.82 43.18) (xy 83.82 45.72)
+			(xy 78.74 43.18) (xy 78.74 45.72)
 		)
 		(stroke
 			(width 0)
@@ -2420,6 +2486,16 @@
 	)
 	(wire
 		(pts
+			(xy 43.18 73.66) (xy 33.02 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "33b85345-bd7c-4122-adcc-34573b806e63")
+	)
+	(wire
+		(pts
 			(xy 43.18 180.34) (xy 43.18 182.88)
 		)
 		(stroke
@@ -2430,7 +2506,7 @@
 	)
 	(wire
 		(pts
-			(xy 63.5 43.18) (xy 63.5 45.72)
+			(xy 71.12 43.18) (xy 71.12 45.72)
 		)
 		(stroke
 			(width 0)
@@ -2460,6 +2536,16 @@
 	)
 	(wire
 		(pts
+			(xy 33.02 71.12) (xy 33.02 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3986362f-9124-4f2a-865d-1e635f8b77ee")
+	)
+	(wire
+		(pts
 			(xy 181.61 39.37) (xy 181.61 36.83)
 		)
 		(stroke
@@ -2480,7 +2566,7 @@
 	)
 	(wire
 		(pts
-			(xy 45.72 60.96) (xy 45.72 66.04)
+			(xy 73.66 60.96) (xy 73.66 66.04)
 		)
 		(stroke
 			(width 0)
@@ -2490,7 +2576,7 @@
 	)
 	(polyline
 		(pts
-			(xy 76.2 193.04) (xy 25.4 193.04)
+			(xy 86.36 193.04) (xy 25.4 193.04)
 		)
 		(stroke
 			(width 0)
@@ -2530,16 +2616,6 @@
 	)
 	(wire
 		(pts
-			(xy 73.66 35.56) (xy 63.5 35.56)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "47e812dc-b95a-4330-800c-c78263c044d1")
-	)
-	(wire
-		(pts
 			(xy 237.49 115.57) (xy 247.65 115.57)
 		)
 		(stroke
@@ -2547,6 +2623,16 @@
 			(type default)
 		)
 		(uuid "47ee72a5-dc92-4a74-8c36-4f9b0342f1a2")
+	)
+	(wire
+		(pts
+			(xy 55.88 45.72) (xy 63.5 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "489c4f13-84c4-4746-b801-71eda731543c")
 	)
 	(wire
 		(pts
@@ -2560,16 +2646,6 @@
 	)
 	(wire
 		(pts
-			(xy 43.18 35.56) (xy 33.02 35.56)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4c44a559-70d3-4f10-a5ed-0c2a87d19529")
-	)
-	(wire
-		(pts
 			(xy 240.03 52.07) (xy 240.03 54.61)
 		)
 		(stroke
@@ -2580,7 +2656,7 @@
 	)
 	(polyline
 		(pts
-			(xy 25.4 152.4) (xy 76.2 152.4)
+			(xy 25.4 152.4) (xy 86.36 152.4)
 		)
 		(stroke
 			(width 0)
@@ -2620,13 +2696,33 @@
 	)
 	(wire
 		(pts
-			(xy 91.44 38.1) (xy 91.44 35.56)
+			(xy 78.74 45.72) (xy 86.36 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "53ee516d-fdd3-4945-9b0c-4f75ca440636")
+	)
+	(wire
+		(pts
+			(xy 86.36 38.1) (xy 86.36 35.56)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "5803de37-9845-4c6b-86ce-aea8cc8e53b5")
+	)
+	(wire
+		(pts
+			(xy 40.64 45.72) (xy 48.26 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5a15a082-fcbd-45d5-8e47-16d042d40437")
 	)
 	(wire
 		(pts
@@ -2730,7 +2826,7 @@
 	)
 	(wire
 		(pts
-			(xy 43.18 38.1) (xy 43.18 35.56)
+			(xy 40.64 38.1) (xy 40.64 35.56)
 		)
 		(stroke
 			(width 0)
@@ -2750,6 +2846,16 @@
 	)
 	(wire
 		(pts
+			(xy 48.26 45.72) (xy 55.88 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "738b7d09-d2f4-4c0d-b871-478c6819710d")
+	)
+	(wire
+		(pts
 			(xy 181.61 36.83) (xy 186.69 36.83)
 		)
 		(stroke
@@ -2760,7 +2866,7 @@
 	)
 	(wire
 		(pts
-			(xy 33.02 60.96) (xy 33.02 66.04)
+			(xy 60.96 60.96) (xy 60.96 66.04)
 		)
 		(stroke
 			(width 0)
@@ -2777,16 +2883,6 @@
 			(type default)
 		)
 		(uuid "75615d69-2197-46cd-874f-dae1eed0a594")
-	)
-	(wire
-		(pts
-			(xy 63.5 45.72) (xy 53.34 45.72)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "76f25402-1b71-431a-baed-13a26c46db78")
 	)
 	(wire
 		(pts
@@ -2810,13 +2906,23 @@
 	)
 	(wire
 		(pts
-			(xy 53.34 38.1) (xy 53.34 35.56)
+			(xy 55.88 38.1) (xy 55.88 35.56)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "785649df-f088-4ed3-b876-023e8e6ee269")
+	)
+	(wire
+		(pts
+			(xy 43.18 71.12) (xy 43.18 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "79780f88-aea3-49a4-8895-2d4d2142cb67")
 	)
 	(wire
 		(pts
@@ -2830,13 +2936,33 @@
 	)
 	(wire
 		(pts
-			(xy 53.34 43.18) (xy 53.34 45.72)
+			(xy 55.88 43.18) (xy 55.88 45.72)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "79b5bcea-870e-46b7-9514-56aac4b12293")
+	)
+	(wire
+		(pts
+			(xy 63.5 35.56) (xy 71.12 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7a0fa9c7-f3aa-4c3e-bb8a-ee65ee136522")
+	)
+	(wire
+		(pts
+			(xy 50.8 66.04) (xy 50.8 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7a70f705-3bce-4449-824f-c248a809dc08")
 	)
 	(polyline
 		(pts
@@ -2850,7 +2976,7 @@
 	)
 	(wire
 		(pts
-			(xy 91.44 43.18) (xy 91.44 45.72)
+			(xy 86.36 43.18) (xy 86.36 45.72)
 		)
 		(stroke
 			(width 0)
@@ -2877,6 +3003,16 @@
 			(type default)
 		)
 		(uuid "7dded41e-0726-4208-8a77-32c63dfa70d3")
+	)
+	(wire
+		(pts
+			(xy 40.64 35.56) (xy 48.26 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8216c9b5-d21b-4b6b-8542-eaa3c1fbf0b6")
 	)
 	(wire
 		(pts
@@ -2907,6 +3043,16 @@
 			(type default)
 		)
 		(uuid "85790e13-8c81-487c-b4a7-aa100f8f53ad")
+	)
+	(wire
+		(pts
+			(xy 63.5 45.72) (xy 71.12 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "85bf0eaa-8aaa-491f-ae62-2d76940af41c")
 	)
 	(wire
 		(pts
@@ -2990,7 +3136,7 @@
 	)
 	(wire
 		(pts
-			(xy 45.72 71.12) (xy 45.72 76.2)
+			(xy 73.66 71.12) (xy 73.66 76.2)
 		)
 		(stroke
 			(width 0)
@@ -3000,7 +3146,7 @@
 	)
 	(wire
 		(pts
-			(xy 63.5 38.1) (xy 63.5 35.56)
+			(xy 71.12 38.1) (xy 71.12 35.56)
 		)
 		(stroke
 			(width 0)
@@ -3060,7 +3206,7 @@
 	)
 	(wire
 		(pts
-			(xy 43.18 43.18) (xy 43.18 45.72)
+			(xy 40.64 43.18) (xy 40.64 45.72)
 		)
 		(stroke
 			(width 0)
@@ -3140,7 +3286,7 @@
 	)
 	(wire
 		(pts
-			(xy 91.44 33.02) (xy 91.44 35.56)
+			(xy 86.36 33.02) (xy 86.36 35.56)
 		)
 		(stroke
 			(width 0)
@@ -3190,6 +3336,16 @@
 	)
 	(wire
 		(pts
+			(xy 50.8 71.12) (xy 50.8 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a01cfb10-94c9-4a19-8c01-27d2fd54756c")
+	)
+	(wire
+		(pts
 			(xy 237.49 39.37) (xy 240.03 39.37)
 		)
 		(stroke
@@ -3210,13 +3366,23 @@
 	)
 	(wire
 		(pts
-			(xy 33.02 76.2) (xy 35.56 76.2)
+			(xy 60.96 76.2) (xy 63.5 76.2)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "a588a9ac-cf0e-44c3-96c4-6e237e15c381")
+	)
+	(wire
+		(pts
+			(xy 33.02 60.96) (xy 33.02 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a5a3edb6-c46a-4026-b5b5-5905eb58d126")
 	)
 	(wire
 		(pts
@@ -3237,16 +3403,6 @@
 			(type default)
 		)
 		(uuid "a6fd87e1-2579-4337-84ae-df5ca17acdd7")
-	)
-	(wire
-		(pts
-			(xy 53.34 45.72) (xy 43.18 45.72)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a79fb400-dd54-47b4-8f0c-3826aad5ae6c")
 	)
 	(wire
 		(pts
@@ -3277,16 +3433,6 @@
 			(type default)
 		)
 		(uuid "aad6ac8c-78a3-4756-bab9-58c0c6644f95")
-	)
-	(wire
-		(pts
-			(xy 43.18 45.72) (xy 33.02 45.72)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ab7e84ae-9d29-4377-b782-30b30278cb7e")
 	)
 	(wire
 		(pts
@@ -3340,6 +3486,16 @@
 	)
 	(wire
 		(pts
+			(xy 33.02 63.5) (xy 33.02 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b033f0f1-3ab2-4af2-aeb9-4b681b260bac")
+	)
+	(wire
+		(pts
 			(xy 255.27 92.71) (xy 255.27 95.25)
 		)
 		(stroke
@@ -3370,7 +3526,7 @@
 	)
 	(wire
 		(pts
-			(xy 55.88 60.96) (xy 55.88 66.04)
+			(xy 83.82 60.96) (xy 83.82 66.04)
 		)
 		(stroke
 			(width 0)
@@ -3400,6 +3556,26 @@
 	)
 	(wire
 		(pts
+			(xy 55.88 35.56) (xy 63.5 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bbdb46a6-b11c-403e-a535-045eac998f27")
+	)
+	(wire
+		(pts
+			(xy 48.26 35.56) (xy 48.26 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bcc1f77f-44f2-4aca-a807-8504dceab614")
+	)
+	(wire
+		(pts
 			(xy 179.07 44.45) (xy 186.69 44.45)
 		)
 		(stroke
@@ -3420,6 +3596,16 @@
 	)
 	(wire
 		(pts
+			(xy 43.18 63.5) (xy 50.8 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "be0087e4-d089-4f89-98bb-46e88292d697")
+	)
+	(wire
+		(pts
 			(xy 240.03 62.23) (xy 240.03 64.77)
 		)
 		(stroke
@@ -3427,6 +3613,16 @@
 			(type default)
 		)
 		(uuid "c0346735-730d-4890-9d7d-38c110b2550b")
+	)
+	(wire
+		(pts
+			(xy 48.26 35.56) (xy 55.88 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c6c20f79-3f01-4a3c-843f-845509fd78ac")
 	)
 	(polyline
 		(pts
@@ -3510,7 +3706,7 @@
 	)
 	(wire
 		(pts
-			(xy 73.66 43.18) (xy 73.66 45.72)
+			(xy 63.5 43.18) (xy 63.5 45.72)
 		)
 		(stroke
 			(width 0)
@@ -3537,6 +3733,16 @@
 			(type default)
 		)
 		(uuid "d1036a18-e867-4de6-a33f-71b0fba4b386")
+	)
+	(wire
+		(pts
+			(xy 71.12 45.72) (xy 78.74 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d23ec2a9-bfba-45fa-bf0d-ae52ce66916b")
 	)
 	(wire
 		(pts
@@ -3590,7 +3796,7 @@
 	)
 	(wire
 		(pts
-			(xy 55.88 71.12) (xy 55.88 76.2)
+			(xy 83.82 71.12) (xy 83.82 76.2)
 		)
 		(stroke
 			(width 0)
@@ -3610,7 +3816,7 @@
 	)
 	(polyline
 		(pts
-			(xy 76.2 152.4) (xy 76.2 193.04)
+			(xy 86.36 152.4) (xy 86.36 193.04)
 		)
 		(stroke
 			(width 0)
@@ -3627,16 +3833,6 @@
 			(type default)
 		)
 		(uuid "de1fe156-8756-4101-9a7e-5bfcb46ae3cf")
-	)
-	(wire
-		(pts
-			(xy 91.44 35.56) (xy 83.82 35.56)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e0a82c85-18c0-426a-a0e3-c99ad0c9f82e")
 	)
 	(wire
 		(pts
@@ -3680,13 +3876,13 @@
 	)
 	(wire
 		(pts
-			(xy 73.66 45.72) (xy 83.82 45.72)
+			(xy 71.12 35.56) (xy 78.74 35.56)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "e63485e8-69b9-467f-85c3-2938ca4b8541")
+		(uuid "e4700951-af18-465a-84b2-ff8c95d0bcdf")
 	)
 	(wire
 		(pts
@@ -3720,16 +3916,6 @@
 	)
 	(wire
 		(pts
-			(xy 73.66 35.56) (xy 83.82 35.56)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "edb615bb-9661-43e3-8eae-ff75b3524526")
-	)
-	(wire
-		(pts
 			(xy 186.69 34.29) (xy 181.61 34.29)
 		)
 		(stroke
@@ -3750,23 +3936,13 @@
 	)
 	(wire
 		(pts
-			(xy 73.66 38.1) (xy 73.66 35.56)
+			(xy 63.5 38.1) (xy 63.5 35.56)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "f006dfd4-b212-4570-bbc9-e682daea5234")
-	)
-	(wire
-		(pts
-			(xy 63.5 35.56) (xy 53.34 35.56)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f09fe6a7-ce3d-47a5-8618-dd1e9e4f6fb3")
 	)
 	(wire
 		(pts
@@ -3820,6 +3996,16 @@
 	)
 	(wire
 		(pts
+			(xy 78.74 35.56) (xy 86.36 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f937a047-7895-481d-9fa7-f3972393a261")
+	)
+	(wire
+		(pts
 			(xy 255.27 100.33) (xy 255.27 105.41)
 		)
 		(stroke
@@ -3857,6 +4043,16 @@
 			(type default)
 		)
 		(uuid "ff418a78-a777-4e3e-9d8f-135dd2da5d79")
+	)
+	(wire
+		(pts
+			(xy 43.18 73.66) (xy 50.8 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ffbd4f9e-8153-4758-831f-fcc02fbfa34f")
 	)
 	(image
 		(at 175.26 -43.18)
@@ -6737,7 +6933,7 @@
 	)
 	(text "Caps to be placed close to pins"
 		(exclude_from_sim no)
-		(at 33.02 82.042 0)
+		(at 71.12 81.534 0)
 		(effects
 			(font
 				(size 0.889 0.889)
@@ -6829,7 +7025,7 @@
 		)
 		(uuid "8ac29000-63b1-4675-934e-ddd5933eeb3d")
 	)
-	(text "Caps to be placed close to VM pins \nwith largest furthest away"
+	(text "Caps to be placed close to VM pins \nwith smallest furthest away"
 		(exclude_from_sim no)
 		(at 38.354 49.022 0)
 		(effects
@@ -6852,18 +7048,6 @@
 			(justify left bottom)
 		)
 		(uuid "ae413efb-770d-4990-91a5-9555c01afc84")
-	)
-	(text "Check voltages and check placement order"
-		(exclude_from_sim no)
-		(at 55.118 54.864 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(color 255 0 0 1)
-			)
-			(justify left bottom)
-		)
-		(uuid "b474ebc9-7e7d-4807-be27-3f3ac113b8d8")
 	)
 	(text "Outputs"
 		(exclude_from_sim no)
@@ -6888,18 +7072,6 @@
 			(justify left bottom)
 		)
 		(uuid "b921127e-afc5-457f-9f4f-c1c2ee140c85")
-	)
-	(text "Check power ratings"
-		(exclude_from_sim no)
-		(at 86.868 120.904 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(color 255 0 0 1)
-			)
-			(justify left bottom)
-		)
-		(uuid "d49dd16f-2899-4d66-8631-e08024c38ddb")
 	)
 	(text "- PGND is the same as system ground\n- AGND should be connected to PGND through a net tie or zero ohm resistor\n\n"
 		(exclude_from_sim no)
@@ -6991,7 +7163,7 @@
 		(uuid "78fe6e3d-aad3-4ca8-8638-e0f6d3d48092")
 	)
 	(label "VCP"
-		(at 35.56 76.2 0)
+		(at 63.5 76.2 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7118,7 +7290,7 @@
 	)
 	(symbol
 		(lib_id "Argus_RW_Library:5001")
-		(at 91.44 27.94 90)
+		(at 86.36 27.94 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7126,7 +7298,7 @@
 		(dnp no)
 		(uuid "0150ae6e-591c-48d1-b050-2ef34764e053")
 		(property "Reference" "TP3"
-			(at 96.52 29.972 90)
+			(at 91.44 29.972 90)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -7136,7 +7308,7 @@
 			)
 		)
 		(property "Value" "~"
-			(at 93.98 27.94 0)
+			(at 88.9 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7144,7 +7316,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 91.44 27.94 0)
+			(at 86.36 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7153,7 +7325,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 91.44 27.94 0)
+			(at 86.36 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7162,7 +7334,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 91.44 27.94 0)
+			(at 86.36 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7184,15 +7356,15 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 63.5 40.64 180)
+		(at 40.64 40.64 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "01dcfa47-b01d-4a4e-b3ad-c10463d09f08")
-		(property "Reference" "C18"
-			(at 68.834 39.624 0)
+		(uuid "092b53e1-a3f1-4111-8405-d231458a2dfd")
+		(property "Reference" "C10"
+			(at 44.704 38.862 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7200,8 +7372,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100u"
-			(at 70.612 41.656 0)
+		(property "Value" "47u"
+			(at 44.704 42.672 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7209,8 +7381,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 63.5 40.64 0)
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
+			(at 40.64 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7219,7 +7391,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 63.5 40.64 0)
+			(at 40.64 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7227,8 +7399,26 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "10uF +-20% 10V X5R"
-			(at 63.5 40.64 0)
+		(property "Description" "CAP CER 47UF 25V X5R 1206"
+			(at 40.64 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part" "C3216X5R1E476M160AC"
+			(at 40.64 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" "https://www.digikey.com/en/products/detail/tdk-corporation/C3216X5R1E476M160AC/2792260"
+			(at 40.64 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7237,15 +7427,102 @@
 			)
 		)
 		(pin "1"
-			(uuid "c71fc929-342c-4f4d-b7f3-992b50b9b60b")
+			(uuid "d131a11d-68c7-45a1-8240-8b754149948b")
 		)
 		(pin "2"
-			(uuid "e821b4d5-0ada-4a0d-b3ba-a27480397354")
+			(uuid "fe13a8f3-623c-4ae1-b2ce-ddc01b25149c")
 		)
 		(instances
 			(project "Avionics-RWboard"
 				(path "/833dc880-24c2-430b-8cf7-cc984eb87a9d/6fe6dcb0-4022-4a1b-8f5d-25ced07893ae"
-					(reference "C18")
+					(reference "C10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 33.02 68.58 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "0e67fff3-0854-4fff-bdd7-9dce597328fc")
+		(property "Reference" "C33"
+			(at 38.354 67.564 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10u"
+			(at 38.608 69.342 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
+			(at 33.02 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 33.02 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "CAP CER 10UF 25V X7R 1206"
+			(at 33.02 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part" "CL31B106KAHNNNE"
+			(at 33.02 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" "https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL31B106KAHNNNE/3887462"
+			(at 33.02 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e51c902e-ed2c-48da-b459-dd75595a2824")
+		)
+		(pin "2"
+			(uuid "7f65443e-d049-41b5-97e5-d3529b203cdc")
+		)
+		(instances
+			(project "Avionics-RWboard"
+				(path "/833dc880-24c2-430b-8cf7-cc984eb87a9d/6fe6dcb0-4022-4a1b-8f5d-25ced07893ae"
+					(reference "C33")
 					(unit 1)
 				)
 			)
@@ -7474,15 +7751,15 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 45.72 68.58 180)
+		(at 60.96 68.58 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "1c885db7-936e-4ae2-a585-f29afed78e8d")
-		(property "Reference" "C23"
-			(at 51.054 67.564 0)
+		(uuid "18fe29f7-0812-4258-b191-67083c549139")
+		(property "Reference" "C14"
+			(at 66.294 67.564 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7491,7 +7768,7 @@
 			)
 		)
 		(property "Value" "1u"
-			(at 50.038 69.342 0)
+			(at 65.278 69.342 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7500,7 +7777,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 45.72 68.58 0)
+			(at 60.96 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7509,7 +7786,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 45.72 68.58 0)
+			(at 60.96 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7517,8 +7794,26 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "10uF +-20% 10V X5R"
-			(at 45.72 68.58 0)
+		(property "Description" "CAP CER 1UF 25V X7R 0603"
+			(at 60.96 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part" "CL10B105KA8NNNC"
+			(at 60.96 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" "https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL10B105KA8NNNC/3886842"
+			(at 60.96 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7527,15 +7822,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "5c8d707d-6899-45b5-9a06-15ff7a3970db")
+			(uuid "a55afaf9-565b-4f95-8e8e-677554274f2c")
 		)
 		(pin "2"
-			(uuid "735fcbbc-7e8a-4965-a2ca-7cda316c62fc")
+			(uuid "6d2428dd-acda-4ef0-96cc-988d8b597b3b")
 		)
 		(instances
 			(project "Avionics-RWboard"
 				(path "/833dc880-24c2-430b-8cf7-cc984eb87a9d/6fe6dcb0-4022-4a1b-8f5d-25ced07893ae"
-					(reference "C23")
+					(reference "C14")
 					(unit 1)
 				)
 			)
@@ -7608,7 +7903,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 55.88 76.2 0)
+		(at 83.82 76.2 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7616,7 +7911,7 @@
 		(dnp no)
 		(uuid "249e0350-ddb2-4ded-a542-e93c40cd8d43")
 		(property "Reference" "#PWR057"
-			(at 55.88 82.55 0)
+			(at 83.82 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7625,7 +7920,7 @@
 			)
 		)
 		(property "Value" "AGND"
-			(at 55.88 80.01 0)
+			(at 83.82 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7633,7 +7928,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 55.88 76.2 0)
+			(at 83.82 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7642,7 +7937,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 55.88 76.2 0)
+			(at 83.82 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7651,7 +7946,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 55.88 76.2 0)
+			(at 83.82 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7666,6 +7961,71 @@
 			(project "Avionics-RWboard"
 				(path "/833dc880-24c2-430b-8cf7-cc984eb87a9d/6fe6dcb0-4022-4a1b-8f5d-25ced07893ae"
 					(reference "#PWR057")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 33.02 60.96 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "254f008f-87c6-44e2-9fb3-1ae9d2197e09")
+		(property "Reference" "#PWR065"
+			(at 33.02 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VM"
+			(at 33.02 56.642 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 33.02 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 33.02 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 33.02 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9d6b4695-701a-4c1d-b892-36508a28aab5")
+		)
+		(instances
+			(project "Avionics-RWboard"
+				(path "/833dc880-24c2-430b-8cf7-cc984eb87a9d/6fe6dcb0-4022-4a1b-8f5d-25ced07893ae"
+					(reference "#PWR065")
 					(unit 1)
 				)
 			)
@@ -7737,34 +8097,33 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_Small")
-		(at 55.88 68.58 180)
+		(lib_id "power:GND")
+		(at 33.02 76.2 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "2ebc1d2f-b02f-4092-ba61-cb5ac566c273")
-		(property "Reference" "C24"
-			(at 61.214 67.564 0)
+		(uuid "2b3ae00d-3b54-4850-a8dc-4387e3d83ec6")
+		(property "Reference" "#PWR066"
+			(at 33.02 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(hide yes)
 			)
 		)
-		(property "Value" "1u"
-			(at 60.198 69.342 0)
+		(property "Value" "GND"
+			(at 33.02 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 55.88 68.58 0)
+		(property "Footprint" ""
+			(at 33.02 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7773,7 +8132,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 55.88 68.58 0)
+			(at 33.02 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7781,8 +8140,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "10uF +-20% 10V X5R"
-			(at 55.88 68.58 0)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 33.02 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7791,15 +8150,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "25361e7b-2d8f-46f6-a15e-c622ca279b96")
-		)
-		(pin "2"
-			(uuid "7d9728b3-f69a-4899-ac1d-1b434f30566f")
+			(uuid "ab9da521-8f95-45cf-83ac-e2eb85f52651")
 		)
 		(instances
 			(project "Avionics-RWboard"
 				(path "/833dc880-24c2-430b-8cf7-cc984eb87a9d/6fe6dcb0-4022-4a1b-8f5d-25ced07893ae"
-					(reference "C24")
+					(reference "#PWR066")
 					(unit 1)
 				)
 			)
@@ -7807,7 +8163,7 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 33.02 60.96 0)
+		(at 60.96 60.96 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7815,7 +8171,7 @@
 		(dnp no)
 		(uuid "2ef7354a-356e-4ede-af90-44e64b5838ff")
 		(property "Reference" "#PWR055"
-			(at 33.02 64.77 0)
+			(at 60.96 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7824,7 +8180,7 @@
 			)
 		)
 		(property "Value" "VM"
-			(at 33.02 56.642 0)
+			(at 60.96 56.642 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7832,7 +8188,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 33.02 60.96 0)
+			(at 60.96 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7841,7 +8197,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 33.02 60.96 0)
+			(at 60.96 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7850,7 +8206,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 33.02 60.96 0)
+			(at 60.96 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7936,6 +8292,180 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C_Small")
+		(at 86.36 40.64 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "3692cc69-9396-44fa-a15a-21047d4b06fb")
+		(property "Reference" "C32"
+			(at 90.424 38.608 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "47u"
+			(at 90.424 42.672 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
+			(at 86.36 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 86.36 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "CAP CER 47UF 25V X5R 1206"
+			(at 86.36 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part" "C3216X5R1E476M160AC"
+			(at 86.36 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" "https://www.digikey.com/en/products/detail/tdk-corporation/C3216X5R1E476M160AC/2792260"
+			(at 86.36 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "91c9c6ad-6145-4dee-850e-cb979ca5bb0c")
+		)
+		(pin "2"
+			(uuid "ab01255c-963f-43e7-b9cd-3805ebb5ea3f")
+		)
+		(instances
+			(project "Avionics-RWboard"
+				(path "/833dc880-24c2-430b-8cf7-cc984eb87a9d/6fe6dcb0-4022-4a1b-8f5d-25ced07893ae"
+					(reference "C32")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 43.18 68.58 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "3cc77dd5-7eff-4440-b7aa-45d05f33e7cd")
+		(property "Reference" "C34"
+			(at 48.514 67.564 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1u"
+			(at 47.498 69.342 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 43.18 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 43.18 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "CAP CER 1UF 25V X7R 0603"
+			(at 43.18 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part" "CL10B105KA8NNNC"
+			(at 43.18 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" "https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL10B105KA8NNNC/3886842"
+			(at 43.18 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "cea8f05d-76bb-4875-9a43-e2937bf0e52b")
+		)
+		(pin "2"
+			(uuid "2f50b723-b065-403e-b8ef-eeb1e896f199")
+		)
+		(instances
+			(project "Avionics-RWboard"
+				(path "/833dc880-24c2-430b-8cf7-cc984eb87a9d/6fe6dcb0-4022-4a1b-8f5d-25ced07893ae"
+					(reference "C34")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R_Small")
 		(at 101.6 177.8 0)
 		(mirror x)
@@ -7998,6 +8528,93 @@
 			(project "Avionics-RWboard"
 				(path "/833dc880-24c2-430b-8cf7-cc984eb87a9d/6fe6dcb0-4022-4a1b-8f5d-25ced07893ae"
 					(reference "R26")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 73.66 68.58 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "44e1428a-8e82-4582-8001-d15c93c6ea1e")
+		(property "Reference" "C22"
+			(at 78.994 67.564 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1u"
+			(at 77.978 69.342 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 73.66 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 73.66 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "CAP CER 1UF 25V X7R 0603"
+			(at 73.66 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part" "CL10B105KA8NNNC"
+			(at 73.66 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" "https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL10B105KA8NNNC/3886842"
+			(at 73.66 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "efa21375-5d24-43f1-bb7c-9f6b0a9352ee")
+		)
+		(pin "2"
+			(uuid "4e91d670-7b9a-45d6-a7f2-1550f6ce73ff")
+		)
+		(instances
+			(project "Avionics-RWboard"
+				(path "/833dc880-24c2-430b-8cf7-cc984eb87a9d/6fe6dcb0-4022-4a1b-8f5d-25ced07893ae"
+					(reference "C22")
 					(unit 1)
 				)
 			)
@@ -8070,7 +8687,7 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 45.72 60.96 0)
+		(at 73.66 60.96 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8078,7 +8695,7 @@
 		(dnp no)
 		(uuid "502758fb-a822-4f22-ae1f-08da4007cdc8")
 		(property "Reference" "#PWR052"
-			(at 45.72 64.77 0)
+			(at 73.66 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8087,7 +8704,7 @@
 			)
 		)
 		(property "Value" "AVDD"
-			(at 45.72 56.642 0)
+			(at 73.66 56.642 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8095,7 +8712,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 45.72 60.96 0)
+			(at 73.66 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8104,7 +8721,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 45.72 60.96 0)
+			(at 73.66 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8113,7 +8730,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 45.72 60.96 0)
+			(at 73.66 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8225,7 +8842,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_2512_6332Metric_Pad1.40x3.35mm_HandSolder"
 			(at 104.14 111.76 0)
 			(effects
 				(font
@@ -8243,8 +8860,26 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor, small symbol"
+		(property "Description" "RES SMD 22 OHM 1% 1.5W 2512"
 			(at 104.14 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part" "CRCW251222R0FKEGHP"
+			(at 104.14 111.76 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" "https://www.digikey.com/en/products/detail/vishay-dale/CRCW251222R0FKEGHP/2229546"
+			(at 104.14 111.76 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8269,7 +8904,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 45.72 76.2 0)
+		(at 73.66 76.2 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8277,7 +8912,7 @@
 		(dnp no)
 		(uuid "55b3f498-acf1-46b1-9ae1-d0b8298e09ba")
 		(property "Reference" "#PWR056"
-			(at 45.72 82.55 0)
+			(at 73.66 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8286,7 +8921,7 @@
 			)
 		)
 		(property "Value" "AGND"
-			(at 45.72 80.01 0)
+			(at 73.66 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8294,7 +8929,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 45.72 76.2 0)
+			(at 73.66 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8303,7 +8938,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 45.72 76.2 0)
+			(at 73.66 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8312,7 +8947,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 45.72 76.2 0)
+			(at 73.66 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8327,75 +8962,6 @@
 			(project "Avionics-RWboard"
 				(path "/833dc880-24c2-430b-8cf7-cc984eb87a9d/6fe6dcb0-4022-4a1b-8f5d-25ced07893ae"
 					(reference "#PWR056")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Small")
-		(at 53.34 40.64 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "55e6cd2c-779d-4b60-b9f4-ae5b631d752e")
-		(property "Reference" "C17"
-			(at 58.674 39.624 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100u"
-			(at 60.452 41.656 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 53.34 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 53.34 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "10uF +-20% 10V X5R"
-			(at 53.34 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "934074c3-bb7f-43f5-8084-6b8608deb131")
-		)
-		(pin "2"
-			(uuid "5ec03ec7-ff45-4363-94c7-9093c331bc0c")
-		)
-		(instances
-			(project "Avionics-RWboard"
-				(path "/833dc880-24c2-430b-8cf7-cc984eb87a9d/6fe6dcb0-4022-4a1b-8f5d-25ced07893ae"
-					(reference "C17")
 					(unit 1)
 				)
 			)
@@ -8557,7 +9123,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 124.46 111.76 0)
 			(effects
 				(font
@@ -8799,6 +9365,93 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C_Small")
+		(at 63.5 40.64 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "654f2745-a2f7-4c5c-86bf-386da0535959")
+		(property "Reference" "C19"
+			(at 67.564 38.608 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "47u"
+			(at 67.564 42.672 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
+			(at 63.5 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 63.5 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "CAP CER 47UF 25V X5R 1206"
+			(at 63.5 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part" "C3216X5R1E476M160AC"
+			(at 63.5 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" "https://www.digikey.com/en/products/detail/tdk-corporation/C3216X5R1E476M160AC/2792260"
+			(at 63.5 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a2bf4ed7-ebca-45c3-b503-46b89b6e09cc")
+		)
+		(pin "2"
+			(uuid "22157889-7a36-48f1-92d7-f44b897ba001")
+		)
+		(instances
+			(project "Avionics-RWboard"
+				(path "/833dc880-24c2-430b-8cf7-cc984eb87a9d/6fe6dcb0-4022-4a1b-8f5d-25ced07893ae"
+					(reference "C19")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:LED")
 		(at 33.02 166.37 270)
 		(mirror x)
@@ -8928,7 +9581,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 124.46 34.29 0)
 			(effects
 				(font
@@ -8965,6 +9618,93 @@
 			(project "Avionics-RWboard"
 				(path "/833dc880-24c2-430b-8cf7-cc984eb87a9d/6fe6dcb0-4022-4a1b-8f5d-25ced07893ae"
 					(reference "R13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 71.12 40.64 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "74bb2bcf-9efb-4e27-b487-19de8f090a48")
+		(property "Reference" "C20"
+			(at 75.184 38.608 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "47u"
+			(at 75.184 42.672 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
+			(at 71.12 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 71.12 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "CAP CER 47UF 25V X5R 1206"
+			(at 71.12 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part" "C3216X5R1E476M160AC"
+			(at 71.12 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" "https://www.digikey.com/en/products/detail/tdk-corporation/C3216X5R1E476M160AC/2792260"
+			(at 71.12 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "671161da-f2e3-4246-a47d-65ddb552bd06")
+		)
+		(pin "2"
+			(uuid "eb85173e-c3b5-436c-8ca1-cb287af34556")
+		)
+		(instances
+			(project "Avionics-RWboard"
+				(path "/833dc880-24c2-430b-8cf7-cc984eb87a9d/6fe6dcb0-4022-4a1b-8f5d-25ced07893ae"
+					(reference "C20")
 					(unit 1)
 				)
 			)
@@ -9037,7 +9777,7 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 55.88 60.96 0)
+		(at 83.82 60.96 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9045,7 +9785,7 @@
 		(dnp no)
 		(uuid "78bd6eb2-bdd5-4007-998b-4d4eca24fa85")
 		(property "Reference" "#PWR053"
-			(at 55.88 64.77 0)
+			(at 83.82 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9054,7 +9794,7 @@
 			)
 		)
 		(property "Value" "DVDD"
-			(at 55.88 56.642 0)
+			(at 83.82 56.642 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9062,7 +9802,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 55.88 60.96 0)
+			(at 83.82 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9071,7 +9811,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 55.88 60.96 0)
+			(at 83.82 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9080,7 +9820,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 55.88 60.96 0)
+			(at 83.82 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9102,15 +9842,15 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 43.18 40.64 180)
+		(at 78.74 40.64 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "7ec6feef-1666-4ad3-831c-d2b364473567")
-		(property "Reference" "C10"
-			(at 48.514 39.624 0)
+		(uuid "790585a2-e6e6-44c2-9188-1aca3fe029f5")
+		(property "Reference" "C21"
+			(at 83.058 38.608 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9118,8 +9858,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100u"
-			(at 50.292 41.656 0)
+		(property "Value" "47u"
+			(at 82.804 42.672 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9127,8 +9867,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 43.18 40.64 0)
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
+			(at 78.74 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9137,7 +9877,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 43.18 40.64 0)
+			(at 78.74 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9145,8 +9885,26 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "10uF +-20% 10V X5R"
-			(at 43.18 40.64 0)
+		(property "Description" "CAP CER 47UF 25V X5R 1206"
+			(at 78.74 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part" "C3216X5R1E476M160AC"
+			(at 78.74 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" "https://www.digikey.com/en/products/detail/tdk-corporation/C3216X5R1E476M160AC/2792260"
+			(at 78.74 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9155,15 +9913,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "f289e84b-dfdb-4e21-88c8-ef775e440129")
+			(uuid "9a9d18ff-542a-4717-8be7-157af4904c9e")
 		)
 		(pin "2"
-			(uuid "724e0cbf-5dea-45b7-a7bd-d49a6d0212b1")
+			(uuid "aa9247e1-263a-45fa-a2bb-ffe208395dc3")
 		)
 		(instances
 			(project "Avionics-RWboard"
 				(path "/833dc880-24c2-430b-8cf7-cc984eb87a9d/6fe6dcb0-4022-4a1b-8f5d-25ced07893ae"
-					(reference "C10")
+					(reference "C21")
 					(unit 1)
 				)
 			)
@@ -9229,6 +9987,180 @@
 			(project "Avionics-RWboard"
 				(path "/833dc880-24c2-430b-8cf7-cc984eb87a9d/6fe6dcb0-4022-4a1b-8f5d-25ced07893ae"
 					(reference "#PWR017")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 83.82 68.58 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "8749676c-e694-4e6b-9b4c-825356ed1b80")
+		(property "Reference" "C23"
+			(at 89.154 67.564 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1u"
+			(at 88.138 69.342 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 83.82 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 83.82 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "CAP CER 1UF 25V X7R 0603"
+			(at 83.82 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part" "CL10B105KA8NNNC"
+			(at 83.82 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" "https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL10B105KA8NNNC/3886842"
+			(at 83.82 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5610bfad-021d-464f-b83d-51173ba0f8f2")
+		)
+		(pin "2"
+			(uuid "933a3f3e-2e23-47ee-b7fe-495debbc6a9b")
+		)
+		(instances
+			(project "Avionics-RWboard"
+				(path "/833dc880-24c2-430b-8cf7-cc984eb87a9d/6fe6dcb0-4022-4a1b-8f5d-25ced07893ae"
+					(reference "C23")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 55.88 40.64 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "8831a728-92bb-43eb-9701-d7e49abcdeac")
+		(property "Reference" "C18"
+			(at 60.198 38.862 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "47u"
+			(at 59.944 42.672 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
+			(at 55.88 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 55.88 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "CAP CER 47UF 25V X5R 1206"
+			(at 55.88 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part" "C3216X5R1E476M160AC"
+			(at 55.88 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" "https://www.digikey.com/en/products/detail/tdk-corporation/C3216X5R1E476M160AC/2792260"
+			(at 55.88 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6a2db0b4-ee63-429c-bbe5-e6e51dc0f01c")
+		)
+		(pin "2"
+			(uuid "f22f1601-810f-4a1e-85ec-71b914df5873")
+		)
+		(instances
+			(project "Avionics-RWboard"
+				(path "/833dc880-24c2-430b-8cf7-cc984eb87a9d/6fe6dcb0-4022-4a1b-8f5d-25ced07893ae"
+					(reference "C18")
 					(unit 1)
 				)
 			)
@@ -9366,75 +10298,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_Small")
-		(at 33.02 40.64 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "90365690-2dad-4e28-85e3-f73ecebfbccc")
-		(property "Reference" "C9"
-			(at 38.354 39.624 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100u"
-			(at 40.132 41.656 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 33.02 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 33.02 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "10uF +-20% 10V X5R"
-			(at 33.02 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "beef76bd-eddc-456b-b5ae-730a2ec2c9bd")
-		)
-		(pin "2"
-			(uuid "bce4f3a4-4126-4f1c-a551-395ad6b0d332")
-		)
-		(instances
-			(project "Avionics-RWboard"
-				(path "/833dc880-24c2-430b-8cf7-cc984eb87a9d/6fe6dcb0-4022-4a1b-8f5d-25ced07893ae"
-					(reference "C9")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Argus_RW_Library:5001")
 		(at 30.48 121.92 180)
 		(unit 1)
@@ -9495,6 +10358,93 @@
 			(project "Avionics-RWboard"
 				(path "/833dc880-24c2-430b-8cf7-cc984eb87a9d/6fe6dcb0-4022-4a1b-8f5d-25ced07893ae"
 					(reference "TP2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 33.02 40.64 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "9365fda1-c3ff-4e88-974a-1ebce513f1e5")
+		(property "Reference" "C9"
+			(at 36.322 38.608 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "47u"
+			(at 37.084 42.672 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
+			(at 33.02 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 33.02 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "CAP CER 47UF 25V X5R 1206"
+			(at 33.02 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part" "C3216X5R1E476M160AC"
+			(at 33.02 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" "https://www.digikey.com/en/products/detail/tdk-corporation/C3216X5R1E476M160AC/2792260"
+			(at 33.02 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c9bd0af7-a4eb-4213-9d65-0af4a827b45d")
+		)
+		(pin "2"
+			(uuid "7cdf3775-ba0f-4f47-a73a-b377e6141e31")
+		)
+		(instances
+			(project "Avionics-RWboard"
+				(path "/833dc880-24c2-430b-8cf7-cc984eb87a9d/6fe6dcb0-4022-4a1b-8f5d-25ced07893ae"
+					(reference "C9")
 					(unit 1)
 				)
 			)
@@ -9609,7 +10559,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Green LED"
+		(property "Description" "Red LED"
 			(at 53.34 166.37 0)
 			(effects
 				(font
@@ -9618,7 +10568,7 @@
 				(hide yes)
 			)
 		)
-		(property "Flight" "LTST-C190KGKT"
+		(property "Flight" "LTST-C190KRKT"
 			(at 53.34 166.37 0)
 			(effects
 				(font
@@ -9636,7 +10586,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Part_Number" "LTST-C190KGKT"
+		(property "Manufacturer_Part_Number" "LTST-C190KRKT"
 			(at 60.9854 166.5478 0)
 			(effects
 				(font
@@ -9645,7 +10595,7 @@
 				(hide yes)
 			)
 		)
-		(property "Proto" "LTST-C190KGKT"
+		(property "Proto" "LTST-C190KRKT"
 			(at 53.34 166.37 0)
 			(effects
 				(font
@@ -9732,75 +10682,6 @@
 			(project "Avionics-RWboard"
 				(path "/833dc880-24c2-430b-8cf7-cc984eb87a9d/6fe6dcb0-4022-4a1b-8f5d-25ced07893ae"
 					(reference "R27")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Small")
-		(at 73.66 40.64 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "9b22e2a8-28b0-4d3b-8ece-0cb4b85b5bd9")
-		(property "Reference" "C19"
-			(at 78.994 39.624 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10u"
-			(at 79.248 41.402 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 73.66 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 73.66 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "10uF +-20% 10V X5R"
-			(at 73.66 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "ea7e54f8-5d0a-40dc-a585-17831b57053b")
-		)
-		(pin "2"
-			(uuid "0dd5f5e1-b387-4ac3-b486-88722162842b")
-		)
-		(instances
-			(project "Avionics-RWboard"
-				(path "/833dc880-24c2-430b-8cf7-cc984eb87a9d/6fe6dcb0-4022-4a1b-8f5d-25ced07893ae"
-					(reference "C19")
 					(unit 1)
 				)
 			)
@@ -9993,6 +10874,24 @@
 				(hide yes)
 			)
 		)
+		(property "Part" "GCM188R71H473KA55D"
+			(at 176.53 59.69 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" "https://www.digikey.com/en/products/detail/murata-electronics/GCM188R71H473KA55D/1765182"
+			(at 176.53 59.69 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "fbde3cb6-be63-47e5-83d8-6f82211b8bc9")
 		)
@@ -10003,75 +10902,6 @@
 			(project "Avionics-RWboard"
 				(path "/833dc880-24c2-430b-8cf7-cc984eb87a9d/6fe6dcb0-4022-4a1b-8f5d-25ced07893ae"
 					(reference "C8")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Small")
-		(at 33.02 68.58 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "abc2bf64-64e9-4c0d-beb8-c3e204d10f81")
-		(property "Reference" "C22"
-			(at 38.354 67.564 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "1u"
-			(at 37.338 69.342 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 33.02 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 33.02 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "10uF +-20% 10V X5R"
-			(at 33.02 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "0c6d9bc3-d2f2-4ae2-844d-ac21c0c1138f")
-		)
-		(pin "2"
-			(uuid "a14e8333-5ac9-471b-a703-4c32e56e698c")
-		)
-		(instances
-			(project "Avionics-RWboard"
-				(path "/833dc880-24c2-430b-8cf7-cc984eb87a9d/6fe6dcb0-4022-4a1b-8f5d-25ced07893ae"
-					(reference "C22")
 					(unit 1)
 				)
 			)
@@ -10371,6 +11201,110 @@
 			(project "Avionics-RWboard"
 				(path "/833dc880-24c2-430b-8cf7-cc984eb87a9d/6fe6dcb0-4022-4a1b-8f5d-25ced07893ae"
 					(reference "#PWR029")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 63.5 166.37 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b95cf704-98ff-49ab-9db4-2cfde2f163d7")
+		(property "Reference" "D6"
+			(at 67.564 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "RED LED"
+			(at 65.786 166.37 0)
+			(effects
+				(font
+					(size 0.9906 0.9906)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
+			(at 63.5 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://optoelectronics.liteon.com/upload/download/DS22-2000-074/LTST-C190KGKT.PDF"
+			(at 63.5 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Red LED"
+			(at 63.5 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Flight" "LTST-C190KRKT"
+			(at 63.5 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Lite-On Inc."
+			(at 63.5 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "LTST-C190KRKT"
+			(at 71.1454 166.5478 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Proto" "LTST-C190KRKT"
+			(at 63.5 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "837d3007-86ec-42ae-8028-e57fbcf4d5a9")
+		)
+		(pin "2"
+			(uuid "43a6865b-ab5f-44bf-ba8c-34678a94bec3")
+		)
+		(instances
+			(project "Avionics-RWboard"
+				(path "/833dc880-24c2-430b-8cf7-cc984eb87a9d/6fe6dcb0-4022-4a1b-8f5d-25ced07893ae"
+					(reference "D6")
 					(unit 1)
 				)
 			)
@@ -10761,6 +11695,93 @@
 			(project "Avionics-RWboard"
 				(path "/833dc880-24c2-430b-8cf7-cc984eb87a9d/6fe6dcb0-4022-4a1b-8f5d-25ced07893ae"
 					(reference "#PWR033")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 50.8 68.58 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "de472e5a-cf5a-42d6-a4af-395692ae5e88")
+		(property "Reference" "C35"
+			(at 56.134 67.564 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100n"
+			(at 57.404 69.342 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
+			(at 50.8 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 50.8 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "CAP CER 10000PF 25V X7R 0402"
+			(at 50.8 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part" "C0402C103K3RACTU"
+			(at 50.8 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" "https://www.digikey.com/en/products/detail/kemet/C0402C103K3RACTU/416041"
+			(at 50.8 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d747676d-f0a0-4439-808f-c56e917b0ee6")
+		)
+		(pin "2"
+			(uuid "66b3fd33-bbd2-4762-ab60-21e840f859a7")
+		)
+		(instances
+			(project "Avionics-RWboard"
+				(path "/833dc880-24c2-430b-8cf7-cc984eb87a9d/6fe6dcb0-4022-4a1b-8f5d-25ced07893ae"
+					(reference "C35")
 					(unit 1)
 				)
 			)
@@ -11294,15 +12315,15 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 91.44 40.64 180)
+		(at 48.26 40.64 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "fa3946ce-518e-4358-baf4-eeaf75839631")
-		(property "Reference" "C21"
-			(at 96.774 39.624 0)
+		(uuid "f682d197-fb64-41b4-b35a-670dae2989d2")
+		(property "Reference" "C17"
+			(at 52.578 38.608 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11310,8 +12331,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100n"
-			(at 98.044 41.402 0)
+		(property "Value" "47u"
+			(at 52.324 42.672 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11319,8 +12340,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 91.44 40.64 0)
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
+			(at 48.26 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11329,7 +12350,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 91.44 40.64 0)
+			(at 48.26 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11337,8 +12358,26 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "10uF +-20% 10V X5R"
-			(at 91.44 40.64 0)
+		(property "Description" "CAP CER 47UF 25V X5R 1206"
+			(at 48.26 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part" "C3216X5R1E476M160AC"
+			(at 48.26 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" "https://www.digikey.com/en/products/detail/tdk-corporation/C3216X5R1E476M160AC/2792260"
+			(at 48.26 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11347,15 +12386,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "6740aa54-7d2c-4a2a-92ac-ddf40f51e2d8")
+			(uuid "7053f513-8672-4d9e-a0e3-23d5109be9d6")
 		)
 		(pin "2"
-			(uuid "ea743267-8364-4e10-bdac-884e1338ae37")
+			(uuid "92d6cf2c-3bd6-448e-9630-f923237b13af")
 		)
 		(instances
 			(project "Avionics-RWboard"
 				(path "/833dc880-24c2-430b-8cf7-cc984eb87a9d/6fe6dcb0-4022-4a1b-8f5d-25ced07893ae"
-					(reference "C21")
+					(reference "C17")
 					(unit 1)
 				)
 			)
@@ -11492,110 +12531,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:LED")
-		(at 63.5 166.37 270)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "fcc03da6-b8c3-419a-97bc-d9b8f3457e24")
-		(property "Reference" "D6"
-			(at 67.564 166.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "RED LED"
-			(at 65.786 166.37 0)
-			(effects
-				(font
-					(size 0.9906 0.9906)
-				)
-			)
-		)
-		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
-			(at 63.5 166.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://optoelectronics.liteon.com/upload/download/DS22-2000-074/LTST-C190KGKT.PDF"
-			(at 63.5 166.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Green LED"
-			(at 63.5 166.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Flight" "LTST-C190KGKT"
-			(at 63.5 166.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "Lite-On Inc."
-			(at 63.5 166.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "LTST-C190KGKT"
-			(at 71.1454 166.5478 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Proto" "LTST-C190KGKT"
-			(at 63.5 166.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "0ff1e724-25e9-43f9-9706-a2d32e3e9d63")
-		)
-		(pin "2"
-			(uuid "01b9a9a0-1d3d-4b32-a5bc-7aa88f9a32f0")
-		)
-		(instances
-			(project "Avionics-RWboard"
-				(path "/833dc880-24c2-430b-8cf7-cc984eb87a9d/6fe6dcb0-4022-4a1b-8f5d-25ced07893ae"
-					(reference "D6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 132.08 36.83 0)
 		(unit 1)
@@ -11655,75 +12590,6 @@
 			(project "Avionics-RWboard"
 				(path "/833dc880-24c2-430b-8cf7-cc984eb87a9d/6fe6dcb0-4022-4a1b-8f5d-25ced07893ae"
 					(reference "#PWR064")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Small")
-		(at 83.82 40.64 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "ffdd23a1-c940-469b-b4c9-3c564683724e")
-		(property "Reference" "C20"
-			(at 89.154 39.624 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "1u"
-			(at 88.138 41.402 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 83.82 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 83.82 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "10uF +-20% 10V X5R"
-			(at 83.82 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "a049f56c-5a05-47d2-8a50-0217ca187dd8")
-		)
-		(pin "2"
-			(uuid "d3e492a8-fd56-4685-9e36-37548a756f26")
-		)
-		(instances
-			(project "Avionics-RWboard"
-				(path "/833dc880-24c2-430b-8cf7-cc984eb87a9d/6fe6dcb0-4022-4a1b-8f5d-25ced07893ae"
-					(reference "C20")
 					(unit 1)
 				)
 			)
