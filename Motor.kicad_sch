@@ -4,6 +4,11 @@
 	(generator_version "8.0")
 	(uuid "7192662c-b02f-49e8-b880-3450eeda0a6a")
 	(paper "A4")
+	(title_block
+		(title "Argus Reaction Wheel")
+		(date "2025-03-24")
+		(rev "1.0")
+	)
 	(lib_symbols
 		(symbol "Argus_RW_Library:5001"
 			(exclude_from_sim no)
@@ -27,7 +32,7 @@
 					)
 				)
 			)
-			(property "Footprint" ""
+			(property "Footprint" "Argus_RW_Library:KEYSTONE_5001"
 				(at 0 0 0)
 				(effects
 					(font
@@ -114,7 +119,7 @@
 					(justify left bottom)
 				)
 			)
-			(property "Footprint" "VQFN40_RGF_TEX"
+			(property "Footprint" "Argus_RW_Library:VQFN40_RGF_TEX"
 				(at 20.32 -5.08 0)
 				(effects
 					(font
@@ -407,78 +412,6 @@
 						)
 					)
 					(number "21"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin no_connect line
-					(at 43.18 -58.42 180)
-					(length 7.62)
-					(name "NC"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "22"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin no_connect line
-					(at 43.18 -60.96 180)
-					(length 7.62)
-					(name "NC"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "23"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin no_connect line
-					(at 43.18 -63.5 180)
-					(length 7.62)
-					(name "NC"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "24"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin no_connect line
-					(at 43.18 -66.04 180)
-					(length 7.62)
-					(name "NC"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "25"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -895,6 +828,78 @@
 						(type background)
 					)
 				)
+				(pin passive line
+					(at 43.18 -58.42 180)
+					(length 7.62)
+					(name "NC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "22"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 43.18 -60.96 180)
+					(length 7.62)
+					(name "NC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "23"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 43.18 -63.5 180)
+					(length 7.62)
+					(name "NC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "24"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 43.18 -66.04 180)
+					(length 7.62)
+					(name "NC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "25"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
 				(pin power_out line
 					(at 43.18 -96.52 180)
 					(length 7.62)
@@ -937,7 +942,7 @@
 					)
 				)
 			)
-			(property "Footprint" ""
+			(property "Footprint" "Argus_RW_Library:Reaction_Wheel"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1885,13 +1890,13 @@
 		)
 	)
 	(junction
-		(at 111.76 111.76)
+		(at 114.3 111.76)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "13d65cd1-c13b-4676-a382-88adb91f804e")
 	)
 	(junction
-		(at 109.22 111.76)
+		(at 111.76 111.76)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "21b02e10-d114-47b8-b299-d5d58e956dcc")
@@ -1921,7 +1926,7 @@
 		(uuid "335111e1-8c29-439c-b170-24d0f94892b2")
 	)
 	(junction
-		(at 101.6 172.72)
+		(at 99.06 172.72)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "3a7ed10a-f528-47c8-abeb-8be2901f5475")
@@ -1969,6 +1974,12 @@
 		(uuid "63aec41d-2da8-43ba-b276-9b7aa911a770")
 	)
 	(junction
+		(at 119.38 111.76)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6882a9e2-f5ec-4718-a4d6-0ab9a771ff2e")
+	)
+	(junction
 		(at 40.64 35.56)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1997,6 +2008,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7f0174dd-5a66-48cc-a90c-887c1980f9c1")
+	)
+	(junction
+		(at 119.38 171.45)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7f15f18d-8c4c-41e7-b684-ee9a2463f87d")
 	)
 	(junction
 		(at 71.12 35.56)
@@ -2107,12 +2124,6 @@
 		(uuid "f241f1bf-4feb-460a-bac8-bc838d794e5a")
 	)
 	(junction
-		(at 116.84 111.76)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "f6ad40b8-fb72-4079-a74a-334a1e5d8db5")
-	)
-	(junction
 		(at 255.27 110.49)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2186,7 +2197,7 @@
 	)
 	(wire
 		(pts
-			(xy 101.6 162.56) (xy 101.6 165.1)
+			(xy 99.06 162.56) (xy 99.06 165.1)
 		)
 		(stroke
 			(width 0)
@@ -2296,7 +2307,7 @@
 	)
 	(polyline
 		(pts
-			(xy 109.22 25.4) (xy 109.22 55.88)
+			(xy 110.49 25.4) (xy 110.49 41.91)
 		)
 		(stroke
 			(width 0)
@@ -2306,7 +2317,7 @@
 	)
 	(polyline
 		(pts
-			(xy 91.44 152.4) (xy 91.44 190.5)
+			(xy 88.9 152.4) (xy 88.9 190.5)
 		)
 		(stroke
 			(width 0)
@@ -2386,7 +2397,7 @@
 	)
 	(wire
 		(pts
-			(xy 127 34.29) (xy 132.08 34.29)
+			(xy 127 30.48) (xy 132.08 30.48)
 		)
 		(stroke
 			(width 0)
@@ -2406,6 +2417,16 @@
 	)
 	(wire
 		(pts
+			(xy 247.65 39.37) (xy 250.19 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2803f230-a935-4b0b-8236-03aea7a1dc32")
+	)
+	(wire
+		(pts
 			(xy 170.18 64.77) (xy 186.69 64.77)
 		)
 		(stroke
@@ -2416,7 +2437,7 @@
 	)
 	(wire
 		(pts
-			(xy 121.92 111.76) (xy 116.84 111.76)
+			(xy 114.3 111.76) (xy 119.38 111.76)
 		)
 		(stroke
 			(width 0)
@@ -2426,7 +2447,7 @@
 	)
 	(wire
 		(pts
-			(xy 240.03 39.37) (xy 240.03 41.91)
+			(xy 250.19 39.37) (xy 250.19 41.91)
 		)
 		(stroke
 			(width 0)
@@ -2443,16 +2464,6 @@
 			(type default)
 		)
 		(uuid "2cd979da-0bae-4611-87f2-1dbf045bc61e")
-	)
-	(wire
-		(pts
-			(xy 116.84 111.76) (xy 111.76 111.76)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2e9f6e1c-537b-4f14-a477-4115866a1ba6")
 	)
 	(wire
 		(pts
@@ -2476,7 +2487,7 @@
 	)
 	(wire
 		(pts
-			(xy 127 111.76) (xy 129.54 111.76)
+			(xy 129.54 111.76) (xy 132.08 111.76)
 		)
 		(stroke
 			(width 0)
@@ -2516,7 +2527,7 @@
 	)
 	(wire
 		(pts
-			(xy 116.84 34.29) (xy 116.84 36.83)
+			(xy 116.84 30.48) (xy 116.84 33.02)
 		)
 		(stroke
 			(width 0)
@@ -2554,9 +2565,19 @@
 		)
 		(uuid "3a296980-dfd9-4404-b9fb-3b7fbf069772")
 	)
+	(wire
+		(pts
+			(xy 179.07 97.79) (xy 186.69 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3a3eee8e-c74a-4d24-b753-e6291e6faf69")
+	)
 	(polyline
 		(pts
-			(xy 154.94 190.5) (xy 91.44 190.5)
+			(xy 142.24 190.5) (xy 88.9 190.5)
 		)
 		(stroke
 			(width 0)
@@ -2576,7 +2597,7 @@
 	)
 	(polyline
 		(pts
-			(xy 86.36 193.04) (xy 25.4 193.04)
+			(xy 83.82 193.04) (xy 25.4 193.04)
 		)
 		(stroke
 			(width 0)
@@ -2586,7 +2607,7 @@
 	)
 	(wire
 		(pts
-			(xy 101.6 172.72) (xy 101.6 175.26)
+			(xy 99.06 172.72) (xy 99.06 175.26)
 		)
 		(stroke
 			(width 0)
@@ -2656,7 +2677,7 @@
 	)
 	(polyline
 		(pts
-			(xy 25.4 152.4) (xy 86.36 152.4)
+			(xy 25.4 152.4) (xy 83.82 152.4)
 		)
 		(stroke
 			(width 0)
@@ -2686,7 +2707,7 @@
 	)
 	(wire
 		(pts
-			(xy 101.6 170.18) (xy 101.6 172.72)
+			(xy 99.06 170.18) (xy 99.06 172.72)
 		)
 		(stroke
 			(width 0)
@@ -2776,6 +2797,16 @@
 	)
 	(wire
 		(pts
+			(xy 119.38 179.07) (xy 119.38 181.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6cf9b313-c5cb-4812-ba38-c03c320aeeff")
+	)
+	(wire
+		(pts
 			(xy 240.03 62.23) (xy 247.65 62.23)
 		)
 		(stroke
@@ -2806,7 +2837,7 @@
 	)
 	(polyline
 		(pts
-			(xy 139.7 55.88) (xy 109.22 55.88)
+			(xy 139.7 41.91) (xy 110.49 41.91)
 		)
 		(stroke
 			(width 0)
@@ -2836,7 +2867,7 @@
 	)
 	(wire
 		(pts
-			(xy 111.76 109.22) (xy 111.76 111.76)
+			(xy 114.3 109.22) (xy 114.3 111.76)
 		)
 		(stroke
 			(width 0)
@@ -2926,7 +2957,7 @@
 	)
 	(wire
 		(pts
-			(xy 109.22 111.76) (xy 111.76 111.76)
+			(xy 111.76 111.76) (xy 114.3 111.76)
 		)
 		(stroke
 			(width 0)
@@ -2943,6 +2974,16 @@
 			(type default)
 		)
 		(uuid "79b5bcea-870e-46b7-9514-56aac4b12293")
+	)
+	(wire
+		(pts
+			(xy 119.38 161.29) (xy 119.38 163.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "79f3caeb-c343-4326-8102-601ef1b9213c")
 	)
 	(wire
 		(pts
@@ -3016,7 +3057,7 @@
 	)
 	(wire
 		(pts
-			(xy 109.22 111.76) (xy 109.22 116.84)
+			(xy 111.76 111.76) (xy 111.76 116.84)
 		)
 		(stroke
 			(width 0)
@@ -3026,7 +3067,7 @@
 	)
 	(wire
 		(pts
-			(xy 121.92 34.29) (xy 116.84 34.29)
+			(xy 121.92 30.48) (xy 116.84 30.48)
 		)
 		(stroke
 			(width 0)
@@ -3066,7 +3107,7 @@
 	)
 	(wire
 		(pts
-			(xy 106.68 111.76) (xy 109.22 111.76)
+			(xy 109.22 111.76) (xy 111.76 111.76)
 		)
 		(stroke
 			(width 0)
@@ -3086,7 +3127,7 @@
 	)
 	(polyline
 		(pts
-			(xy 139.7 25.4) (xy 139.7 55.88)
+			(xy 139.7 25.4) (xy 139.7 41.91)
 		)
 		(stroke
 			(width 0)
@@ -3106,7 +3147,7 @@
 	)
 	(polyline
 		(pts
-			(xy 86.36 101.6) (xy 86.36 132.08)
+			(xy 88.9 101.6) (xy 88.9 132.08)
 		)
 		(stroke
 			(width 0)
@@ -3124,9 +3165,19 @@
 		)
 		(uuid "8a906025-c79e-4ca6-b5f8-b0ff48aef78c")
 	)
+	(wire
+		(pts
+			(xy 237.49 39.37) (xy 242.57 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8b4885c6-2e39-4a8c-9b9e-f64a179a9f05")
+	)
 	(polyline
 		(pts
-			(xy 154.94 152.4) (xy 154.94 190.5)
+			(xy 142.24 152.4) (xy 142.24 190.5)
 		)
 		(stroke
 			(width 0)
@@ -3216,7 +3267,7 @@
 	)
 	(wire
 		(pts
-			(xy 101.6 180.34) (xy 101.6 182.88)
+			(xy 99.06 180.34) (xy 99.06 182.88)
 		)
 		(stroke
 			(width 0)
@@ -3226,7 +3277,7 @@
 	)
 	(polyline
 		(pts
-			(xy 139.7 101.6) (xy 139.7 132.08)
+			(xy 142.24 101.6) (xy 142.24 132.08)
 		)
 		(stroke
 			(width 0)
@@ -3236,7 +3287,7 @@
 	)
 	(polyline
 		(pts
-			(xy 109.22 25.4) (xy 139.7 25.4)
+			(xy 110.49 25.4) (xy 139.7 25.4)
 		)
 		(stroke
 			(width 0)
@@ -3276,13 +3327,23 @@
 	)
 	(wire
 		(pts
-			(xy 132.08 34.29) (xy 132.08 36.83)
+			(xy 132.08 30.48) (xy 132.08 33.02)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "9d2fdcca-0d45-4adf-a0e3-60a6827f93a7")
+	)
+	(wire
+		(pts
+			(xy 119.38 111.76) (xy 124.46 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9dec7674-bf74-4c56-85d0-2377cfe87848")
 	)
 	(wire
 		(pts
@@ -3316,16 +3377,6 @@
 	)
 	(wire
 		(pts
-			(xy 180.34 97.79) (xy 186.69 97.79)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9f185afd-40a3-4f5c-aa16-3d21f34b493e")
-	)
-	(wire
-		(pts
 			(xy 255.27 87.63) (xy 255.27 90.17)
 		)
 		(stroke
@@ -3344,25 +3395,25 @@
 		)
 		(uuid "a01cfb10-94c9-4a19-8c01-27d2fd54756c")
 	)
-	(wire
-		(pts
-			(xy 237.49 39.37) (xy 240.03 39.37)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a418babf-ddfd-4be9-9e79-c1c8e2a4dc37")
-	)
 	(polyline
 		(pts
-			(xy 139.7 132.08) (xy 86.36 132.08)
+			(xy 142.24 132.08) (xy 88.9 132.08)
 		)
 		(stroke
 			(width 0)
 			(type dash)
 		)
 		(uuid "a4db9ff1-c711-44a2-beb4-40196588b51c")
+	)
+	(wire
+		(pts
+			(xy 119.38 171.45) (xy 124.46 171.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a518e3cd-9d9b-44c2-b24c-407937352125")
 	)
 	(wire
 		(pts
@@ -3476,7 +3527,7 @@
 	)
 	(polyline
 		(pts
-			(xy 86.36 101.6) (xy 139.7 101.6)
+			(xy 88.9 101.6) (xy 142.24 101.6)
 		)
 		(stroke
 			(width 0)
@@ -3506,7 +3557,7 @@
 	)
 	(wire
 		(pts
-			(xy 63.5 157.48) (xy 66.04 157.48)
+			(xy 63.5 156.21) (xy 64.77 156.21)
 		)
 		(stroke
 			(width 0)
@@ -3636,7 +3687,7 @@
 	)
 	(wire
 		(pts
-			(xy 109.22 121.92) (xy 109.22 125.73)
+			(xy 111.76 121.92) (xy 111.76 125.73)
 		)
 		(stroke
 			(width 0)
@@ -3676,7 +3727,7 @@
 	)
 	(wire
 		(pts
-			(xy 101.6 172.72) (xy 106.68 172.72)
+			(xy 99.06 172.72) (xy 104.14 172.72)
 		)
 		(stroke
 			(width 0)
@@ -3816,7 +3867,7 @@
 	)
 	(polyline
 		(pts
-			(xy 86.36 152.4) (xy 86.36 193.04)
+			(xy 83.82 152.4) (xy 83.82 193.04)
 		)
 		(stroke
 			(width 0)
@@ -3833,6 +3884,16 @@
 			(type default)
 		)
 		(uuid "de1fe156-8756-4101-9a7e-5bfcb46ae3cf")
+	)
+	(wire
+		(pts
+			(xy 119.38 171.45) (xy 119.38 173.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e22097b6-666a-47de-a32f-6c8a17dbd0ce")
 	)
 	(wire
 		(pts
@@ -3976,7 +4037,7 @@
 	)
 	(polyline
 		(pts
-			(xy 91.44 152.4) (xy 154.94 152.4)
+			(xy 88.9 152.4) (xy 142.24 152.4)
 		)
 		(stroke
 			(width 0)
@@ -4026,7 +4087,17 @@
 	)
 	(wire
 		(pts
-			(xy 63.5 162.56) (xy 63.5 157.48)
+			(xy 119.38 168.91) (xy 119.38 171.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "febd6a18-d207-4e9f-bfca-20a925489e59")
+	)
+	(wire
+		(pts
+			(xy 63.5 162.56) (xy 63.5 156.21)
 		)
 		(stroke
 			(width 0)
@@ -4036,7 +4107,7 @@
 	)
 	(wire
 		(pts
-			(xy 91.44 111.76) (xy 101.6 111.76)
+			(xy 93.98 111.76) (xy 104.14 111.76)
 		)
 		(stroke
 			(width 0)
@@ -6944,7 +7015,7 @@
 	)
 	(text "Buck Regulator"
 		(exclude_from_sim no)
-		(at 86.36 99.06 0)
+		(at 88.9 99.06 0)
 		(effects
 			(font
 				(size 2.54 2.54)
@@ -6954,17 +7025,6 @@
 			(justify left bottom)
 		)
 		(uuid "482ed87c-e267-4232-a0b8-0e26c0cd1a22")
-	)
-	(text "Either R? or R? to be populated.\nRelates to coil config of motor which is unknown\nat time of creating design.\n"
-		(exclude_from_sim no)
-		(at 112.776 168.148 0)
-		(effects
-			(font
-				(size 0.889 0.889)
-			)
-			(justify left top)
-		)
-		(uuid "72887c96-07a1-4479-be04-0c7d5a1c80e1")
 	)
 	(text "0 mA Out\n"
 		(exclude_from_sim no)
@@ -6979,7 +7039,7 @@
 	)
 	(text "R? can be replaced by a net tie\n"
 		(exclude_from_sim no)
-		(at 115.57 119.634 0)
+		(at 118.11 119.634 0)
 		(effects
 			(font
 				(size 0.889 0.889)
@@ -7012,9 +7072,9 @@
 		)
 		(uuid "815435de-8134-4391-b949-d15dae4c7349")
 	)
-	(text "What is the I2C address?"
+	(text "I2C address: 0x60"
 		(exclude_from_sim no)
-		(at 201.168 140.716 0)
+		(at 194.818 134.112 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7097,9 +7157,9 @@
 		)
 		(uuid "edd099fe-f1c7-41a4-8ce0-c00a34f2415d")
 	)
-	(text "Motor Direction Configuration"
+	(text "Motor Configuration"
 		(exclude_from_sim no)
-		(at 91.948 151.384 0)
+		(at 89.408 151.384 0)
 		(effects
 			(font
 				(size 2.54 2.54)
@@ -7112,7 +7172,7 @@
 	)
 	(text "(Internal to driver)"
 		(exclude_from_sim no)
-		(at 87.376 100.33 0)
+		(at 89.916 100.33 0)
 		(effects
 			(font
 				(size 0.889 0.889)
@@ -7135,7 +7195,7 @@
 		(uuid "fa0a3c0e-1004-4952-b3af-16fdf19f96ed")
 	)
 	(label "SW_BUCK"
-		(at 91.44 111.76 0)
+		(at 93.98 111.76 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7215,7 +7275,7 @@
 		(uuid "b335d391-86ad-4976-9866-d7f6d1b2ad19")
 	)
 	(label "FB_BUCK"
-		(at 129.54 111.76 0)
+		(at 132.08 111.76 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7224,8 +7284,18 @@
 		)
 		(uuid "cce9d005-3f3a-4b83-a2a0-2daec718e782")
 	)
+	(label "BRAKE"
+		(at 179.07 97.79 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "de717479-7258-4200-aea9-ee223df6e1c6")
+	)
 	(label "DIR"
-		(at 106.68 172.72 0)
+		(at 104.14 172.72 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7234,9 +7304,19 @@
 		)
 		(uuid "e48ce572-e213-46a4-8074-f551234f8001")
 	)
+	(label "BRAKE"
+		(at 124.46 171.45 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "fc8cef6a-43ba-4a6e-9b35-8d6c7edfc97e")
+	)
 	(hierarchical_label "RW_MOTOR_ALRM"
 		(shape output)
-		(at 66.04 157.48 0)
+		(at 64.77 156.21 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7301,72 +7381,6 @@
 		(uuid "d2ddc1b9-6046-429f-b2b1-318807315c9c")
 	)
 	(symbol
-		(lib_id "Argus_RW_Library:5001")
-		(at 86.36 27.94 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "0150ae6e-591c-48d1-b050-2ef34764e053")
-		(property "Reference" "TP5"
-			(at 91.44 29.972 90)
-			(do_not_autoplace yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Value" "~"
-			(at 88.9 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 86.36 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 86.36 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 86.36 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "TP"
-			(uuid "11c5b278-43c0-416e-a6a2-82691388fcda")
-		)
-		(instances
-			(project "Avionics-RWboard"
-				(path "/833dc880-24c2-430b-8cf7-cc984eb87a9d/6fe6dcb0-4022-4a1b-8f5d-25ced07893ae"
-					(reference "TP5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C_Small")
 		(at 40.64 40.64 180)
 		(unit 1)
@@ -7402,7 +7416,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 40.64 40.64 0)
 			(effects
 				(font
@@ -7411,7 +7425,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "CAP CER 47UF 25V X5R 1206"
+		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 40.64 40.64 0)
 			(effects
 				(font
@@ -7489,7 +7503,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 33.02 68.58 0)
 			(effects
 				(font
@@ -7498,7 +7512,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "CAP CER 10UF 25V X7R 1206"
+		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 33.02 68.58 0)
 			(effects
 				(font
@@ -7542,7 +7556,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 109.22 119.38 180)
+		(at 111.76 119.38 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7550,7 +7564,7 @@
 		(dnp no)
 		(uuid "10cb7f9d-2108-4437-a83b-e816416d1f42")
 		(property "Reference" "C25"
-			(at 114.554 118.364 0)
+			(at 117.094 118.364 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7559,7 +7573,7 @@
 			)
 		)
 		(property "Value" "22u"
-			(at 114.554 120.396 0)
+			(at 117.094 120.396 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7568,7 +7582,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 109.22 119.38 0)
+			(at 111.76 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7576,8 +7590,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 109.22 119.38 0)
+		(property "Datasheet" "~"
+			(at 111.76 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7585,8 +7599,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "10uF +-20% 10V X5R"
-			(at 109.22 119.38 0)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 111.76 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7604,158 +7618,6 @@
 			(project "Avionics-RWboard"
 				(path "/833dc880-24c2-430b-8cf7-cc984eb87a9d/6fe6dcb0-4022-4a1b-8f5d-25ced07893ae"
 					(reference "C25")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Argus_RW_Library:5001")
-		(at 50.8 106.68 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "1213cefc-8f5c-47a6-8f0b-45253db1e910")
-		(property "Reference" "TP7"
-			(at 55.88 108.712 90)
-			(do_not_autoplace yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Value" "~"
-			(at 53.34 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 50.8 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 50.8 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 50.8 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "TP"
-			(uuid "8313efa6-4af8-4106-bd6e-e98356303b6c")
-		)
-		(instances
-			(project "Avionics-RWboard"
-				(path "/833dc880-24c2-430b-8cf7-cc984eb87a9d/6fe6dcb0-4022-4a1b-8f5d-25ced07893ae"
-					(reference "TP7")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Argus_RW_Library:Reaction_Wheel")
-		(at 250.19 49.53 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "14892c43-58f3-45b1-a45c-e520866a2ae8")
-		(property "Reference" "M1"
-			(at 250.444 49.022 0)
-			(do_not_autoplace yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Value" "~"
-			(at 260.35 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 250.19 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 250.19 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Reaction Wheel"
-			(at 250.444 76.962 0)
-			(do_not_autoplace yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(pin "1"
-			(uuid "22517e5d-e9fa-4c41-9aac-f41ae8a07daf")
-		)
-		(pin "2"
-			(uuid "b347a3a9-4ee2-422b-a455-2444022052a1")
-		)
-		(pin "4"
-			(uuid "a67d0067-6b28-4da6-8f14-d6a00e58c4d2")
-		)
-		(pin "3"
-			(uuid "4d6b665f-4dbb-4b69-8c8f-cad61e1097a4")
-		)
-		(pin "7"
-			(uuid "e62d19b0-3ca1-4595-a955-c32919587197")
-		)
-		(pin "6"
-			(uuid "07406109-2d3b-41e2-98e5-792eda5e905d")
-		)
-		(pin "5"
-			(uuid "cc0980c0-44ba-469e-ae78-5c411fbb75f0")
-		)
-		(instances
-			(project ""
-				(path "/833dc880-24c2-430b-8cf7-cc984eb87a9d/6fe6dcb0-4022-4a1b-8f5d-25ced07893ae"
-					(reference "M1")
 					(unit 1)
 				)
 			)
@@ -7797,7 +7659,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 60.96 68.58 0)
 			(effects
 				(font
@@ -7806,7 +7668,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "CAP CER 1UF 25V X7R 0603"
+		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 60.96 68.58 0)
 			(effects
 				(font
@@ -8044,6 +7906,138 @@
 		)
 	)
 	(symbol
+		(lib_id "Argus_RW_Library:5001")
+		(at 119.38 106.68 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "26e83d88-b193-4339-8b53-c86f2a270e80")
+		(property "Reference" "TP6"
+			(at 124.46 108.712 90)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "~"
+			(at 121.92 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Argus_RW_Library:KEYSTONE_5001"
+			(at 119.38 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 119.38 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 119.38 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "TP"
+			(uuid "6448d7aa-e42b-485d-a17a-af1fe66d7ca1")
+		)
+		(instances
+			(project "Avionics-RWboard"
+				(path "/833dc880-24c2-430b-8cf7-cc984eb87a9d/6fe6dcb0-4022-4a1b-8f5d-25ced07893ae"
+					(reference "TP6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Argus_RW_Library:5001")
+		(at 58.42 106.68 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "29c7fb60-aac3-48f2-bb76-6321d78f6c77")
+		(property "Reference" "TP8"
+			(at 63.5 108.712 90)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "~"
+			(at 60.96 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Argus_RW_Library:KEYSTONE_5001"
+			(at 58.42 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 58.42 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 58.42 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "TP"
+			(uuid "30be3e06-b0e4-4207-9d95-69e21d86c458")
+		)
+		(instances
+			(project "Avionics-RWboard"
+				(path "/833dc880-24c2-430b-8cf7-cc984eb87a9d/6fe6dcb0-4022-4a1b-8f5d-25ced07893ae"
+					(reference "TP8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+3V3")
 		(at 179.07 54.61 90)
 		(unit 1)
@@ -8103,6 +8097,71 @@
 			(project "Avionics-RWboard"
 				(path "/833dc880-24c2-430b-8cf7-cc984eb87a9d/6fe6dcb0-4022-4a1b-8f5d-25ced07893ae"
 					(reference "#PWR034")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 119.38 181.61 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "2a5e1366-82b4-46d7-9f26-563ab28f33a4")
+		(property "Reference" "#PWR080"
+			(at 119.38 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "AGND"
+			(at 119.38 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 119.38 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 119.38 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 119.38 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4e3dd489-e9a2-4f60-9c8e-aca019560958")
+		)
+		(instances
+			(project "Avionics-RWboard"
+				(path "/833dc880-24c2-430b-8cf7-cc984eb87a9d/6fe6dcb0-4022-4a1b-8f5d-25ced07893ae"
+					(reference "#PWR080")
 					(unit 1)
 				)
 			)
@@ -8240,7 +8299,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 240.03 41.91 0)
+		(at 250.19 41.91 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8248,7 +8307,7 @@
 		(dnp no)
 		(uuid "31cce36b-5b6b-42e7-93b3-c158d1512101")
 		(property "Reference" "#PWR035"
-			(at 240.03 48.26 0)
+			(at 250.19 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8257,7 +8316,7 @@
 			)
 		)
 		(property "Value" "AGND"
-			(at 240.03 45.72 0)
+			(at 250.19 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8265,7 +8324,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 240.03 41.91 0)
+			(at 250.19 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8274,7 +8333,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 240.03 41.91 0)
+			(at 250.19 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8283,7 +8342,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 240.03 41.91 0)
+			(at 250.19 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8339,7 +8398,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 86.36 40.64 0)
 			(effects
 				(font
@@ -8348,7 +8407,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "CAP CER 47UF 25V X5R 1206"
+		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 86.36 40.64 0)
 			(effects
 				(font
@@ -8426,7 +8485,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 43.18 68.58 0)
 			(effects
 				(font
@@ -8435,7 +8494,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "CAP CER 1UF 25V X7R 0603"
+		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 43.18 68.58 0)
 			(effects
 				(font
@@ -8478,42 +8537,34 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_Small")
-		(at 101.6 177.8 0)
-		(mirror x)
+		(lib_id "Argus_RW_Library:5001")
+		(at 86.36 27.94 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp yes)
-		(uuid "438347b1-a347-4e12-a8df-0b9651c9f85d")
-		(property "Reference" "R26"
-			(at 98.552 177.038 0)
+		(dnp no)
+		(uuid "418d47f0-b181-475f-92ef-495cab59bc84")
+		(property "Reference" "TP5"
+			(at 91.44 29.972 90)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "~"
+			(at 88.9 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "10k"
-			(at 99.06 178.816 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 101.6 177.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 101.6 177.8 0)
+		(property "Footprint" "Argus_RW_Library:KEYSTONE_5001"
+			(at 86.36 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8521,8 +8572,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor, small symbol"
-			(at 101.6 177.8 0)
+		(property "Datasheet" ""
+			(at 86.36 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8530,16 +8581,22 @@
 				(hide yes)
 			)
 		)
-		(pin "1"
-			(uuid "0891de05-38bf-43ed-ba06-092c630abf6b")
+		(property "Description" ""
+			(at 86.36 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
 		)
-		(pin "2"
-			(uuid "ab894312-4870-4def-853e-f881f4c1bc28")
+		(pin "TP"
+			(uuid "d96f4b2d-423a-45ae-8010-896df7fd7be8")
 		)
 		(instances
 			(project "Avionics-RWboard"
 				(path "/833dc880-24c2-430b-8cf7-cc984eb87a9d/6fe6dcb0-4022-4a1b-8f5d-25ced07893ae"
-					(reference "R26")
+					(reference "TP5")
 					(unit 1)
 				)
 			)
@@ -8581,7 +8638,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 73.66 68.58 0)
 			(effects
 				(font
@@ -8590,7 +8647,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "CAP CER 1UF 25V X7R 0603"
+		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 73.66 68.58 0)
 			(effects
 				(font
@@ -8627,6 +8684,72 @@
 			(project "Avionics-RWboard"
 				(path "/833dc880-24c2-430b-8cf7-cc984eb87a9d/6fe6dcb0-4022-4a1b-8f5d-25ced07893ae"
 					(reference "C22")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Argus_RW_Library:5001")
+		(at 30.48 121.92 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "476bd077-acd9-4e74-ad2d-b3c14bc72559")
+		(property "Reference" "TP10"
+			(at 37.084 122.682 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "~"
+			(at 30.48 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Argus_RW_Library:KEYSTONE_5001"
+			(at 30.48 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 30.48 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 30.48 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "TP"
+			(uuid "31936f7f-a834-4a7c-ae4b-3730e52be401")
+		)
+		(instances
+			(project "Avionics-RWboard"
+				(path "/833dc880-24c2-430b-8cf7-cc984eb87a9d/6fe6dcb0-4022-4a1b-8f5d-25ced07893ae"
+					(reference "TP10")
 					(unit 1)
 				)
 			)
@@ -8763,16 +8886,17 @@
 		)
 	)
 	(symbol
-		(lib_id "Argus_RW_Library:5001")
-		(at 58.42 106.68 90)
+		(lib_id "Argus_RW_Library:Reaction_Wheel")
+		(at 250.19 49.53 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "52a446c9-c960-430d-a37f-dd1fe6c223fa")
-		(property "Reference" "TP8"
-			(at 63.5 108.712 90)
+		(fields_autoplaced yes)
+		(uuid "515f30be-cfe5-4fc6-8a74-ab45c25b86b9")
+		(property "Reference" "M1"
+			(at 250.444 49.022 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -8782,15 +8906,15 @@
 			)
 		)
 		(property "Value" "~"
-			(at 60.96 106.68 0)
+			(at 260.35 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 58.42 106.68 0)
+		(property "Footprint" "Argus_RW_Library:Reaction_Wheel"
+			(at 250.19 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8799,7 +8923,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 58.42 106.68 0)
+			(at 250.19 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8807,22 +8931,41 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 58.42 106.68 0)
+		(property "Description" "Reaction Wheel"
+			(at 250.444 76.962 0)
+			(do_not_autoplace yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
+				(justify left bottom)
 			)
 		)
-		(pin "TP"
-			(uuid "63379eae-16b0-4ee7-a2d7-d557ace2d53c")
+		(pin "6"
+			(uuid "23ca8fcd-b485-4ce9-a50c-a18da1383f99")
+		)
+		(pin "3"
+			(uuid "28e1469f-899c-4979-b356-4e29bc761b0c")
+		)
+		(pin "5"
+			(uuid "559bc761-16d6-441b-a85d-cdb88b3194a0")
+		)
+		(pin "4"
+			(uuid "7c6a0e15-607b-4ae5-830e-e4d0fe05898d")
+		)
+		(pin "2"
+			(uuid "1bffcba4-6c6c-42b7-9183-c2cd1d132bd2")
+		)
+		(pin "1"
+			(uuid "e2d6adcc-0864-4975-8b16-dae29aabe97e")
+		)
+		(pin "7"
+			(uuid "eecd2285-20ba-40f8-af82-be1a8ea9aa10")
 		)
 		(instances
-			(project "Avionics-RWboard"
+			(project ""
 				(path "/833dc880-24c2-430b-8cf7-cc984eb87a9d/6fe6dcb0-4022-4a1b-8f5d-25ced07893ae"
-					(reference "TP8")
+					(reference "M1")
 					(unit 1)
 				)
 			)
@@ -8830,7 +8973,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small")
-		(at 104.14 111.76 270)
+		(at 106.68 111.76 270)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -8839,7 +8982,7 @@
 		(dnp no)
 		(uuid "53fe35a6-dc57-41df-b8ec-ba1d7c4a59c5")
 		(property "Reference" "R49"
-			(at 104.14 114.046 90)
+			(at 106.68 114.046 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8847,7 +8990,7 @@
 			)
 		)
 		(property "Value" "22R"
-			(at 104.14 115.824 90)
+			(at 106.68 115.824 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8855,7 +8998,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_2512_6332Metric_Pad1.40x3.35mm_HandSolder"
-			(at 104.14 111.76 0)
+			(at 106.68 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8864,7 +9007,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 104.14 111.76 0)
+			(at 106.68 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8872,8 +9015,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "RES SMD 22 OHM 1% 1.5W 2512"
-			(at 104.14 111.76 0)
+		(property "Description" "Resistor, small symbol"
+			(at 106.68 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8882,7 +9025,7 @@
 			)
 		)
 		(property "Part" "CRCW251222R0FKEGHP"
-			(at 104.14 111.76 90)
+			(at 106.68 111.76 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8891,7 +9034,7 @@
 			)
 		)
 		(property "Digikey" "https://www.digikey.com/en/products/detail/vishay-dale/CRCW251222R0FKEGHP/2229546"
-			(at 104.14 111.76 90)
+			(at 106.68 111.76 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8980,6 +9123,72 @@
 		)
 	)
 	(symbol
+		(lib_id "Argus_RW_Library:5001")
+		(at 50.8 106.68 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "568e4277-b0d2-459f-90bc-3da16b0a0304")
+		(property "Reference" "TP7"
+			(at 55.88 108.712 90)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "~"
+			(at 53.34 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Argus_RW_Library:KEYSTONE_5001"
+			(at 50.8 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 50.8 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 50.8 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "TP"
+			(uuid "5690db7d-e440-4d32-9547-a086b7aad596")
+		)
+		(instances
+			(project "Avionics-RWboard"
+				(path "/833dc880-24c2-430b-8cf7-cc984eb87a9d/6fe6dcb0-4022-4a1b-8f5d-25ced07893ae"
+					(reference "TP7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+3V3")
 		(at 38.1 109.22 0)
 		(unit 1)
@@ -9046,7 +9255,7 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 111.76 109.22 0)
+		(at 114.3 109.22 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9054,7 +9263,7 @@
 		(dnp no)
 		(uuid "5bc93e99-03e8-499d-a26d-219f48d8d433")
 		(property "Reference" "#PWR059"
-			(at 111.76 113.03 0)
+			(at 114.3 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9063,7 +9272,7 @@
 			)
 		)
 		(property "Value" "VBK"
-			(at 111.76 105.156 0)
+			(at 114.3 105.156 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9071,7 +9280,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 111.76 109.22 0)
+			(at 114.3 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9080,7 +9289,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 111.76 109.22 0)
+			(at 114.3 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9089,7 +9298,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 111.76 109.22 0)
+			(at 114.3 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9111,7 +9320,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small")
-		(at 124.46 111.76 270)
+		(at 127 111.76 270)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -9120,7 +9329,7 @@
 		(dnp no)
 		(uuid "5cb862f0-399a-4447-858e-25122885c19a")
 		(property "Reference" "R50"
-			(at 124.46 114.046 90)
+			(at 127 114.046 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9128,7 +9337,7 @@
 			)
 		)
 		(property "Value" "0R"
-			(at 124.46 115.824 90)
+			(at 127 115.824 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9136,7 +9345,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 124.46 111.76 0)
+			(at 127 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9145,7 +9354,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 124.46 111.76 0)
+			(at 127 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9154,7 +9363,7 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
-			(at 124.46 111.76 0)
+			(at 127 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9243,43 +9452,33 @@
 		)
 	)
 	(symbol
-		(lib_id "Argus_RW_Library:5001")
-		(at 179.07 74.93 180)
+		(lib_id "Device:R_Small")
+		(at 245.11 39.37 270)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "6155f878-fb2a-4435-8d1a-9cc42d0a0858")
-		(property "Reference" "TP9"
-			(at 184.15 75.438 0)
-			(do_not_autoplace yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Value" "~"
-			(at 179.07 72.39 0)
+		(uuid "6484e49c-bd7f-4390-8834-e00a86cb8c98")
+		(property "Reference" "R58"
+			(at 245.11 37.338 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 179.07 74.93 0)
+		(property "Value" "0R"
+			(at 245.11 41.402 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 179.07 74.93 0)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
+			(at 245.11 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9287,8 +9486,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 179.07 74.93 0)
+		(property "Datasheet" "~"
+			(at 245.11 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9296,13 +9495,25 @@
 				(hide yes)
 			)
 		)
-		(pin "TP"
-			(uuid "cf907f87-80f8-406c-b6dc-5e28d2bab899")
+		(property "Description" "Resistor, small symbol"
+			(at 245.11 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3ebcee5e-ae1c-44fd-a678-027629fa5092")
+		)
+		(pin "2"
+			(uuid "4fb5d3bc-c0cf-4f02-b8dd-4ee39e2dd52d")
 		)
 		(instances
-			(project ""
+			(project "Avionics-RWboard"
 				(path "/833dc880-24c2-430b-8cf7-cc984eb87a9d/6fe6dcb0-4022-4a1b-8f5d-25ced07893ae"
-					(reference "TP9")
+					(reference "R58")
 					(unit 1)
 				)
 			)
@@ -9412,7 +9623,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 63.5 40.64 0)
 			(effects
 				(font
@@ -9421,7 +9632,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "CAP CER 47UF 25V X5R 1206"
+		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 63.5 40.64 0)
 			(effects
 				(font
@@ -9498,7 +9709,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://optoelectronics.liteon.com/upload/download/DS22-2000-074/LTST-C190KGKT.PDF"
+		(property "Datasheet" "~"
 			(at 33.02 166.37 0)
 			(effects
 				(font
@@ -9507,7 +9718,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Green LED"
+		(property "Description" "Light emitting diode"
 			(at 33.02 166.37 0)
 			(effects
 				(font
@@ -9569,16 +9780,16 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small")
-		(at 124.46 34.29 270)
+		(at 119.38 176.53 0)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
-		(uuid "730ff20a-a8c2-41bb-9022-c9638ab95752")
-		(property "Reference" "R13"
-			(at 124.46 36.576 90)
+		(dnp yes)
+		(uuid "6e058172-6fad-4021-b2e1-6cfb1b0b6945")
+		(property "Reference" "R55"
+			(at 115.316 173.736 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9586,15 +9797,15 @@
 			)
 		)
 		(property "Value" "0R"
-			(at 124.46 38.354 90)
+			(at 114.808 176.022 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 124.46 34.29 0)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
+			(at 119.38 176.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9603,7 +9814,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 124.46 34.29 0)
+			(at 119.38 176.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9612,7 +9823,75 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
-			(at 124.46 34.29 0)
+			(at 119.38 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f418f39f-fff5-4a36-894c-b1d917a8abdd")
+		)
+		(pin "2"
+			(uuid "0d2306df-08aa-4569-a897-b9cc73208407")
+		)
+		(instances
+			(project "Avionics-RWboard"
+				(path "/833dc880-24c2-430b-8cf7-cc984eb87a9d/6fe6dcb0-4022-4a1b-8f5d-25ced07893ae"
+					(reference "R55")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 124.46 30.48 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "730ff20a-a8c2-41bb-9022-c9638ab95752")
+		(property "Reference" "R13"
+			(at 124.46 32.766 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0R"
+			(at 124.46 34.544 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 124.46 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 124.46 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 124.46 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9671,7 +9950,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 71.12 40.64 0)
 			(effects
 				(font
@@ -9680,7 +9959,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "CAP CER 47UF 25V X5R 1206"
+		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 71.12 40.64 0)
 			(effects
 				(font
@@ -9888,7 +10167,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 78.74 40.64 0)
 			(effects
 				(font
@@ -9897,7 +10176,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "CAP CER 47UF 25V X5R 1206"
+		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 78.74 40.64 0)
 			(effects
 				(font
@@ -9934,6 +10213,74 @@
 			(project "Avionics-RWboard"
 				(path "/833dc880-24c2-430b-8cf7-cc984eb87a9d/6fe6dcb0-4022-4a1b-8f5d-25ced07893ae"
 					(reference "C21")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 99.06 167.64 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp yes)
+		(uuid "7945e77b-e67a-42a2-a773-50264d4d20e3")
+		(property "Reference" "R14"
+			(at 94.996 164.846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0R"
+			(at 94.488 167.132 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
+			(at 99.06 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 99.06 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 99.06 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5300bc20-4041-42dc-bfee-60c8ac38ba62")
+		)
+		(pin "2"
+			(uuid "adba39fc-b6b8-4d97-8fbc-2a1e0caa2597")
+		)
+		(instances
+			(project "Avionics-RWboard"
+				(path "/833dc880-24c2-430b-8cf7-cc984eb87a9d/6fe6dcb0-4022-4a1b-8f5d-25ced07893ae"
+					(reference "R14")
 					(unit 1)
 				)
 			)
@@ -10040,7 +10387,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 83.82 68.58 0)
 			(effects
 				(font
@@ -10049,7 +10396,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "CAP CER 1UF 25V X7R 0603"
+		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 83.82 68.58 0)
 			(effects
 				(font
@@ -10127,7 +10474,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 55.88 40.64 0)
 			(effects
 				(font
@@ -10136,7 +10483,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "CAP CER 47UF 25V X5R 1206"
+		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 55.88 40.64 0)
 			(effects
 				(font
@@ -10245,15 +10592,15 @@
 	)
 	(symbol
 		(lib_id "Argus_RW_Library:5001")
-		(at 116.84 106.68 90)
+		(at 179.07 74.93 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "8d8b7a48-c9c4-47f8-a2fa-4ab2c74ee97a")
-		(property "Reference" "TP6"
-			(at 121.92 108.712 90)
+		(uuid "8e18b634-800b-4d8e-b5b8-8eabe8634d9d")
+		(property "Reference" "TP9"
+			(at 184.404 75.438 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -10263,81 +10610,15 @@
 			)
 		)
 		(property "Value" "~"
-			(at 119.38 106.68 0)
+			(at 179.07 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 116.84 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 116.84 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 116.84 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "TP"
-			(uuid "1fea73cf-c34a-4b41-8d21-3322783082ae")
-		)
-		(instances
-			(project "Avionics-RWboard"
-				(path "/833dc880-24c2-430b-8cf7-cc984eb87a9d/6fe6dcb0-4022-4a1b-8f5d-25ced07893ae"
-					(reference "TP6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Argus_RW_Library:5001")
-		(at 30.48 121.92 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "9109faa8-f956-40d4-8cac-4fce43ef8abe")
-		(property "Reference" "TP10"
-			(at 35.56 122.428 0)
-			(do_not_autoplace yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Value" "~"
-			(at 30.48 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 30.48 121.92 0)
+		(property "Footprint" "Argus_RW_Library:KEYSTONE_5001"
+			(at 179.07 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10346,7 +10627,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 30.48 121.92 0)
+			(at 179.07 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10355,7 +10636,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 30.48 121.92 0)
+			(at 179.07 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10364,12 +10645,12 @@
 			)
 		)
 		(pin "TP"
-			(uuid "1b49d48a-9348-42b0-b8e3-9565d1234961")
+			(uuid "45e87472-1cb2-4458-9b21-c8584c46761f")
 		)
 		(instances
 			(project "Avionics-RWboard"
 				(path "/833dc880-24c2-430b-8cf7-cc984eb87a9d/6fe6dcb0-4022-4a1b-8f5d-25ced07893ae"
-					(reference "TP10")
+					(reference "TP9")
 					(unit 1)
 				)
 			)
@@ -10411,7 +10692,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 33.02 40.64 0)
 			(effects
 				(font
@@ -10420,7 +10701,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "CAP CER 47UF 25V X5R 1206"
+		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 33.02 40.64 0)
 			(effects
 				(font
@@ -10562,7 +10843,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://optoelectronics.liteon.com/upload/download/DS22-2000-074/LTST-C190KGKT.PDF"
+		(property "Datasheet" "~"
 			(at 53.34 166.37 0)
 			(effects
 				(font
@@ -10571,7 +10852,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Red LED"
+		(property "Description" "Light emitting diode"
 			(at 53.34 166.37 0)
 			(effects
 				(font
@@ -10833,6 +11114,74 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R_Small")
+		(at 99.06 177.8 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp yes)
+		(uuid "a6464b45-ce3b-46fc-bacf-632242b1d3d8")
+		(property "Reference" "R54"
+			(at 94.996 175.006 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0R"
+			(at 94.488 177.292 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
+			(at 99.06 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 99.06 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 99.06 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "684deedf-fc26-4e23-ac42-bf5f4a3210ed")
+		)
+		(pin "2"
+			(uuid "153754a2-0a31-4ba2-8bee-ed574de79c45")
+		)
+		(instances
+			(project "Avionics-RWboard"
+				(path "/833dc880-24c2-430b-8cf7-cc984eb87a9d/6fe6dcb0-4022-4a1b-8f5d-25ced07893ae"
+					(reference "R54")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 176.53 59.69 270)
 		(unit 1)
@@ -10914,6 +11263,71 @@
 			(project "Avionics-RWboard"
 				(path "/833dc880-24c2-430b-8cf7-cc984eb87a9d/6fe6dcb0-4022-4a1b-8f5d-25ced07893ae"
 					(reference "C8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 119.38 161.29 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "afb75c28-2c16-4151-9f42-e7d6d3c0c009")
+		(property "Reference" "#PWR079"
+			(at 119.38 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "AVDD"
+			(at 119.38 157.226 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 119.38 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 119.38 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 119.38 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "409ff355-1874-4ae1-984f-6728a79945b8")
+		)
+		(instances
+			(project "Avionics-RWboard"
+				(path "/833dc880-24c2-430b-8cf7-cc984eb87a9d/6fe6dcb0-4022-4a1b-8f5d-25ced07893ae"
+					(reference "#PWR079")
 					(unit 1)
 				)
 			)
@@ -11019,7 +11433,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://optoelectronics.liteon.com/upload/download/DS22-2000-074/LTST-C190KGKT.PDF"
+		(property "Datasheet" "~"
 			(at 43.18 166.37 0)
 			(effects
 				(font
@@ -11028,7 +11442,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Green LED"
+		(property "Description" "Light emitting diode"
 			(at 43.18 166.37 0)
 			(effects
 				(font
@@ -11253,7 +11667,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://optoelectronics.liteon.com/upload/download/DS22-2000-074/LTST-C190KGKT.PDF"
+		(property "Datasheet" "~"
 			(at 63.5 166.37 0)
 			(effects
 				(font
@@ -11262,7 +11676,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Red LED"
+		(property "Description" "Light emitting diode"
 			(at 63.5 166.37 0)
 			(effects
 				(font
@@ -11486,7 +11900,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "VQFN40_RGF_TEX"
+		(property "Footprint" "Argus_RW_Library:VQFN40_RGF_TEX"
 			(at 214.63 34.29 0)
 			(effects
 				(font
@@ -11748,7 +12162,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 50.8 68.58 0)
 			(effects
 				(font
@@ -11757,7 +12171,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "CAP CER 10000PF 25V X7R 0402"
+		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 50.8 68.58 0)
 			(effects
 				(font
@@ -11869,7 +12283,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 101.6 182.88 0)
+		(at 99.06 182.88 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11877,7 +12291,7 @@
 		(dnp no)
 		(uuid "e0e94116-999c-4a51-ae3e-7fbab5625620")
 		(property "Reference" "#PWR031"
-			(at 101.6 189.23 0)
+			(at 99.06 189.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11886,7 +12300,7 @@
 			)
 		)
 		(property "Value" "AGND"
-			(at 101.6 186.69 0)
+			(at 99.06 186.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11894,7 +12308,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 101.6 182.88 0)
+			(at 99.06 182.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11903,7 +12317,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 101.6 182.88 0)
+			(at 99.06 182.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11912,7 +12326,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 101.6 182.88 0)
+			(at 99.06 182.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11934,7 +12348,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 116.84 36.83 0)
+		(at 116.84 33.02 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11942,7 +12356,7 @@
 		(dnp no)
 		(uuid "e183a2e3-64b1-46d8-9c80-9ddd7aacefba")
 		(property "Reference" "#PWR063"
-			(at 116.84 43.18 0)
+			(at 116.84 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11951,7 +12365,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 116.84 40.64 0)
+			(at 116.84 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11959,7 +12373,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 116.84 36.83 0)
+			(at 116.84 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11968,7 +12382,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 116.84 36.83 0)
+			(at 116.84 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11977,7 +12391,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 116.84 36.83 0)
+			(at 116.84 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11999,7 +12413,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 109.22 125.73 0)
+		(at 111.76 125.73 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12007,7 +12421,7 @@
 		(dnp no)
 		(uuid "e953a04c-5366-417c-b766-3f6cc48f2b64")
 		(property "Reference" "#PWR060"
-			(at 109.22 132.08 0)
+			(at 111.76 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12016,7 +12430,7 @@
 			)
 		)
 		(property "Value" "AGND"
-			(at 109.22 129.54 0)
+			(at 111.76 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12024,7 +12438,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 109.22 125.73 0)
+			(at 111.76 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12033,7 +12447,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 109.22 125.73 0)
+			(at 111.76 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12042,7 +12456,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 109.22 125.73 0)
+			(at 111.76 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12129,32 +12543,32 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small")
-		(at 101.6 167.64 0)
+		(at 119.38 166.37 0)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp yes)
-		(uuid "f219ed31-5f5e-46cb-bf2b-bd963b856a53")
-		(property "Reference" "R14"
-			(at 98.552 166.878 0)
+		(uuid "f246478b-db46-4d4e-bc2d-e51b5e51d9ff")
+		(property "Reference" "R26"
+			(at 115.316 163.576 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "10k"
-			(at 99.06 168.656 0)
+		(property "Value" "0R"
+			(at 114.808 165.862 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 101.6 167.64 0)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
+			(at 119.38 166.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12163,7 +12577,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 101.6 167.64 0)
+			(at 119.38 166.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12172,7 +12586,7 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
-			(at 101.6 167.64 0)
+			(at 119.38 166.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12181,15 +12595,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "9a142c7a-b62f-4850-a6b0-3c0c1f0c42d9")
+			(uuid "d1ca6509-c363-4df6-8b48-bb66a654cbcb")
 		)
 		(pin "2"
-			(uuid "ab736b0b-eb2e-4b68-96f1-3b07e2667ced")
+			(uuid "140335fc-8a7b-49d9-948f-5b2579ba76f9")
 		)
 		(instances
 			(project "Avionics-RWboard"
 				(path "/833dc880-24c2-430b-8cf7-cc984eb87a9d/6fe6dcb0-4022-4a1b-8f5d-25ced07893ae"
-					(reference "R14")
+					(reference "R26")
 					(unit 1)
 				)
 			)
@@ -12197,7 +12611,7 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 101.6 162.56 0)
+		(at 99.06 162.56 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12205,7 +12619,7 @@
 		(dnp no)
 		(uuid "f50d789d-6f19-4d3b-9ed5-dd631e14410f")
 		(property "Reference" "#PWR032"
-			(at 101.6 166.37 0)
+			(at 99.06 166.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12214,7 +12628,7 @@
 			)
 		)
 		(property "Value" "AVDD"
-			(at 101.6 158.496 0)
+			(at 99.06 158.496 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12222,7 +12636,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 101.6 162.56 0)
+			(at 99.06 162.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12231,7 +12645,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 101.6 162.56 0)
+			(at 99.06 162.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12240,7 +12654,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 101.6 162.56 0)
+			(at 99.06 162.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12361,7 +12775,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 48.26 40.64 0)
 			(effects
 				(font
@@ -12370,7 +12784,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "CAP CER 47UF 25V X5R 1206"
+		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 48.26 40.64 0)
 			(effects
 				(font
@@ -12479,72 +12893,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 180.34 97.79 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "fc79ca68-1ea5-4fe6-92a5-2712becb1d41")
-		(property "Reference" "#PWR030"
-			(at 173.99 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "AGND"
-			(at 173.99 97.79 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 180.34 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 180.34 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 180.34 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "d6d4d7bd-b9a5-4d35-8a79-eada5e0618ee")
-		)
-		(instances
-			(project "Avionics-RWboard"
-				(path "/833dc880-24c2-430b-8cf7-cc984eb87a9d/6fe6dcb0-4022-4a1b-8f5d-25ced07893ae"
-					(reference "#PWR030")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 132.08 36.83 0)
+		(at 132.08 33.02 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12552,7 +12901,7 @@
 		(dnp no)
 		(uuid "fd4470c1-403f-4057-88a7-cddec84efec9")
 		(property "Reference" "#PWR064"
-			(at 132.08 43.18 0)
+			(at 132.08 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12561,7 +12910,7 @@
 			)
 		)
 		(property "Value" "AGND"
-			(at 132.08 40.64 0)
+			(at 132.08 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12569,7 +12918,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 132.08 36.83 0)
+			(at 132.08 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12578,7 +12927,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 132.08 36.83 0)
+			(at 132.08 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12587,7 +12936,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 132.08 36.83 0)
+			(at 132.08 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)

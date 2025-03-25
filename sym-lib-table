@@ -7,4 +7,5 @@
   (lib (name "RW_Library")(type "KiCad")(uri "${KIPRJMOD}/RW_Library.kicad_sym")(options "")(descr ""))
   (lib (name "Argus_RW_Library")(type "KiCad")(uri "${KIPRJMOD}/Argus_RW_Library.kicad_sym")(options "")(descr ""))
   (lib (name "5001")(type "KiCad")(uri "C:/Users/adria/Downloads/5001/5001.kicad_sym")(options "")(descr ""))
+  (lib (name "2025-03-23_22-29-30")(type "KiCad")(uri "C:/Users/adria/Downloads/NCP730BMT330TBG/KiCADv6/2025-03-23_22-29-30.kicad_sym")(options "")(descr ""))
 )

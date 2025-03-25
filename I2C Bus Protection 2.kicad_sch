@@ -4,6 +4,11 @@
 	(generator_version "8.0")
 	(uuid "a609bc89-3a7a-4974-9ae1-32edff8bbf05")
 	(paper "A4")
+	(title_block
+		(title "Argus Reaction Wheel")
+		(date "2025-03-24")
+		(rev "1.0")
+	)
 	(lib_symbols
 		(symbol "Device:C"
 			(pin_numbers hide)
