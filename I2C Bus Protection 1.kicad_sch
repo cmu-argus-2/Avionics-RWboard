@@ -1982,6 +1982,42 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey" "https://www.digikey.com/en/products/detail/bourns-inc/CR0603-J-000ELF/3593211?s=N4IgTCBcDaIMICUAMA2JBmAtAKQPSaUIFEAZAMRAF0BfIA"
+			(at 118.11 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CR0603-J/-000ELF"
+			(at 118.11 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part" "CR0603-J/-000ELF"
+			(at 118.11 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey PN" "CR0603-J/-000ELFCT-ND"
+			(at 118.11 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "91308929-ab17-4843-8f0f-046c5bd5a17d")
 		)
@@ -2051,6 +2087,42 @@
 		)
 		(property "DNI" "DNI"
 			(at 118.11 131.572 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" "https://www.digikey.com/en/products/detail/bourns-inc/CR0603-J-000ELF/3593211?s=N4IgTCBcDaIMICUAMA2JBmAtAKQPSaUIFEAZAMRAF0BfIA"
+			(at 118.11 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CR0603-J/-000ELF"
+			(at 118.11 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part" "CR0603-J/-000ELF"
+			(at 118.11 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey PN" "CR0603-J/-000ELFCT-ND"
+			(at 118.11 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2192,6 +2264,42 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey" "https://www.digikey.com/en/products/detail/yageo/RC0603FR-0710KL/726880"
+			(at 147.32 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "RC0603FR-0710KL"
+			(at 147.32 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part" "RC0603FR-0710KL"
+			(at 147.32 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey PN" "311-10.0KHRCT-ND"
+			(at 147.32 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "d85bddbb-3b8a-4685-a7a3-16ebd6007121")
 		)
@@ -2296,6 +2404,42 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey" "https://www.digikey.com/en/products/detail/onsemi/MBT2222ADW1T1G/1477281?s=N4IgTCBcDaILICEAqZVgIIBEDqBGJuIAugL5A"
+			(at 105.41 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "MBT2222ADW1T1G"
+			(at 105.41 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part" "MBT2222ADW1T1G"
+			(at 105.41 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey PN" "MBT2222ADW1T1GOSCT-ND"
+			(at 105.41 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "ff55ad30-7151-4fcd-9661-cca266c41bb7")
 		)
@@ -2369,6 +2513,42 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
+			(at 95.25 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" "https://www.digikey.com/en/products/detail/yageo/RC0603FR-07100KL/726889?s=N4IgTCBcDaIEoGEAMA2JBmAYnAtEg7AIxJIDSAMiALoC%2BQA"
+			(at 95.25 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "RC0603FR-07100KL"
+			(at 95.25 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part" "RC0603FR-07100KL"
+			(at 95.25 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey PN" "311-100KHRCT-ND"
 			(at 95.25 90.17 0)
 			(effects
 				(font
@@ -2546,6 +2726,42 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey" "https://www.digikey.com/en/products/detail/onsemi/MBT2222ADW1T1G/1477281?s=N4IgTCBcDaILICEAqZVgIIBEDqBGJuIAugL5A"
+			(at 105.41 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "MBT2222ADW1T1G"
+			(at 105.41 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part" "MBT2222ADW1T1G"
+			(at 105.41 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey PN" "MBT2222ADW1T1GOSCT-ND"
+			(at 105.41 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "0f7d3c3c-25b5-4670-bb76-9d2a125cdf9d")
 		)
@@ -2649,6 +2865,42 @@
 			)
 		)
 		(property "Proto" "BSS138DWQ-7"
+			(at 132.08 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" "https://www.digikey.com/en/products/detail/nexperia-usa-inc/NX3008NBKS-115/2779963"
+			(at 132.08 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "NX3008NBKS,115"
+			(at 132.08 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part" "NX3008NBKS,115"
+			(at 132.08 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey PN" "1727-1221-1-ND"
 			(at 132.08 93.98 0)
 			(effects
 				(font
@@ -2767,7 +3019,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10nF"
+		(property "Value" "10n"
 			(at 113.284 103.9114 0)
 			(effects
 				(font
@@ -2795,6 +3047,42 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 110.49 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" "https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL10B103KO8WPNC/20498515"
+			(at 110.49 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part" "CL10B103KO8WPNC"
+			(at 110.49 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CL10B103KO8WPNC"
+			(at 110.49 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey PN" "490-4934-1-ND"
 			(at 110.49 102.87 0)
 			(effects
 				(font
@@ -2836,7 +3124,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10nF"
+		(property "Value" "10n"
 			(at 155.194 103.886 0)
 			(effects
 				(font
@@ -2864,6 +3152,42 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 152.4 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" "https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL10B103KO8WPNC/20498515"
+			(at 152.4 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part" "CL10B103KO8WPNC"
+			(at 152.4 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CL10B103KO8WPNC"
+			(at 152.4 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey PN" "490-4934-1-ND"
 			(at 152.4 102.87 0)
 			(effects
 				(font
@@ -2968,6 +3292,42 @@
 			)
 		)
 		(property "Proto" "MBT2222ADW1T1G"
+			(at 147.32 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" "https://www.digikey.com/en/products/detail/onsemi/MBT2222ADW1T1G/1477281?s=N4IgTCBcDaILICEAqZVgIIBEDqBGJuIAugL5A"
+			(at 147.32 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "MBT2222ADW1T1G"
+			(at 147.32 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part" "MBT2222ADW1T1G"
+			(at 147.32 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey PN" "MBT2222ADW1T1GOSCT-ND"
 			(at 147.32 83.82 0)
 			(effects
 				(font
@@ -3092,6 +3452,42 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey" "https://www.digikey.com/en/products/detail/onsemi/MBT2222ADW1T1G/1477281?s=N4IgTCBcDaILICEAqZVgIIBEDqBGJuIAugL5A"
+			(at 147.32 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "MBT2222ADW1T1G"
+			(at 147.32 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part" "MBT2222ADW1T1G"
+			(at 147.32 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey PN" "MBT2222ADW1T1GOSCT-ND"
+			(at 147.32 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "bca4f456-7b81-4331-a6c8-d93dcbd70ec0")
 		)
@@ -3173,6 +3569,42 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey" "https://www.digikey.com/en/products/detail/yageo/RC0603FR-07200KL/727044"
+			(at 110.49 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "RC0603FR-07200KL"
+			(at 110.49 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part" "RC0603FR-07200KL"
+			(at 110.49 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey PN" "311-200KHRCT-ND"
+			(at 110.49 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "69f8a349-bff4-46e0-843e-9aac3381fede")
 		)
@@ -3234,6 +3666,42 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
+			(at 110.49 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" "https://www.digikey.com/en/products/detail/yageo/RC0603FR-0710KL/726880"
+			(at 110.49 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "RC0603FR-0710KL"
+			(at 110.49 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part" "RC0603FR-0710KL"
+			(at 110.49 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey PN" "311-10.0KHRCT-ND"
 			(at 110.49 63.5 0)
 			(effects
 				(font
@@ -3311,6 +3779,42 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey" "https://www.digikey.com/en/products/detail/yageo/RC0603FR-07200KL/727044"
+			(at 152.4 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "RC0603FR-07200KL"
+			(at 152.4 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part" "RC0603FR-07200KL"
+			(at 152.4 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey PN" "311-200KHRCT-ND"
+			(at 152.4 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "2b06a2bf-5559-40ba-8c71-65732f285415")
 		)
@@ -3370,6 +3874,42 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
+			(at 93.98 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" "https://www.digikey.com/en/products/detail/yageo/RC0603FR-07680RL/727355"
+			(at 93.98 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "RC0603FR-07680RL"
+			(at 93.98 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part" "RC0603FR-07680RL"
+			(at 93.98 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey PN" "311-680HRCT-ND"
 			(at 93.98 78.74 0)
 			(effects
 				(font
@@ -3512,6 +4052,42 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey" "https://www.digikey.com/en/products/detail/yageo/RC0603FR-07100KL/726889?s=N4IgTCBcDaIEoGEAMA2JBmAYnAtEg7AIxJIDSAMiALoC%2BQA"
+			(at 137.16 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "RC0603FR-07100KL"
+			(at 137.16 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part" "RC0603FR-07100KL"
+			(at 137.16 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey PN" "311-100KHRCT-ND"
+			(at 137.16 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "b751a854-8448-4b08-9856-3da8a0206881")
 		)
@@ -3581,6 +4157,42 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey" "https://www.digikey.com/en/products/detail/yageo/RC0603FR-0710KL/726880"
+			(at 152.4 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "RC0603FR-0710KL"
+			(at 152.4 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part" "RC0603FR-0710KL"
+			(at 152.4 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey PN" "311-10.0KHRCT-ND"
+			(at 152.4 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "31ffc64c-0e11-4536-8feb-f14b615f4265")
 		)
@@ -3642,6 +4254,42 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
+			(at 105.41 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" "https://www.digikey.com/en/products/detail/yageo/RC0603FR-0710KL/726880"
+			(at 105.41 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "RC0603FR-0710KL"
+			(at 105.41 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part" "RC0603FR-0710KL"
+			(at 105.41 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey PN" "311-10.0KHRCT-ND"
 			(at 105.41 57.15 0)
 			(effects
 				(font
@@ -3741,6 +4389,42 @@
 			)
 		)
 		(property "Proto" "BSS138DWQ-7"
+			(at 90.17 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" "https://www.digikey.com/en/products/detail/nexperia-usa-inc/NX3008NBKS-115/2779963"
+			(at 90.17 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "NX3008NBKS,115"
+			(at 90.17 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part" "NX3008NBKS,115"
+			(at 90.17 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey PN" "1727-1221-1-ND"
 			(at 90.17 93.98 0)
 			(effects
 				(font
@@ -3861,6 +4545,42 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey" "https://www.digikey.com/en/products/detail/nexperia-usa-inc/NX3008NBKS-115/2779963"
+			(at 105.41 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "NX3008NBKS,115"
+			(at 105.41 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part" "NX3008NBKS,115"
+			(at 105.41 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey PN" "1727-1221-1-ND"
+			(at 105.41 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "4f3f2c5a-a978-40ac-bcb0-ffa3f13b5147")
 		)
@@ -3965,6 +4685,42 @@
 			)
 		)
 		(property "Proto" "BSS138DWQ-7"
+			(at 147.32 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" "https://www.digikey.com/en/products/detail/nexperia-usa-inc/NX3008NBKS-115/2779963"
+			(at 147.32 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "NX3008NBKS,115"
+			(at 147.32 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part" "NX3008NBKS,115"
+			(at 147.32 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey PN" "1727-1221-1-ND"
 			(at 147.32 99.06 0)
 			(effects
 				(font
@@ -4174,6 +4930,42 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
+			(at 135.89 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" "https://www.digikey.com/en/products/detail/yageo/RC0603FR-07680RL/727355"
+			(at 135.89 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "RC0603FR-07680RL"
+			(at 135.89 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part" "RC0603FR-07680RL"
+			(at 135.89 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey PN" "311-680HRCT-ND"
 			(at 135.89 78.74 0)
 			(effects
 				(font

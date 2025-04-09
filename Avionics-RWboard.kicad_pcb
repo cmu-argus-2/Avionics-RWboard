@@ -236,7 +236,7 @@
 		(descr "Capacitor SMD 1206 (3216 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor handsolder")
 		(property "Reference" "C20"
-			(at -5.5375 0 360)
+			(at -5.5375 0 0)
 			(layer "F.SilkS")
 			(uuid "b1c8feb9-eaef-4c33-a9bd-5cc1338fe87c")
 			(effects
@@ -247,7 +247,7 @@
 			)
 		)
 		(property "Value" "47u"
-			(at 0 1.85 360)
+			(at 0 1.85 0)
 			(layer "F.Fab")
 			(uuid "0afcd173-69d4-4ad2-b586-2eb7d4214c3c")
 			(effects
@@ -315,6 +315,32 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "2aedd388-d63c-4ac4-9a35-f0fe83db7d07")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MPN" "C3216X5R1E476M160AC"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "072ba7bc-c019-406d-8f2e-993315573071")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Digikey PN" "445-8047-1-ND"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "30f7ba0a-69c1-4c4c-aa5a-268a63e964e0")
 			(effects
 				(font
 					(size 1 1)
@@ -428,7 +454,7 @@
 			(uuid "e9aff5a0-10a3-4c71-9042-e1658ba09d8b")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(uuid "d6af77bf-4bd7-4dc4-90b4-75800a00842e")
 			(effects
@@ -567,6 +593,58 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "73c1d2c3-5d66-42e6-9c30-35ca40ad4f90")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Digikey" "https://www.digikey.com/en/products/detail/nexperia-usa-inc/NX3008NBKS-115/2779963"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "3d8670d8-1b91-4118-9e60-33b1adb65d2b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MPN" "NX3008NBKS,115"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "05115444-971c-4c28-b84f-7b1ce5b74b26")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Part" "NX3008NBKS,115"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "9af0e079-ea87-4f98-93a9-7f8cf547ef5e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Digikey PN" "1727-1221-1-ND"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "0323c21a-2790-4fd0-905a-2c9ca3fea646")
 			(effects
 				(font
 					(size 1 1)
@@ -851,6 +929,58 @@
 				)
 			)
 		)
+		(property "Digikey" "https://www.digikey.com/en/products/detail/yageo/RC0402JR-070RL/726406"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "027e2a30-f49b-4d2d-9643-a45582abc446")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MPN" "RC0402JR-070RL"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ecf25a35-ad5a-4ebb-b06d-e30d42e0a76a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Part" "RC0402JR-070RL"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ed2a3be5-6c8e-4a92-9784-c4845aa34893")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Digikey PN" "311-0.0JRCT-ND"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "6f61d0ee-c1e2-45b4-bcc0-8adaf023b745")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/e7579daf-9390-453f-be6d-47a1e5e63ac9/03db560e-e1db-4530-8a30-42b1423ec316")
 		(sheetname "Connectors")
@@ -1060,6 +1190,58 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Digikey" "https://www.digikey.com/en/products/detail/nexperia-usa-inc/PTVS10VZ1USKYL/6576002?0=%2Ftvs-diodes&any=transient-voltage-suppressors-tvs&s=N4IgjCBcoOwGwWiAxlAZgQwDYGcCmANCAPZQDaIMALAKxgwgC6RADgC5QgDKbATgJYA7AOYgAvmKIAmciAByeAB4s8AjAAIAIlzlg4ABgAcTMUA"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f206de11-4863-4563-b2dc-e9f2d8875d18")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MPN" "PTVS10VZ1USKYL"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e7832187-8b84-404b-85e7-1389e3e4d394")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Part" "PTVS10VZ1USKYL"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "8ac6fc3f-c1a1-4981-b423-5b3089974619")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Digikey PN" "1727-2744-1-ND"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "6cbe650d-70c8-4df8-a345-2b6c1b2ac31f")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -1299,6 +1481,58 @@
 				)
 			)
 		)
+		(property "Digikey" "https://www.digikey.com/en/products/detail/yageo/RC0402JR-070RL/726406"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "5c8ac969-47ca-4993-b5c8-30bc9c79c219")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MPN" "RC0402JR-070RL"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ed5d8d28-6bca-4e83-b1c4-2e4fbba8baa7")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Part" "RC0402JR-070RL"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "aeb0cc91-9ceb-4834-8c73-625262fef50e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Digikey PN" "311-0.0JRCT-ND"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "4315b1d6-e6ab-459d-8290-0dd1364d0bb8")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/6fe6dcb0-4022-4a1b-8f5d-25ced07893ae/a6464b45-ce3b-46fc-bacf-632242b1d3d8")
 		(sheetname "Motor")
@@ -1531,6 +1765,32 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "87c28a76-03cb-49c4-8103-91f9c3dcba47")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MPN" "CL31B106KAHNNNE"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "9f30424e-6d73-42c0-b8cb-860c48722ff7")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Digikey PN" "1276-1804-1-ND"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "da5d36c3-b823-46af-82f3-4e411869afcd")
 			(effects
 				(font
 					(size 1 1)
@@ -1777,6 +2037,32 @@
 				)
 			)
 		)
+		(property "MPN" "CL10B105KA8NNNC"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "96b02047-f91e-4dcd-91d6-2c9db4397491")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Digikey PN" "1276-1184-1-ND"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a53e5cb3-6dfa-42c1-b3cc-9135a4d76f6a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/6fe6dcb0-4022-4a1b-8f5d-25ced07893ae/18fe29f7-0812-4258-b191-67083c549139")
 		(sheetname "Motor")
@@ -1940,7 +2226,7 @@
 				)
 			)
 		)
-		(property "Value" "GREEN"
+		(property "Value" "GREEN LED"
 			(at 0 1.43 0)
 			(layer "F.Fab")
 			(uuid "7dac11d7-6d19-4b3e-9e0d-9ebccd37fe78")
@@ -2035,6 +2321,45 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "58c2243d-4147-4d19-a3bb-98bf13e82295")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Part" "IN-S63AT5A"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "836db283-b549-4228-9772-4e3d29f2f40b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Digikey" "https://www.digikey.com/en/products/detail/inolux/IN-S63AT5A/7604928?s=N4IgTCBcDaIJIDkC0BlAbAZgIIBUCsWIAugL5A"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "4e9389ff-52bb-400b-9ebc-b29573062b73")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Digikey PN" "1830-1064-1-ND"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "2ebdcab9-b4ef-44c4-b55e-524efdba0080")
 			(effects
 				(font
 					(size 1 1)
@@ -2225,7 +2550,7 @@
 				)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" "TP"
 			(at 3.2832 2.2064 90)
 			(layer "F.Fab")
 			(uuid "c85ddc5b-4854-40c1-a4e5-c01faf214efd")
@@ -2268,6 +2593,58 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Digikey" "https://www.digikey.com/en/products/detail/keystone-electronics/5001/255327?s=N4IgTCBcDaINYFMCeBnALgewHYIAQFYAGQgRhAF0BfIA"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "67020dc3-ab17-4a6c-9fa1-87e74f27b98b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MPN" "5001"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "cd508807-7522-4ba2-8d41-fdcda29ffcb3")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Part" "5001"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ea5c5598-75f4-44f5-956a-14942ee63b81")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Digikey PN" "36-5001-ND"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "9059c95d-3d9c-49cc-86d3-6a60fc1032f1")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -2395,6 +2772,58 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Digikey" "https://www.digikey.com/en/products/detail/yageo/RC0402JR-070RL/726406"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "7ff63ae2-d605-447f-92ab-a8b52cdd1c5c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MPN" "RC0402JR-070RL"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b38dd4cf-aa28-423b-98f3-dcaad054e736")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Part" "RC0402JR-070RL"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "7607686b-573f-42b8-94cf-5388bc5a29bc")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Digikey PN" "311-0.0JRCT-ND"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "348b7666-3a4e-408a-bfb7-452bf5e0623a")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -2638,6 +3067,32 @@
 				)
 			)
 		)
+		(property "MPN" "C3216X5R1E476M160AC"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "87eca2a2-229a-46cb-98c0-c68804b6fb31")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Digikey PN" "445-8047-1-ND"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ba1340dd-b045-4cbf-8839-b0665007c021")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/a3f3b3cb-ad78-4c13-ba45-eb5d7efe511d/f86a230d-52b0-40a7-a4f9-55bfc629403d")
 		(sheetname "Power")
@@ -2847,6 +3302,58 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Digikey" "https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL10A226MP8NUNE/3886932"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "11393dd6-5380-46b2-8b7c-23e6c5bf32bc")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MPN" "CL10A226MP8NUNE"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "0e1feef9-e950-4e72-937e-ca28cf985d35")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Part" "CL10A226MP8NUNE"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c321c256-c884-48b7-95de-7a0b37843904")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Digikey PN" "1276-1274-1-ND"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d8bd1b20-9086-491e-be55-b1551f425e0f")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -3064,6 +3571,58 @@
 				)
 			)
 		)
+		(property "Digikey" "https://www.digikey.com/en/products/detail/yageo/RC0603FR-0710KL/726880"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "19fba081-f685-41be-8bf2-436cb754b23a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MPN" "RC0603FR-0710KL"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "de4fead9-1ace-4461-8790-1c0e85f8dc1b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Part" "RC0603FR-0710KL"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c0f1c6f1-92d8-4b79-a949-8795dad6db44")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Digikey PN" "311-10.0KHRCT-ND"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "2174bff7-46ca-4343-bee2-2f1475af5beb")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/6fe6dcb0-4022-4a1b-8f5d-25ced07893ae/03ff3b45-0f20-44b5-8c22-7a21ed385685/8fb4163f-6734-4b24-80e1-3c8ce4cd0c70")
 		(sheetname "I2C Bus Protection 1")
@@ -3227,7 +3786,7 @@
 				)
 			)
 		)
-		(property "Value" "470"
+		(property "Value" "470R"
 			(at 0 1.43 90)
 			(layer "F.Fab")
 			(uuid "c241ada1-6757-4b71-b8d7-0e010370b073")
@@ -3273,6 +3832,58 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Digikey" "https://www.digikey.com/en/products/detail/yageo/RC0603FR-13470RL/13694077"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ebfa6d8d-a87c-4f6e-8049-d6aca7e0e32d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MPN" "RC0603FR-13470RL"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "68635c6f-ecf0-429b-9927-9662b02c75ee")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Part" "RC0603FR-13470RL"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d50c1443-cb44-43de-b0e6-1d7c49992e84")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Digikey PN" "13-RC0603FR-13470RLCT-ND"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "5050bac2-08b7-41e3-8662-e8679c3fee06")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -3493,11 +4104,24 @@
 				)
 			)
 		)
+		(property "Digikey PN" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "64ff9b8f-a719-47bb-b51f-5b9355378902")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "MountingHole*Pad*")
 		(path "/e19ab597-6c8e-4975-8cc8-a565addd8081")
 		(sheetname "Root")
 		(sheetfile "Avionics-RWboard.kicad_sch")
-		(attr exclude_from_pos_files exclude_from_bom)
+		(attr exclude_from_pos_files exclude_from_bom dnp)
 		(fp_circle
 			(center 0 0)
 			(end 3.2 0)
@@ -3702,6 +4326,58 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Digikey" "https://www.digikey.com/en/products/detail/yageo/RC0603FR-0710KL/726880"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "22e93dec-d28b-4b42-88f2-89c6f93e5818")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MPN" "RC0603FR-0710KL"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "aca57b1d-7170-406c-a79c-4dc821fb3b6b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Part" "RC0603FR-0710KL"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d3a5a6fa-c3c5-4636-94eb-30c40faf9a79")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Digikey PN" "311-10.0KHRCT-ND"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "1c5660b0-4b85-4f83-b578-bc5e4c46a8fe")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -3938,6 +4614,32 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "7b80e1a6-7809-428e-bc2e-255f7e42e848")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MPN" "CL31B106KAHNNNE"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ab3ba4ad-a501-4bda-ab15-bfa06209ddff")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Digikey PN" "1276-1804-1-ND"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e1783386-0806-4cd7-bdb5-69eeecc306db")
 			(effects
 				(font
 					(size 1 1)
@@ -4249,6 +4951,45 @@
 				)
 			)
 		)
+		(property "Digikey" "https://www.digikey.com/en/products/detail/bourns-inc/CR0603-J-000ELF/3593211?s=N4IgTCBcDaIMICUAMA2JBmAtAKQPSaUIFEAZAMRAF0BfIA"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "4b1a3fb4-df51-4441-9560-bfbe7d7dc924")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Part" "CR0603-J/-000ELF"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "6b0d08c3-a767-467d-8f43-58b1c49f6f1c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Digikey PN" "CR0603-J/-000ELFCT-ND"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "67272129-b488-40b6-9516-11384f42f52b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/e7579daf-9390-453f-be6d-47a1e5e63ac9/adf57bd5-9a76-442f-97bb-8f1bb64aa14b")
 		(sheetname "Connectors")
@@ -4488,6 +5229,32 @@
 				)
 			)
 		)
+		(property "MPN" "CL10B105KA8NNNC"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "af0fa6ac-d4e7-4a03-95e0-77a67768da39")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Digikey PN" "1276-1184-1-ND"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "1e5c1fc2-9f49-451a-b2bc-046aa672ba3f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/6fe6dcb0-4022-4a1b-8f5d-25ced07893ae/44e1428a-8e82-4582-8001-d15c93c6ea1e")
 		(sheetname "Motor")
@@ -4697,6 +5464,58 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Digikey" "https://www.digikey.com/en/products/detail/yageo/RC0603FR-071KL/726843"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f02087c3-80c1-495f-b7c5-f79b6f3959c9")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MPN" "RC0603FR-071KL"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "28ca7dc8-4c77-40a9-9e2f-458602cb5fd3")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Part" "RC0603FR-071KL"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "7f3285d2-942b-41bc-9a20-1ce92102aebd")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Digikey PN" "311-1.00KHRCT-ND"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d203793d-1772-4211-baa7-9a6a2dad7b89")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -4914,6 +5733,58 @@
 				)
 			)
 		)
+		(property "Digikey" "https://www.digikey.com/en/products/detail/vishay-siliconix/SIRA99DP-T1-GE3/10246137?s=N4IgTCBcDaIMoEsBKBBAnGgIgBRAXQF8g"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "9c4596e8-3f2d-4a87-b6ff-7baa89fa3341")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MPN" "SIRA99DP-T1-GE3"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "cc4f1d6a-2370-4cc9-9d6f-a5a902d40b91")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Part" "SIRA99DP-T1-GE3"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "2ca5fe7f-0168-46b0-952b-2e40ad77a575")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Digikey PN" "SIRA99DP-T1-GE3CT-ND"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "5be8b0cb-4abe-4251-b177-1c1f49926cc4")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(path "/a3f3b3cb-ad78-4c13-ba45-eb5d7efe511d/1569f5de-f86e-4e19-a285-c0ef4eba8b0c")
 		(sheetname "Power")
 		(sheetfile "Power.kicad_sch")
@@ -5095,6 +5966,58 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Digikey" "https://www.digikey.com/en/products/detail/yageo/RC0402JR-070RL/726406"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d3707ff7-d136-4982-99c5-52bdf3b576a5")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MPN" "RC0402JR-070RL"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d64d63d2-c6e4-4df5-8e9e-0ca7dbd77913")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Part" "RC0402JR-070RL"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "1730cfdc-8a3f-4072-a34a-a777c2ec259c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Digikey PN" "311-0.0JRCT-ND"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "69b50f89-c4e9-4793-9d22-58f14a732a6c")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -5357,6 +6280,58 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "6ed7855e-34f0-4996-8df6-5dd5ed5e2dd0")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Digikey" "https://www.digikey.com/en/products/detail/onsemi/MBT2222ADW1T1G/1477281?s=N4IgTCBcDaILICEAqZVgIIBEDqBGJuIAugL5A"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "af01ab81-3fd6-4f72-881f-d222729441e4")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MPN" "MBT2222ADW1T1G"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "5d567739-841e-41fb-9afb-b0608b999b10")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Part" "MBT2222ADW1T1G"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "877a2b7a-c4bd-4a18-972f-282b5be6e87e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Digikey PN" "MBT2222ADW1T1GOSCT-ND"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f63acdc2-1e70-4116-a213-6ad5e668d5e3")
 			(effects
 				(font
 					(size 1 1)
@@ -5693,6 +6668,45 @@
 				)
 			)
 		)
+		(property "Digikey" "https://www.digikey.com/en/products/detail/yageo/RC0603FR-0710KL/726880"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "6c3ffcee-bae8-4e4b-a690-a5352191f9e5")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Part" "RC0603FR-0710KL"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "99eb661f-9511-4641-8c36-2ffffbe04ad7")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Digikey PN" "311-10.0KHRCT-ND"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "64c1dd2e-6b52-4fde-95c2-af37112df16d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/a3f3b3cb-ad78-4c13-ba45-eb5d7efe511d/2af15d1f-f27e-43a4-bc9d-65b4fe6d97c3")
 		(sheetname "Power")
@@ -5925,6 +6939,32 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "5263960f-1651-49d4-a63f-e3db576ce9c7")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MPN" "SF-0603S300-2"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "df417928-85f6-4ad0-89a1-1eb1900861e1")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Digikey PN" "SF-0603S300-2CT-ND"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "af6056c2-bd28-445a-8301-fa35c71b2db0")
 			(effects
 				(font
 					(size 1 1)
@@ -6190,6 +7230,45 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "c643e06f-7ca4-4255-8897-9002061f665e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Digikey" "https://www.digikey.com/en/products/detail/yageo/RC0603FR-0710KL/726880"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "0b790127-dce8-4f09-b36d-1d2e4e796751")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Part" "RC0603FR-0710KL"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c740d7e1-f91d-4735-ba82-fa5144e99c35")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Digikey PN" "311-10.0KHRCT-ND"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "7c820982-c401-4121-8bda-f14eb552bdf1")
 			(effects
 				(font
 					(size 1 1)
@@ -6684,6 +7763,58 @@
 				)
 			)
 		)
+		(property "Digikey" "https://www.digikey.com/en/products/detail/nexperia-usa-inc/NX3008NBKS-115/2779963"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "5de4dcf9-bb75-495d-8610-c78faeeca9e2")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MPN" "NX3008NBKS,115"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a6a7902d-e1bb-46ed-bad0-58c3a15890fe")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Part" "NX3008NBKS,115"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "7ac98818-2ce4-4b60-b7ee-5d769fa0e91f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Digikey PN" "1727-1221-1-ND"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d4d12965-1ac0-4f24-97e2-4b7172fa094b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "TSOP* SC?70* SC?88* SOT?363*")
 		(path "/a3f3b3cb-ad78-4c13-ba45-eb5d7efe511d/03592b94-aaf0-4d3f-8838-edfcf6e469cb/da2bd7ba-7b97-4358-af87-322c5a366974")
 		(sheetname "I2C Bus Protection 2")
@@ -6987,6 +8118,32 @@
 				)
 			)
 		)
+		(property "MPN" "C3216X5R1E476M160AC"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "cdb8a2a9-3c85-4bd4-883d-c90eda32fbd6")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Digikey PN" "445-8047-1-ND"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "0d265992-437b-4539-bbb1-565e0b1c2723")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/a3f3b3cb-ad78-4c13-ba45-eb5d7efe511d/7f38a6c8-2b4d-4077-9e04-b5e287754ba2")
 		(sheetname "Power")
@@ -7195,6 +8352,58 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Digikey" "https://www.digikey.com/en/products/detail/texas-instruments/MCF8315C1VQRGFRQ1/22188436?s=N4IgTCBcDaILIGEBiAOAzARgKwIwNQEUAlAcSSIIxAF0BfIA"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "62ffa1b1-a47f-48a5-b9e4-3cf9bc53793d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MPN" "MCF8315C1VQRGFRQ1"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "fac684a2-d01c-4611-bc71-aeb54b652fe9")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Part" "MCF8315C1VQRGFRQ1"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "4a647646-ad5e-4b94-a455-46c6d9e322f5")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Digikey PN" "296-MCF8315C1VQRGFRQ1CT-ND"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "6a3c34bc-9929-4364-8ac6-4d044d7462b7")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -9987,10 +11196,10 @@
 		(at 157.350001 116.4533 90)
 		(tags "NCP730BMT330TBG ")
 		(property "Reference" "U3"
-			(at 0.0033 -2.350001 90)
+			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.SilkS")
-			(uuid "f6c5a4ba-d8b1-42b6-abae-7869694f4bc8")
+			(uuid "f80445bd-321d-4bbd-a4f4-c104e16c1559")
 			(effects
 				(font
 					(size 1 1)
@@ -10002,7 +11211,7 @@
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
-			(uuid "f50258a6-2bcf-400f-9e14-86c966201057")
+			(uuid "4e392ee2-7a39-4db8-b54a-1b5f9025affb")
 			(effects
 				(font
 					(size 1 1)
@@ -10014,7 +11223,7 @@
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "4463029b-917d-478b-8d62-15069a1e4db6")
+			(uuid "e7fa6720-4e6d-4f2f-a8ee-ae9f9ca72b8d")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10026,7 +11235,7 @@
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "3988ad03-b042-4243-8727-2f082a0ac29e")
+			(uuid "a8262fcc-d306-475c-ab54-e9954c8f23e6")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10038,10 +11247,62 @@
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "2e9d6822-b0bd-490c-91f4-74e7f5a84c35")
+			(uuid "8a185cf4-d393-465a-86d3-7b152c576bc1")
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Digikey" "https://www.digikey.com/en/products/detail/onsemi/NCP730BMT330TBG/11592839?s=N4IgTCBcDaIHIGEAKB2AzABgEIFkAqameWA4iALoC%2BQA"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "470b00ca-4334-4ab4-89a9-fd696d8a7956")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MPN" "NCP730BMT330TBG"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "afffc7a2-f5eb-4c0b-84f4-a59328c73750")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Part" "NCP730BMT330TBG"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "bb3c6c63-1572-460b-847a-485e237b0ff2")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Digikey PN" "488-NCP730BMT330TBGCT-ND"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b82a4fb4-6492-4563-aef4-302bb060f6eb")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -10059,7 +11320,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "92318595-cc26-4f56-83d2-f39cab1de098")
+			(uuid "5a8ce0d0-4b8b-492f-81a4-9b9cedc05a56")
 		)
 		(fp_line
 			(start -1.1811 1.1811)
@@ -10069,7 +11330,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "891c04ce-9b22-4c17-86f5-276a58246f50")
+			(uuid "f23a7512-2cf2-4778-aa84-e89277265ce3")
 		)
 		(fp_circle
 			(center -2.0597 -0.65)
@@ -10080,7 +11341,7 @@
 			)
 			(fill none)
 			(layer "F.SilkS")
-			(uuid "8721ec3f-68c1-43c3-8996-94cf0775dd57")
+			(uuid "18f72895-9ea1-445e-8990-6a81f083b752")
 		)
 		(fp_line
 			(start 1.3081 -1.3081)
@@ -10090,7 +11351,7 @@
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "5a5badc4-f381-4da3-837a-5efbcee5361d")
+			(uuid "1bf8de56-cf85-4e33-858c-e064e32f16c9")
 		)
 		(fp_line
 			(start -1.3081 -1.3081)
@@ -10100,7 +11361,7 @@
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "645d33d5-514b-4a9e-ae6c-abe01f993a51")
+			(uuid "2405e5e7-65f7-4b77-9530-588b0b7507e5")
 		)
 		(fp_line
 			(start 1.6129 -1.0564)
@@ -10110,7 +11371,7 @@
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "8e07fd9a-3719-4985-8644-faecb9c25505")
+			(uuid "dcec9d00-fc91-4b08-a468-9dad61dccf68")
 		)
 		(fp_line
 			(start 1.6129 -1.0564)
@@ -10120,7 +11381,7 @@
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "21e4ab50-53ac-4c73-addc-4d46e972cfc5")
+			(uuid "1a24fcbc-9532-424e-b5cd-fa02f32129df")
 		)
 		(fp_line
 			(start -1.3081 -1.0564)
@@ -10130,7 +11391,7 @@
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "c5ee4146-7238-4955-b257-26361adc505b")
+			(uuid "9db30ac5-dd07-4ade-a2db-b21dfbd79bcb")
 		)
 		(fp_line
 			(start -1.6129 -1.0564)
@@ -10140,7 +11401,7 @@
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "7b04974a-5e5c-401b-b6bf-df6f3eaf3409")
+			(uuid "57bb881a-3bdd-4b38-b76f-b08820587d0d")
 		)
 		(fp_line
 			(start 1.6129 1.0564)
@@ -10150,7 +11411,7 @@
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "8bda48a4-9aa4-4a91-a39c-c0661129b170")
+			(uuid "b9323c3d-3f90-4955-901e-7fc1f728c220")
 		)
 		(fp_line
 			(start 1.3081 1.0564)
@@ -10160,7 +11421,7 @@
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "98bb1c73-fbd1-428d-be5e-aa5c3c356ffa")
+			(uuid "42a864ac-8d72-483c-95b7-6138784c0556")
 		)
 		(fp_line
 			(start -1.6129 1.0564)
@@ -10170,7 +11431,7 @@
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "e996ca1e-1192-428b-9837-60361a5ce57c")
+			(uuid "54eaa381-95c2-44f9-981b-fee18eb5a501")
 		)
 		(fp_line
 			(start -1.6129 1.0564)
@@ -10180,7 +11441,7 @@
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "5fd60be2-c052-4164-8107-81ed14aa4f0b")
+			(uuid "5e4b6f2b-a7eb-4339-88c8-8a1b31cbd9a5")
 		)
 		(fp_line
 			(start 1.3081 1.3081)
@@ -10190,7 +11451,7 @@
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "e2de3f50-bfd9-41de-8c58-af708211ee4d")
+			(uuid "a1ea3875-46c5-4519-a526-ae88f8dcf4e5")
 		)
 		(fp_line
 			(start -1.3081 1.3081)
@@ -10200,7 +11461,7 @@
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "64176f42-bbe1-41de-965e-cac4dccd4494")
+			(uuid "6e93cbff-39b9-4fe0-adb4-fcded92cf895")
 		)
 		(fp_line
 			(start 1.0541 -1.0541)
@@ -10210,7 +11471,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "4bf6592e-16e5-4cca-9bd1-ce08702e14c1")
+			(uuid "1d15db51-3752-4b32-9267-a131e66bce2c")
 		)
 		(fp_line
 			(start -1.0541 -1.0541)
@@ -10220,7 +11481,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "e78ab644-88f5-4e28-b77c-345744116372")
+			(uuid "09b395b0-e70d-4dbd-91c0-f895464dc0ae")
 		)
 		(fp_line
 			(start 1.0541 1.0541)
@@ -10230,7 +11491,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "4ef7038a-2605-4e68-80ff-9020984e2fd8")
+			(uuid "30a64cc2-8755-4d5a-b9fd-bfbff563f200")
 		)
 		(fp_line
 			(start -1.0541 1.0541)
@@ -10240,7 +11501,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "80a0eb2f-7fad-409c-a747-5c161c89a7d9")
+			(uuid "e4a77a52-0783-471a-9060-49ddd1139c6f")
 		)
 		(fp_arc
 			(start 0.3048 -1.0541)
@@ -10251,7 +11512,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "89105f04-b332-4e79-8924-9b2304b77c28")
+			(uuid "ca8846ad-2214-497c-ba96-f17637f978fb")
 		)
 		(fp_circle
 			(center -0.6477 -0.65)
@@ -10262,13 +11523,13 @@
 			)
 			(fill none)
 			(layer "F.Fab")
-			(uuid "fb5cea76-2071-4995-bf25-453639cd1e60")
+			(uuid "ac7a6ae6-4d95-4be9-bf58-b975fec4cf49")
 		)
 		(fp_text user "${REFERENCE}"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
-			(uuid "584b4bf4-e988-45b5-ad4e-77d14a101091")
+			(uuid "1a5d5d21-1d81-4c5e-964a-b9da50a4bfcc")
 			(effects
 				(font
 					(size 1 1)
@@ -10283,7 +11544,7 @@
 			(net 72 "/Connectors/3V3_LDO")
 			(pinfunction "OUT")
 			(pintype "output")
-			(uuid "7ee4831a-4535-4c08-8b0b-fd7664cdf8d8")
+			(uuid "42ec15f5-64b1-4783-847a-df7d46c808f2")
 		)
 		(pad "2" smd rect
 			(at -1.0033 0 90)
@@ -10292,7 +11553,7 @@
 			(net 78 "unconnected-(U3-NC{slash}ADJ-Pad2)")
 			(pinfunction "NC/ADJ")
 			(pintype "no_connect")
-			(uuid "85e41b37-9660-4cc6-bddb-0947c2671e57")
+			(uuid "3815624f-057d-4dee-80ba-4ea17f1d746f")
 		)
 		(pad "3" smd rect
 			(at -1.0033 0.649999 90)
@@ -10301,7 +11562,7 @@
 			(net 1 "GND")
 			(pinfunction "GND")
 			(pintype "power_out")
-			(uuid "ef8a04e9-a002-4653-8c4d-0be6ab8cb26b")
+			(uuid "ce3fd374-54e9-4b9c-b749-339ddf9eee77")
 		)
 		(pad "4" smd rect
 			(at 1.0033 0.649999 90)
@@ -10310,7 +11571,7 @@
 			(net 9 "VM")
 			(pinfunction "EN")
 			(pintype "input")
-			(uuid "0a0c86f3-ef3c-46d7-9314-6068ad267c8f")
+			(uuid "28fb561b-9f2d-42f6-93d2-da23e5560d75")
 		)
 		(pad "5" smd rect
 			(at 1.0033 0 90)
@@ -10319,7 +11580,7 @@
 			(net 77 "unconnected-(U3-NC{slash}PG-Pad5)")
 			(pinfunction "NC/PG")
 			(pintype "no_connect")
-			(uuid "cb24efe0-fbc0-43c9-ae38-02281f4d3461")
+			(uuid "f76de81d-a6de-4b79-95e4-98976968b47b")
 		)
 		(pad "6" smd rect
 			(at 1.0033 -0.649999 90)
@@ -10328,7 +11589,7 @@
 			(net 9 "VM")
 			(pinfunction "IN")
 			(pintype "input")
-			(uuid "3bf50360-ef0c-49d0-9cb0-9b9892ff8260")
+			(uuid "8699a826-cabf-4b8f-8205-be5275001124")
 		)
 		(pad "7" smd rect
 			(at 0 0 90)
@@ -10337,7 +11598,7 @@
 			(net 1 "GND")
 			(pinfunction "EPAD")
 			(pintype "power_out")
-			(uuid "20893fa3-b376-4459-aa47-dcb90cd19635")
+			(uuid "b4394592-1edb-4260-bc36-02a4db30ebec")
 		)
 		(model "${KIPRJMOD}/Argus_RW_Library.pretty/WDFN6-2x2_511BR_OSI.step"
 			(offset
@@ -10368,7 +11629,7 @@
 				)
 			)
 		)
-		(property "Value" "10nF"
+		(property "Value" "10n"
 			(at 0 1.43 90)
 			(layer "F.Fab")
 			(uuid "db4df427-1ef1-4164-8848-32fb78c7d36b")
@@ -10414,6 +11675,58 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Digikey" "https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL10B103KO8WPNC/20498515"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "6d5a4281-4d9f-4416-b057-557914f04cc5")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Part" "CL10B103KO8WPNC"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a9e9ceda-029e-446b-b49b-76c01d155f1f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MPN" "CL10B103KO8WPNC"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "67c5d1b9-26a6-4c70-b997-d66b44ab6c73")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Digikey PN" "490-4934-1-ND"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "3e2ed794-478e-406d-b7ee-e5ddaa414147")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -10581,7 +11894,7 @@
 				)
 			)
 		)
-		(property "Value" "1K"
+		(property "Value" "1k"
 			(at 0 1.43 0)
 			(layer "F.Fab")
 			(uuid "cdfaceb3-f7d3-46e7-a54f-f787e1bf5eb3")
@@ -10627,6 +11940,58 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Digikey" "https://www.digikey.com/en/products/detail/yageo/RC0603FR-071KL/726843"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "072e05a1-d9d1-4c94-936e-284641a5ad08")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MPN" "RC0603FR-071KL"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f0bb2df0-1486-404d-b41d-6cf545e1bbe0")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Part" "RC0603FR-071KL"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "0de7057a-91fe-42d4-b8b6-94e47c08a1cd")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Digikey PN" "311-1.00KHRCT-ND"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "0295b65f-7c41-49b0-bc01-bcedd277703b")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -10883,12 +12248,51 @@
 				)
 			)
 		)
-		(property "MPN" "RMCF0603FT10K0"
+		(property "MPN" "RC0603FR-0711KL"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "cf2728d8-00dd-4258-8960-818dff218089")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Digikey" "https://www.digikey.com/en/products/detail/yageo/RC0603FR-0711KL/726897"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "de10053a-cf5e-412c-8ef1-a99b46b43502")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Part" "RC0603FR-0711KL"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "20f1166a-27ed-493b-9eb3-1995c9847a09")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Digikey PN" "311-11.0KHRCT-ND"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "188086a7-0935-48d6-bb98-3387d2223b2f")
 			(effects
 				(font
 					(size 1 1)
@@ -11057,7 +12461,7 @@
 				)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" "TP"
 			(at 3.2832 2.2064 0)
 			(layer "F.Fab")
 			(uuid "73a607f7-8b47-4774-8e32-258adc6d6855")
@@ -11100,6 +12504,58 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Digikey" "https://www.digikey.com/en/products/detail/keystone-electronics/5001/255327?s=N4IgTCBcDaINYFMCeBnALgewHYIAQFYAGQgRhAF0BfIA"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d089566e-ed1d-4f37-821a-6eeabac4dccb")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MPN" "5001"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "15998e59-22d7-48b8-9ec8-fecdfe23c891")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Part" "5001"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "2bd6f27e-05c9-4c67-927a-1edf4c23fa48")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Digikey PN" "36-5001-ND"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "3d9987e9-5568-4430-afe4-c518e531075c")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -11181,7 +12637,7 @@
 				)
 			)
 		)
-		(property "Value" "10nF"
+		(property "Value" "10n"
 			(at 0 1.43 90)
 			(layer "F.Fab")
 			(uuid "a04adf35-f093-4778-9902-84985e6bdb56")
@@ -11227,6 +12683,58 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Digikey" "https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL10B103KO8WPNC/20498515"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "88fc8b82-7f43-4069-b196-58fab3a5ff06")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Part" "CL10B103KO8WPNC"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "7139e8ee-7881-42d5-b22f-71d42b5204f9")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MPN" "CL10B103KO8WPNC"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f3b164aa-c84d-4b80-b9d1-944e559167b9")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Digikey PN" "490-4934-1-ND"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a487365a-429c-4044-8167-e1276221f610")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -11394,7 +12902,7 @@
 				)
 			)
 		)
-		(property "Value" "3n3"
+		(property "Value" "3.3n"
 			(at 0 1.43 0)
 			(layer "F.Fab")
 			(uuid "090e7d9f-2e28-488a-b692-9cdecbf28551")
@@ -11440,6 +12948,58 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Digikey" "https://www.digikey.com/en/products/detail/kemet/C0603C332K4REC7411/8645095"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f40e3ca6-0cb5-465b-a129-98c6565263a1")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Part" "C0603C332K4REC7411"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c90134dc-8b5a-4b80-8f9c-34eafc2ce720")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MPN" "C0603C332K4REC7411"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "33f1a15e-feaa-4f72-abde-6470e46b690c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Digikey PN" "399-C0603C332K4REC7411CT-ND"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b0f7715d-24cd-495a-8058-3b1c4461d92a")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -11683,6 +13243,32 @@
 				)
 			)
 		)
+		(property "MPN" "HCM1A1104V2-1R0-R"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "29fa3e9e-1177-409d-a1db-0ea559bff9bb")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Digikey PN" "283-HCM1A1104V2-1R0-RCT-ND"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "dbaf3b27-4f29-41aa-b5aa-a8ad449c71d0")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(path "/a3f3b3cb-ad78-4c13-ba45-eb5d7efe511d/709d017d-1bd7-4151-b440-5f7923b5876a")
 		(sheetname "Power")
 		(sheetfile "Power.kicad_sch")
@@ -11808,7 +13394,7 @@
 				)
 			)
 		)
-		(property "Value" "10nF"
+		(property "Value" "10n"
 			(at 0 1.43 90)
 			(layer "F.Fab")
 			(uuid "6eba6a04-907e-4483-973b-4edd25e7a0f9")
@@ -11854,6 +13440,58 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Digikey" "https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL10B103KO8WPNC/20498515"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "bae5ba78-45b7-4295-94c3-49b4955b7ab2")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Part" "CL10B103KO8WPNC"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d1312d89-8f57-4c7a-a4ac-7bce602dbd68")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MPN" "CL10B103KO8WPNC"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c37379f5-5634-4f3b-a8ac-7aa340bd274e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Digikey PN" "490-4934-1-ND"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "0baf94de-e999-4d28-be6d-bbdc0cfeffd5")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -12074,11 +13712,24 @@
 				)
 			)
 		)
+		(property "Digikey PN" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "fe1607d1-d051-499d-8be8-f522b0624ce0")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "MountingHole*Pad*")
 		(path "/e72a69a8-0617-453c-84fb-516d3ce86f02")
 		(sheetname "Root")
 		(sheetfile "Avionics-RWboard.kicad_sch")
-		(attr exclude_from_pos_files exclude_from_bom)
+		(attr exclude_from_pos_files exclude_from_bom dnp)
 		(fp_circle
 			(center 0 0)
 			(end 3.2 0)
@@ -12287,6 +13938,58 @@
 				)
 			)
 		)
+		(property "Digikey" "https://www.digikey.com/en/products/detail/yageo/RC0603FR-074K7L/727212"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c214f29c-192f-418b-be20-5d532352ad05")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MPN" "RC0603FR-074K7L"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "663f096f-c965-434a-86d3-de1a50ca6d5f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Part" "RC0603FR-074K7L"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "1b59f6a9-4bd8-4a49-9eaf-f1d0685e94aa")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Digikey PN" "311-4.70KHRCT-ND"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "de24df54-a697-4c31-a426-9b0362e04a3a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/6fe6dcb0-4022-4a1b-8f5d-25ced07893ae/cf5678b7-7659-4ff0-8382-93e95e2df694")
 		(sheetname "Motor")
@@ -12448,7 +14151,7 @@
 				)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" "TP"
 			(at 3.2832 2.2064 0)
 			(layer "F.Fab")
 			(uuid "7d44a35c-6182-4623-b838-cc1be7c5865a")
@@ -12491,6 +14194,58 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Digikey" "https://www.digikey.com/en/products/detail/keystone-electronics/5001/255327?s=N4IgTCBcDaINYFMCeBnALgewHYIAQFYAGQgRhAF0BfIA"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "2d59b5b6-8bf8-4f8f-9964-d058124501eb")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MPN" "5001"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "1ae22580-fd37-472f-8ffa-70d5140f34db")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Part" "5001"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d410133c-5cdc-4658-b6af-225855011540")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Digikey PN" "36-5001-ND"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "bed97509-df28-40db-b514-62b34e19c6e3")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -12641,6 +14396,32 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "a5bf55db-a4af-4c5c-bbf2-f32d0cbf0341")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MPN" "C3216X5R1E476M160AC"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "edb3e31c-3030-4677-9847-b09aa4272808")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Digikey PN" "445-8047-1-ND"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "2cd89d0b-8cc9-4978-8be4-b5fad6818034")
 			(effects
 				(font
 					(size 1 1)
@@ -12900,12 +14681,51 @@
 				)
 			)
 		)
-		(property "MPN" "RMCF0603FT604R"
+		(property "MPN" "RC0603FR-07453RL"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "c09706a2-10da-48fc-b390-0ad0d6f1ffd1")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Digikey" "https://www.digikey.com/en/products/detail/yageo/RC0603FR-07453RL/727246?any=chip-resistor-surface-mount&s=N4IgjCBcoMxaBjKAzAhgGwM4FMA0IB7KAbXDBggF18AHAFyhAGU6AnASwDsBzEAX3xgAbPBBJIaLHkIkQMAJwAmACwjqIeoxYce-QfIAc80eMk58RSKQAMISgJCLrBgKwmUGczKshlLmAAEAPIAFgC2mHa0DJAgAKqc7HRByACy2KiYAK6s2HogALSK7pBsWdKWpG74xvb4BRDQYh5SFrLkdg4FcE3iZRXttvZ8fEA"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e7a37813-2865-4d74-bc6b-dd69957c1482")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Part" "RC0603FR-07453RL"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "0fbb540b-eb08-4ba9-9654-505c71267261")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Digikey PN" "311-453HRCT-ND"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c1277347-34e2-4ee0-9846-a52071942d81")
 			(effects
 				(font
 					(size 1 1)
@@ -13076,7 +14896,7 @@
 				)
 			)
 		)
-		(property "Value" "47nF"
+		(property "Value" "47n"
 			(at 0 1.43 90)
 			(layer "F.Fab")
 			(uuid "cd2ecfd7-4cba-4ff9-b6f3-ecf182d67797")
@@ -13145,6 +14965,32 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "f142e0e3-6739-488f-bd08-f04badf5dd45")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MPN" "GCM188R71H473KA55D"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "2f8cb0f3-2d11-45e8-b167-47a14ddbf825")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Digikey PN" "490-4934-1-ND"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e8a21799-f25f-45d1-ba9b-41bacb9ddda7")
 			(effects
 				(font
 					(size 1 1)
@@ -13365,7 +15211,7 @@
 				)
 			)
 		)
-		(property "Part" "CRCW251222R0FKEGHP"
+		(property "Part" "RC2512FK-070RL"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -13378,12 +15224,38 @@
 				)
 			)
 		)
-		(property "Digikey" "https://www.digikey.com/en/products/detail/vishay-dale/CRCW251222R0FKEGHP/2229546"
+		(property "Digikey" "https://www.digikey.com/en/products/detail/yageo/RC2512FK-070RL/12698869"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "766a6e33-9c66-44f3-bc59-dcf43240fa48")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MPN" "RC2512FK-070RL"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d1de9977-2d78-4a46-ba62-5254273f5d59")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Digikey PN" "13-RC2512FK-070RLCT-ND"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "3962f39a-903b-4841-9bcd-26d9e08ecae2")
 			(effects
 				(font
 					(size 1 1)
@@ -13600,6 +15472,58 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Digikey" "https://www.digikey.com/en/products/detail/yageo/RC0402JR-070RL/726406"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "535f9e24-24f1-43bb-9fad-cee9f2283788")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MPN" "RC0402JR-070RL"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "0727d493-5a83-4f41-b844-ca919ec28973")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Part" "RC0402JR-070RL"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "7abd7855-f0d5-479d-bbd1-a0bac9c1e9e6")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Digikey PN" "311-0.0JRCT-ND"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "58b6641b-2e2b-48e3-bb6a-3fb20903cdf6")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -13836,6 +15760,32 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "9777eaaf-982e-44d7-967e-70ff52fff99a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MPN" "CL10B105KA8NNNC"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "358489ca-a549-45f0-949e-24cfea6330a0")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Digikey PN" "1276-1184-1-ND"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c39a05a1-1a6c-4711-8c4e-4d906aba2382")
 			(effects
 				(font
 					(size 1 1)
@@ -14098,6 +16048,58 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "497f91c2-25e0-4edc-b441-d04acf78b75f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Digikey" "https://www.digikey.com/en/products/detail/analog-devices-inc/ADM1176-1ARMZ-R7/1200207?s=N4IgTCBcDaIIIBECyBGFB2AbAWhXASkgFrb7ogC6AvkA"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ca4d11c7-c39d-4473-9b8c-337b1559e056")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MPN" "ADM1176-1ARMZ-R7"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "00010d79-186a-4747-ae80-401fdf2fdcea")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Part" "ADM1176-1ARMZ-R7"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "5377dbcd-30a8-43e9-889b-398a5deae4ac")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Digikey PN" "505-ADM1176-1ARMZ-R7CT-ND"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "576eeba4-7d36-437f-99f6-31983ac12d37")
 			(effects
 				(font
 					(size 1 1)
@@ -14442,6 +16444,58 @@
 				)
 			)
 		)
+		(property "Digikey" "https://www.digikey.com/en/products/detail/yageo/RC0402JR-070RL/726406"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "3454cee9-3beb-4dca-bcac-9c8daa1a1529")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MPN" "RC0402JR-070RL"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d64f6f16-4cdf-4487-84d9-b2ef616cbd8a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Part" "RC0402JR-070RL"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "76ce9e65-1cc8-4168-9804-d09c2c739417")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Digikey PN" "311-0.0JRCT-ND"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c14bc3ff-2735-45e3-9459-4b3049d7ec0f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/e7579daf-9390-453f-be6d-47a1e5e63ac9/6b63cb7c-a77b-4fb1-bb36-317213d209a5")
 		(sheetname "Connectors")
@@ -14697,6 +16751,45 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "b75a1258-d023-46be-9b62-fbaa6cda33c5")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Digikey" "https://www.digikey.com/en/products/detail/texas-instruments/TPS259621DDAR/10445382"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "feadcd27-e57a-4076-bd9c-6efd520f66b4")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Part" "TPS259620DDAT"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a36a2216-751b-42ec-a316-32fe15a12fd4")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Digikey PN" "296-TPS259621DDARCT-ND"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c6c2f554-e469-4bd3-8fe6-eb4e16ceaea5")
 			(effects
 				(font
 					(size 1 1)
@@ -15163,7 +17256,7 @@
 				)
 			)
 		)
-		(property "Part" "CRCW251222R0FKEGHP"
+		(property "Part" "RC2512FK-070RL"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -15176,12 +17269,38 @@
 				)
 			)
 		)
-		(property "Digikey" "https://www.digikey.com/en/products/detail/vishay-dale/CRCW251222R0FKEGHP/2229546"
+		(property "Digikey" "https://www.digikey.com/en/products/detail/yageo/RC2512FK-070RL/12698869"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "ca3a78ef-d473-4ade-80a1-517647fd85c1")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MPN" "RC2512FK-070RL"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "57481564-4318-409d-97e4-20ae6dda633b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Digikey PN" "13-RC2512FK-070RLCT-ND"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "10b84f9a-6058-4708-a10b-2f2e2d052f02")
 			(effects
 				(font
 					(size 1 1)
@@ -15350,7 +17469,7 @@
 				)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" "TP"
 			(at 3.2832 2.2064 0)
 			(layer "F.Fab")
 			(uuid "9b18491a-5486-4dd1-b6c4-719bcac35e08")
@@ -15393,6 +17512,58 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Digikey" "https://www.digikey.com/en/products/detail/keystone-electronics/5001/255327?s=N4IgTCBcDaINYFMCeBnALgewHYIAQFYAGQgRhAF0BfIA"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ee72da1a-5ecf-4556-afda-5f2516e782ab")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MPN" "5001"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "3c42f0fa-b6ac-442f-aa00-1d6a51d834e1")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Part" "5001"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "933e0ffa-4544-45c7-a0fd-79dacf3c9a0b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Digikey PN" "36-5001-ND"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c3d31228-ed80-4cd5-830d-95eee5b39c70")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -15543,6 +17714,32 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "c6386a2d-7ea2-4114-a1c0-bf3a22d67f71")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MPN" "CL10B105KA8NNNC"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b8a97888-c226-462e-944a-7baa56fd5e84")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Digikey PN" "1276-1184-1-ND"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "80d3664e-12ad-4a97-a37c-20c0f7e3e2c3")
 			(effects
 				(font
 					(size 1 1)
@@ -15766,11 +17963,24 @@
 				)
 			)
 		)
+		(property "Digikey PN" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "8d3cf94c-94bb-40a6-a7e9-7b07fae44603")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "MountingHole*Pad*")
 		(path "/34acd71f-0d12-44c5-ac94-1e5b62ff96b5")
 		(sheetname "Root")
 		(sheetfile "Avionics-RWboard.kicad_sch")
-		(attr exclude_from_pos_files exclude_from_bom)
+		(attr exclude_from_pos_files exclude_from_bom dnp)
 		(fp_circle
 			(center 0 0)
 			(end 3.2 0)
@@ -15998,6 +18208,32 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "9dbe8b75-9080-4927-ba6e-41f2e432f368")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MPN" "CL10B105KA8NNNC"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "84076d34-2c60-4544-9727-117788c7a44e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Digikey PN" "1276-1184-1-ND"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "1d6eb97e-e99a-4fc5-8623-93da6f4eb921")
 			(effects
 				(font
 					(size 1 1)
@@ -16257,12 +18493,51 @@
 				)
 			)
 		)
-		(property "MPN" "RMCF0603FT10K0"
+		(property "MPN" "RC0603FR-0751KL"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "eb19f740-b18e-4d6e-a797-c289086ba0c1")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Digikey" "https://www.digikey.com/en/products/detail/yageo/RC0603FR-0751KL/727282"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "9c270b57-5ed7-4c72-a267-24f86e7376a9")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Part" "RC0603FR-0751KL"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "3c85e42a-8bdd-4725-b309-0e3b20c5edd6")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Digikey PN" "311-51.0KHRCT-ND"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "05f8170f-c512-4223-b8c8-ed0209fc5bec")
 			(effects
 				(font
 					(size 1 1)
@@ -16483,6 +18758,58 @@
 				)
 			)
 		)
+		(property "Digikey" "https://www.digikey.com/en/products/detail/yageo/RC0603FR-07100KL/726889?s=N4IgTCBcDaIEoGEAMA2JBmAYnAtEg7AIxJIDSAMiALoC%2BQA"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "bb25c88a-4b83-4b6c-920f-e8339b170092")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MPN" "RC0603FR-07100KL"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "25677741-a0d0-4b57-8abe-286bad2f3267")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Part" "RC0603FR-07100KL"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b3e9dc4e-d26e-45ab-b319-214ddb147c50")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Digikey PN" "311-100KHRCT-ND"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "dea94dd0-4e91-41e9-a4ca-e59a7805d39d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/a3f3b3cb-ad78-4c13-ba45-eb5d7efe511d/03592b94-aaf0-4d3f-8838-edfcf6e469cb/afb0909c-a3d3-4c66-bfc6-f295432ab34e")
 		(sheetname "I2C Bus Protection 2")
@@ -16692,6 +19019,58 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Digikey" "https://www.digikey.com/en/products/detail/yageo/RC0805JR-070RL/728216"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "8e16049b-f91e-45f2-96bd-5dc243814ad4")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MPN" "RC0805JR-070RL"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "09966638-5148-4f9f-9ef4-2dccd30b269b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Part" "RC0805JR-070RL"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c309c6db-e62c-483b-bcf5-6f0d7886baef")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Digikey PN" "311-0.0ARCT-ND"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "162d37e6-f0cf-44a1-b6d1-cd8117a1ca2a")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -16909,6 +19288,58 @@
 				)
 			)
 		)
+		(property "Digikey" "https://www.digikey.com/en/products/detail/yageo/RC0603FR-07200KL/727044"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "1e49ea9b-85ea-4d8a-85c2-78f29eb8b858")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MPN" "RC0603FR-07200KL"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f0501cd6-0596-401f-9e90-114593c26efd")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Part" "RC0603FR-07200KL"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "85c9d9be-0d1e-465c-80be-609778d4d577")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Digikey PN" "311-200KHRCT-ND"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "19f4282e-7698-453d-8eea-78dc23ccab8f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/a3f3b3cb-ad78-4c13-ba45-eb5d7efe511d/03592b94-aaf0-4d3f-8838-edfcf6e469cb/bc849d29-7baa-45a6-bb18-bbd7db90a5c4")
 		(sheetname "I2C Bus Protection 2")
@@ -17118,6 +19549,58 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Digikey" "https://www.digikey.com/en/products/detail/yageo/RC0603FR-07200KL/727044"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "71e0fd8a-594d-4901-902d-214072c37615")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MPN" "RC0603FR-07200KL"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c58bf22f-72fc-4fcd-a77b-4ccc90ab2950")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Part" "RC0603FR-07200KL"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "07d0f3db-122f-4b52-81f7-6e484aaec5c5")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Digikey PN" "311-200KHRCT-ND"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "69d73bd7-6cc0-499e-b1b0-f83c468eec70")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -17361,6 +19844,32 @@
 				)
 			)
 		)
+		(property "MPN" "C3216X5R1E476M160AC"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "eeb9c276-214c-4c5b-8947-381561a64f13")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Digikey PN" "445-8047-1-ND"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "14008e4d-d70f-4ccc-9dd2-5ba3833e9230")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/e7579daf-9390-453f-be6d-47a1e5e63ac9/1009a66e-ba85-4be4-b35d-ac00bf7e3fc6")
 		(sheetname "Connectors")
@@ -17574,6 +20083,58 @@
 				)
 			)
 		)
+		(property "Digikey" "https://www.digikey.com/en/products/detail/yageo/RC0603FR-07680RL/727355"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "0ea89ed7-db60-49d5-9fbb-1c0d05cced47")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MPN" "RC0603FR-07680RL"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "61775c86-287f-41e8-8282-980adee0e951")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Part" "RC0603FR-07680RL"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "835818de-4c61-4ee5-927d-a2352897234d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Digikey PN" "311-680HRCT-ND"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "12895425-0e13-48c4-b7a2-8161d4a28962")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/a3f3b3cb-ad78-4c13-ba45-eb5d7efe511d/03592b94-aaf0-4d3f-8838-edfcf6e469cb/3be29579-c549-4cd3-a8c2-779ccbfa38ca")
 		(sheetname "I2C Bus Protection 2")
@@ -17783,6 +20344,58 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Digikey" "https://www.digikey.com/en/products/detail/yageo/RC0805JR-070RL/728216"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "203375dd-5379-4cd6-922d-3b1c64c7d8e4")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MPN" "RC0805JR-070RL"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "58450c24-2a42-40f2-9f50-9f5c21b13cc5")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Part" "RC0805JR-070RL"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f672fa16-d4da-472b-9a95-a23499f46a8e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Digikey PN" "311-0.0ARCT-ND"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "45375578-8ae0-495b-b50e-1434707567d2")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -18001,6 +20614,58 @@
 				)
 			)
 		)
+		(property "Digikey" "https://www.digikey.com/en/products/detail/yageo/RC0402JR-070RL/726406"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "0b500acf-e0ab-4457-b212-39c3f6d85a97")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MPN" "RC0402JR-070RL"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f2cda5d8-2fef-461b-b1e3-85ae3337b2d9")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Part" "RC0402JR-070RL"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "6c13cba5-558e-4e2a-838a-ce4dc05eb4b3")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Digikey PN" "311-0.0JRCT-ND"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "4fe07d3a-d4ec-45aa-ad75-63ad85775985")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/6fe6dcb0-4022-4a1b-8f5d-25ced07893ae/6484e49c-bd7f-4390-8834-e00a86cb8c98")
 		(sheetname "Motor")
@@ -18210,6 +20875,58 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Digikey" "https://www.digikey.com/en/products/detail/yageo/RC0402JR-070RL/726406"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "9d50647b-140e-4771-ba64-f8a5ed85ad53")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MPN" "RC0402JR-070RL"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ddc51f5e-cc0f-4f79-890a-5ae3ae88d24c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Part" "RC0402JR-070RL"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ba128572-f351-4e22-909d-33a999709990")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Digikey PN" "311-0.0JRCT-ND"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "3ed00cd2-08e5-4d09-b1eb-ec4df838ded5")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -18430,11 +21147,24 @@
 				)
 			)
 		)
+		(property "Digikey PN" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "9d6e883a-fe6c-4d48-b97f-2b29fcd54faf")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "MountingHole*Pad*")
 		(path "/6f955ff0-8388-4158-beee-558f35d4773e")
 		(sheetname "Root")
 		(sheetfile "Avionics-RWboard.kicad_sch")
-		(attr exclude_from_pos_files exclude_from_bom)
+		(attr exclude_from_pos_files exclude_from_bom dnp)
 		(fp_circle
 			(center 0 0)
 			(end 3.2 0)
@@ -18591,7 +21321,7 @@
 				)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" "TP"
 			(at 3.2832 2.2064 0)
 			(layer "F.Fab")
 			(uuid "49326354-f778-4220-9df1-1af0faa7cc75")
@@ -18634,6 +21364,58 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Digikey" "https://www.digikey.com/en/products/detail/keystone-electronics/5001/255327?s=N4IgTCBcDaINYFMCeBnALgewHYIAQFYAGQgRhAF0BfIA"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "84e34942-7ca2-4852-8140-e460ae179708")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MPN" "5001"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f84a03b8-bfa1-4d40-b974-dfa260eece6f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Part" "5001"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "fe3c3697-e56e-48aa-a7bc-df7061ea2f9c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Digikey PN" "36-5001-ND"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b6c7e22a-1001-4e31-96e6-9e4fc51110b8")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -18715,7 +21497,7 @@
 				)
 			)
 		)
-		(property "Value" "10nF"
+		(property "Value" "10n"
 			(at 0 1.43 90)
 			(layer "F.Fab")
 			(uuid "f6a54dfe-f717-487d-a9e8-4344700518e5")
@@ -18761,6 +21543,58 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Digikey" "https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL10B103KO8WPNC/20498515"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "72508991-a9f5-4db9-b22a-1a8954727aee")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Part" "CL10B103KO8WPNC"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b52daf69-aec1-4e84-9af8-0e97fc37ba3f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MPN" "CL10B103KO8WPNC"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "2e1074d7-d0f8-4f3b-8b88-c87875294ae7")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Digikey PN" "490-4934-1-ND"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "1b88ec62-4615-49c9-aa47-fa3af5a84250")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -18978,6 +21812,58 @@
 				)
 			)
 		)
+		(property "Digikey" "https://www.digikey.com/en/products/detail/yageo/RC0402JR-070RL/726406"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "37419db4-0546-417d-a488-543ede038ce9")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MPN" "RC0402JR-070RL"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "9847d3fb-231e-420b-b01d-9abb034d27b0")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Part" "RC0402JR-070RL"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e4b05dd1-f121-4f1b-a95b-06970209c072")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Digikey PN" "311-0.0JRCT-ND"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "0ada7ce4-c13b-4cb2-92c6-ba1b91a3adc8")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/e7579daf-9390-453f-be6d-47a1e5e63ac9/48d7d751-accb-4e72-84b0-93b8f5a0d5d2")
 		(sheetname "Connectors")
@@ -19187,6 +22073,58 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Digikey" "https://www.digikey.com/en/products/detail/yageo/RC0402JR-070RL/726406"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "4c56fe99-85cc-448f-9771-47a2f3e45643")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MPN" "RC0402JR-070RL"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "66372d9b-a122-444c-8011-da826b28ae86")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Part" "RC0402JR-070RL"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "156e3a8c-d136-401f-8e1f-d365b3ef99cb")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Digikey PN" "311-0.0JRCT-ND"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ef653f5f-ad37-4a3b-b056-2ce368d403c3")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -19430,6 +22368,32 @@
 				)
 			)
 		)
+		(property "MPN" "CL10B105KA8NNNC"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "08f72ab1-9796-49ee-bc26-4664186ae07b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Digikey PN" "1276-1184-1-ND"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "fbc607ce-26a0-4d00-8780-f2389dc36e25")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/6fe6dcb0-4022-4a1b-8f5d-25ced07893ae/3cc77dd5-7eff-4440-b7aa-45d05f33e7cd")
 		(sheetname "Motor")
@@ -19643,6 +22607,58 @@
 				)
 			)
 		)
+		(property "Digikey" "https://www.digikey.com/en/products/detail/yageo/RC0402JR-070RL/726406"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "13a59fdf-f21b-4219-890c-ea2bd14cba1d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MPN" "RC0402JR-070RL"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "8497c8c1-d60c-4b98-aa13-4f6fd317236e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Part" "RC0402JR-070RL"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "7aedff5f-d553-4658-b9c2-97fe67f7caef")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Digikey PN" "311-0.0JRCT-ND"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f4a53a92-bff5-4173-8777-419e0860464b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/6fe6dcb0-4022-4a1b-8f5d-25ced07893ae/f246478b-db46-4d4e-bc2d-e51b5e51d9ff")
 		(sheetname "Motor")
@@ -19852,6 +22868,58 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Digikey" "https://www.digikey.com/en/products/detail/yageo/RC0603FR-07680RL/727355"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b58dfcc4-dd2a-4676-815e-bb6cc17d593d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MPN" "RC0603FR-07680RL"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "be3f3d2d-05f3-49ab-a177-6a551dca89ba")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Part" "RC0603FR-07680RL"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a16cd3a1-5704-47ae-9eab-b1acf73fc588")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Digikey PN" "311-680HRCT-ND"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "53880f38-c744-41e2-9469-3956a08dd148")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -20075,6 +23143,58 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "9596e9f5-18f1-48af-b529-97ea5e2efb23")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Digikey" "https://www.digikey.com/en/products/detail/bourns-inc/CR0603-J-000ELF/3593211?s=N4IgTCBcDaIMICUAMA2JBmAtAKQPSaUIFEAZAMRAF0BfIA"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "3ea36f83-1c6e-4d3d-b871-38b6cfcedf04")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MPN" "CR0603-J/-000ELF"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "4dffe325-aede-4116-ba06-cb1977fe79a9")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Part" "CR0603-J/-000ELF"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b5a99df5-2aa9-4533-ac06-e80593d9bb71")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Digikey PN" "CR0603-J/-000ELFCT-ND"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c07b5f5f-a697-48a3-ae97-88ec97acc535")
 			(effects
 				(font
 					(size 1 1)
@@ -20347,6 +23467,58 @@
 				)
 			)
 		)
+		(property "Digikey" "https://www.digikey.com/en/products/detail/inolux/IN-S63ATR/7604934?s=N4IgTCBcDaIHIFoDKA2AzAQQCoCUQF0BfIA"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a1698620-a592-439b-b4c7-b16227201a86")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Part" "IN-S63ATR"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "8aa2e43a-79a1-426b-89d6-d15887d8e8f1")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MPN" "IN-S63ATR"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e2d1eb44-068e-47b8-8cac-2c7037d15561")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Digikey PN" "1830-1065-1-ND"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "6d0f20de-10a0-4ac0-82d1-6d0f70a1b84c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "LED* LED_SMD:* LED_THT:*")
 		(path "/6fe6dcb0-4022-4a1b-8f5d-25ced07893ae/b95cf704-98ff-49ab-9db4-2cfde2f163d7")
 		(sheetname "Motor")
@@ -20595,6 +23767,58 @@
 				)
 			)
 		)
+		(property "Digikey" "https://www.digikey.com/en/products/detail/bourns-inc/CR0603-J-000ELF/3593211?s=N4IgTCBcDaIMICUAMA2JBmAtAKQPSaUIFEAZAMRAF0BfIA"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b9781115-c297-4faa-979a-863fd558bf8e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MPN" "CR0603-J/-000ELF"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "960c00d6-3014-4966-bc4a-5c0c7fc1f67f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Part" "CR0603-J/-000ELF"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "1b2212ed-33db-4fcf-a831-67c376520850")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Digikey PN" "CR0603-J/-000ELFCT-ND"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "441d631e-7686-4b94-ac93-dbdb7fe4e788")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/6fe6dcb0-4022-4a1b-8f5d-25ced07893ae/03ff3b45-0f20-44b5-8c22-7a21ed385685/01fdd3c0-b190-4767-8154-d344abb88f1a")
 		(sheetname "I2C Bus Protection 1")
@@ -20748,7 +23972,7 @@
 		(descr "Capacitor SMD 1206 (3216 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor handsolder")
 		(property "Reference" "C24"
-			(at -5.5375 0 360)
+			(at -5.5375 0 0)
 			(layer "F.SilkS")
 			(uuid "3bc46845-dfed-4216-9632-f7958e9fd4b4")
 			(effects
@@ -20759,7 +23983,7 @@
 			)
 		)
 		(property "Value" "47u"
-			(at 0 1.85 360)
+			(at 0 1.85 0)
 			(layer "F.Fab")
 			(uuid "91244311-d584-48c8-bc69-fd8fb40e4583")
 			(effects
@@ -20827,6 +24051,32 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "eab1e80b-5eb6-446e-adfe-afdd2d83a894")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MPN" "C3216X5R1E476M160AC"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "9055fd88-5d9f-4853-a90e-574a776a7db1")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Digikey PN" "445-8047-1-ND"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "adcc88be-5043-422d-8546-ff15974c796f")
 			(effects
 				(font
 					(size 1 1)
@@ -20940,7 +24190,7 @@
 			(uuid "15715612-9b88-46ac-ac34-d4406be568ea")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(uuid "cdcd1fb6-05ac-48b1-bedf-784f0bc2d11e")
 			(effects
@@ -21043,6 +24293,58 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Digikey" "https://www.digikey.com/en/products/detail/yageo/RC0402JR-070RL/726406"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "cdcac36b-e086-4eaf-87e3-a5546f56132d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MPN" "RC0402JR-070RL"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f7e41fc6-b19d-4a00-a89e-35051f08c788")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Part" "RC0402JR-070RL"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "01b5a62b-8fbb-4a8a-9f11-3e5f57a07f44")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Digikey PN" "311-0.0JRCT-ND"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f829640b-6db0-41ae-824b-2c526effc084")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -21305,6 +24607,58 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "3ccf607a-a19d-4985-ad2f-d4210372e969")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Digikey" "https://www.digikey.com/en/products/detail/onsemi/MBT2222ADW1T1G/1477281?s=N4IgTCBcDaILICEAqZVgIIBEDqBGJuIAugL5A"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "5c651c8b-950e-4586-b271-40b03a971e9f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MPN" "MBT2222ADW1T1G"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "2ea14aeb-223b-4121-b478-56c8a056d731")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Part" "MBT2222ADW1T1G"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "9821b29f-9f8d-4be0-a38c-9d61b760834d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Digikey PN" "MBT2222ADW1T1GOSCT-ND"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "7bfffe87-2cdd-44e4-9d1a-afa92213f48a")
 			(effects
 				(font
 					(size 1 1)
@@ -21641,6 +24995,45 @@
 				)
 			)
 		)
+		(property "Digikey" "https://www.digikey.com/en/products/detail/te-connectivity-passive-product/CRGCQ0603F2K7/8576295?s=N4IgTCBcDaIMICUDicCKAGAbOgzAMTAGkB2EAXQF8g"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b7cfd587-5b02-468c-bd9c-1a5e936924ab")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Part" "CRGCQ0603F2K7"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f6d6d335-87b9-44d6-ac36-3c99d712e393")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Digikey PN" "A129693CT-ND"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "aa9b3224-209e-439d-93a8-adfb69250f2e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/a3f3b3cb-ad78-4c13-ba45-eb5d7efe511d/8c24c384-7b7a-42b5-8805-6ada335cc5af")
 		(sheetname "Power")
@@ -21873,6 +25266,32 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "e93aad4a-553b-4c33-a800-725e58b36045")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MPN" "C0402C103K3RACTU"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "3065bff8-aa29-4cf3-bfd5-6a7028ffe6b2")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Digikey PN" "399-C0402C103K3RACTUCT-ND"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ee93ef07-a9ca-422a-850b-8b9691e3f943")
 			(effects
 				(font
 					(size 1 1)
@@ -22125,6 +25544,58 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "a71d8aa7-e708-4533-b97d-9ccac830e342")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Digikey" "https://www.digikey.com/en/products/detail/nexperia-usa-inc/NX3008NBKS-115/2779963"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "7d619161-d929-4c57-b6cf-f055462f8800")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MPN" "NX3008NBKS,115"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "6463c8de-a9d2-462d-b27b-e7aba52072b9")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Part" "NX3008NBKS,115"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "20097065-e74a-48d2-83a1-c8dccce69148")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Digikey PN" "1727-1221-1-ND"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "17ca5dd2-d51d-47f0-90fd-0133d26d3c38")
 			(effects
 				(font
 					(size 1 1)
@@ -22435,6 +25906,32 @@
 				)
 			)
 		)
+		(property "MPN" "ERJ-8BWFR010V"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c8226f72-c16c-47f9-be5c-e3d103a87618")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Digikey PN" "P.010AUCT-ND"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e77e95bb-58e2-4a92-822b-2368e331787a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/a3f3b3cb-ad78-4c13-ba45-eb5d7efe511d/ae9b3b90-b9e2-431e-b0f8-503c9f7a7ccd")
 		(sheetname "Power")
@@ -22598,7 +26095,7 @@
 				)
 			)
 		)
-		(property "Value" "10uF"
+		(property "Value" "10u"
 			(at 0 1.43 0)
 			(layer "F.Fab")
 			(uuid "174d4d73-d7e0-4ef4-b4ca-555e4f9c35f9")
@@ -22648,7 +26145,7 @@
 				)
 			)
 		)
-		(property "MPN" "CC0402MRX5R5BB106"
+		(property "MPN" "C1608X5R1E106M080AC"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -22745,6 +26242,45 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "93d90459-8893-4f05-846e-98b406671da2")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Part" "C1608X5R1E106M080AC"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "76dcc8a4-7ec0-4a56-a8e7-9600e4e8029c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Digikey" "https://www.digikey.com/en/products/detail/tdk-corporation/C1608X5R1E106M080AC/3648585?s=N4IgTCBcDaIMIEYBsAGAHADQKwCUEFEEUkBZdFAQThAF0BfIA"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d0d18681-c92b-420c-9a6b-6ecbbd62146c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Digikey PN" "445-9015-1-ND"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f2e4d9fc-8fcb-4002-b784-4a3b9d6114ef")
 			(effects
 				(font
 					(size 1 1)
@@ -22905,7 +26441,7 @@
 		(descr "Capacitor SMD 1206 (3216 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor handsolder")
 		(property "Reference" "C21"
-			(at -5.5375 0 360)
+			(at -5.5375 0 0)
 			(layer "F.SilkS")
 			(uuid "e68dbfa9-9a2b-4b8f-87e7-c1ac8985dfc2")
 			(effects
@@ -22916,7 +26452,7 @@
 			)
 		)
 		(property "Value" "47u"
-			(at 0 1.85 360)
+			(at 0 1.85 0)
 			(layer "F.Fab")
 			(uuid "2488258d-3e7d-4cad-964c-4c89a6765030")
 			(effects
@@ -22984,6 +26520,32 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "e6c5744c-1b7b-49e3-b8cf-02e597d44363")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MPN" "C3216X5R1E476M160AC"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ff9565b8-92de-42fb-8cd1-859e3fb72abf")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Digikey PN" "445-8047-1-ND"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "4c0e640f-197d-4c06-b171-2e5337f643bf")
 			(effects
 				(font
 					(size 1 1)
@@ -23097,7 +26659,7 @@
 			(uuid "d8a197aa-9e65-4749-b6ce-048ce9224e06")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(uuid "ab4465c6-54f9-4885-a60c-f3ceae1bfff5")
 			(effects
@@ -23249,6 +26811,45 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "eb12b7c0-38e8-44c9-b5bd-be5056a7395b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Digikey" "https://www.digikey.com/en/products/detail/onsemi/ESD9X3-3ST5G/1476615"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "daf70d76-38da-452c-b0eb-59926ebec531")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Part" "ESD9X3.3ST5G"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "92ee1793-49b2-4c55-8e60-977ddccdacf2")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Digikey PN" "ESD9X3.3ST5GOSCT-ND"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "0590a804-82af-4dce-8efb-969d42651b3f")
 			(effects
 				(font
 					(size 1 1)
@@ -23569,7 +27170,7 @@
 				)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" "TP"
 			(at 3.2832 2.2064 0)
 			(layer "F.Fab")
 			(uuid "b1e3a069-49b9-4da4-8ed6-ed8544f2648d")
@@ -23612,6 +27213,58 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Digikey" "https://www.digikey.com/en/products/detail/keystone-electronics/5001/255327?s=N4IgTCBcDaINYFMCeBnALgewHYIAQFYAGQgRhAF0BfIA"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "cc7fda90-b780-4c6b-8377-81d9ec3711d4")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MPN" "5001"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "0b53f167-cc7b-42b6-8597-26b8fcb43820")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Part" "5001"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "4ef4cfd3-45ec-4d3b-8251-1237e9920355")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Digikey PN" "36-5001-ND"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "7d2702cd-0046-4a0e-8967-772bdddd7412")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -23788,6 +27441,58 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "41d58c51-e7f4-4afd-969f-8f6b99abd683")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MPN" "IN-S63AT5A"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "2f107bba-b09f-4029-8235-48a17307b1c0")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Part" "IN-S63AT5A"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "920a3118-d578-4a7f-8717-f435ee810025")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Digikey" "https://www.digikey.com/en/products/detail/inolux/IN-S63AT5A/7604928?s=N4IgTCBcDaIJIDkC0BlAbAZgIIBUCsWIAugL5A"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b774a8c0-2db9-4051-addc-5d6c2b02b157")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Digikey PN" "1830-1064-1-ND"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "8dab8f48-2e9f-4d75-a853-4f8f3eb9dfed")
 			(effects
 				(font
 					(size 1 1)
@@ -24030,6 +27735,58 @@
 				)
 			)
 		)
+		(property "Digikey" "https://www.digikey.com/en/products/detail/yageo/RC0603FR-07200KL/727044"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "62f3e853-794f-4480-9235-b8e0113cb8d6")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MPN" "RC0603FR-07200KL"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "82a88c5e-fa53-42d1-a489-770ff333cc13")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Part" "RC0603FR-07200KL"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "822ab24f-aedd-4d94-a8ad-4435bbab8d29")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Digikey PN" "311-200KHRCT-ND"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "227818e0-4d97-4aa4-a8de-00a1f4dc054b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/6fe6dcb0-4022-4a1b-8f5d-25ced07893ae/03ff3b45-0f20-44b5-8c22-7a21ed385685/6e825c6c-8a56-4acd-a432-736464d6de1d")
 		(sheetname "I2C Bus Protection 1")
@@ -24183,7 +27940,7 @@
 		(descr "Capacitor SMD 1206 (3216 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor handsolder")
 		(property "Reference" "C19"
-			(at -5.5375 0 360)
+			(at -5.5375 0 0)
 			(layer "F.SilkS")
 			(uuid "7fa30525-5821-4362-83f2-2c0e53e055bf")
 			(effects
@@ -24194,7 +27951,7 @@
 			)
 		)
 		(property "Value" "47u"
-			(at 0 1.85 360)
+			(at 0 1.85 0)
 			(layer "F.Fab")
 			(uuid "6b545625-2bb2-4111-9b7c-d06da15e6889")
 			(effects
@@ -24262,6 +28019,32 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "f8ac8b25-3054-41f1-95d5-a887fabf7eb4")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MPN" "C3216X5R1E476M160AC"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e9f04f30-61a5-4490-b0c6-efb1136d1478")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Digikey PN" "445-8047-1-ND"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "8f30789c-871f-4ce9-8a1d-723680b1648e")
 			(effects
 				(font
 					(size 1 1)
@@ -24375,7 +28158,7 @@
 			(uuid "71cd1171-004a-4972-85b2-673620097890")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(uuid "e62b90ee-a3b8-4fa3-8a46-de3d8fd6b33c")
 			(effects
@@ -24478,6 +28261,58 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Digikey" "https://www.digikey.com/en/products/detail/yageo/RC0603FR-07680RL/727355"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "9595b144-5d8b-4fde-9987-ca15f73cb842")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MPN" "RC0603FR-07680RL"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "964da402-7c2b-49bf-b560-4a5541bee277")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Part" "RC0603FR-07680RL"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f68b41a9-6ba3-439d-8878-cca2296adf99")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Digikey PN" "311-680HRCT-ND"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "976d4d56-4105-4dde-b541-bbced211ddca")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -24695,6 +28530,58 @@
 				)
 			)
 		)
+		(property "Digikey" "https://www.digikey.com/en/products/detail/yageo/RC0603FR-0710KL/726880"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "65f57def-3bf9-4655-b54c-a030cf1cae6e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MPN" "RC0603FR-0710KL"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b20cd8e8-42aa-4622-9b02-8d5f97bead6f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Part" "RC0603FR-0710KL"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "9bc39675-3567-4d30-bfa2-28fa8fd7c43d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Digikey PN" "311-10.0KHRCT-ND"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "60c7d629-6719-4576-86e6-9a60d8a0cee4")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/6fe6dcb0-4022-4a1b-8f5d-25ced07893ae/03ff3b45-0f20-44b5-8c22-7a21ed385685/720eec58-8ef2-41da-bf96-69265d9ade2e")
 		(sheetname "I2C Bus Protection 1")
@@ -24904,6 +28791,58 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Digikey" "https://www.digikey.com/en/products/detail/yageo/RC0603FR-0710KL/726880"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "cd4f9d36-cd22-4197-b029-360b12422786")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MPN" "RC0603FR-0710KL"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "742e1d92-fd0d-4b94-90d4-f4c1b29dcd27")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Part" "RC0603FR-0710KL"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "6271720a-b08a-4be5-9893-3cd38b6a4534")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Digikey PN" "311-10.0KHRCT-ND"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "3dca9a69-9b63-48ff-875f-fe621b710255")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -25147,6 +29086,32 @@
 				)
 			)
 		)
+		(property "MPN" "C0402C103K3RACTU"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "1f5931c5-b374-4ca9-acc4-10940aa296c7")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Digikey PN" "399-C0402C103K3RACTUCT-ND"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f0f98573-96fb-4d2f-ba1c-88036bb3a7a1")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/6fe6dcb0-4022-4a1b-8f5d-25ced07893ae/de472e5a-cf5a-42d6-a4af-395692ae5e88")
 		(sheetname "Motor")
@@ -25356,6 +29321,58 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Digikey" "https://www.digikey.com/en/products/detail/yageo/RC0603FR-0710KL/726880"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "979db1ec-f6e0-48cc-97f0-12b15dda3bcb")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MPN" "RC0603FR-0710KL"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "882e1780-4fac-4c6b-b262-d0b9957a238d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Part" "RC0603FR-0710KL"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e641a0c1-82f4-4696-a85a-d13838a3bb6c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Digikey PN" "311-10.0KHRCT-ND"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "deb1f1bd-976e-478e-b4d9-2fd7868116df")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -25599,6 +29616,32 @@
 				)
 			)
 		)
+		(property "MPN" "C3216X5R1E476M160AC"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "fd5f494e-1b71-4b9a-b299-71eb7f508cf7")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Digikey PN" "445-8047-1-ND"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a44bb8fc-5775-4834-b5e7-b26065da6a70")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/e7579daf-9390-453f-be6d-47a1e5e63ac9/b0661210-4302-4ed8-abe9-11da0900045e")
 		(sheetname "Connectors")
@@ -25808,6 +29851,58 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Digikey" "https://www.digikey.com/en/products/detail/yageo/RC0603FR-071KL/726843"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d0cc61bb-b199-486d-ac1d-6f19098ab903")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MPN" "RC0603FR-071KL"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "8f0311f6-a086-4ea5-8b0e-0a60251c8e53")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Part" "RC0603FR-071KL"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "0fa00e00-dd48-4217-bcfc-83fd9d213364")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Digikey PN" "311-1.00KHRCT-ND"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "3c59a8a3-51a6-4829-aa82-297e71bd0bc3")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -26051,6 +30146,32 @@
 				)
 			)
 		)
+		(property "MPN" "CL31B106KAHNNNE"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "3e1dae54-b73c-428f-8d0a-8be84a7596a7")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Digikey PN" "1276-1804-1-ND"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ee163343-c1ec-4aa0-b850-8b88b8ddca3d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/a3f3b3cb-ad78-4c13-ba45-eb5d7efe511d/188858dd-9b37-46ad-a834-c4f3b80333eb")
 		(sheetname "Power")
@@ -26260,6 +30381,58 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MPN" "RC0402JR-070RL"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "7304bc67-7a01-442b-8baf-0c5be7d27839")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Part" "RC0402JR-070RL"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e8509b40-828a-4229-8072-e32cc240bbd3")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Digikey" "https://www.digikey.com/en/products/detail/yageo/RC0402JR-070RL/726406"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c6baebbf-524d-4384-b489-0e5b8947f860")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Digikey PN" "311-0.0JRCT-ND"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "0e570b3c-61ba-4bb7-bbb3-8b3034a46452")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -26503,6 +30676,32 @@
 				)
 			)
 		)
+		(property "MPN" "CRCW251222R0FKEGHP"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "0a940baa-dcaf-468c-92c0-a9820ca3c249")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Digikey PN" "541-CRCW251222R0FKEGHPCT-ND"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "9bc20a83-96a8-4256-8ebf-aae4d4f33507")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/6fe6dcb0-4022-4a1b-8f5d-25ced07893ae/53fe35a6-dc57-41df-b8ec-ba1d7c4a59c5")
 		(sheetname "Motor")
@@ -26716,6 +30915,58 @@
 				)
 			)
 		)
+		(property "Digikey" "https://www.digikey.com/en/products/detail/yageo/RC0603FR-07100KL/726889?s=N4IgTCBcDaIEoGEAMA2JBmAYnAtEg7AIxJIDSAMiALoC%2BQA"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b717228b-1eff-4b30-9a35-197fa26474fe")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MPN" "RC0603FR-07100KL"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "95241a4f-9117-41b4-b433-e57ab6004769")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Part" "RC0603FR-07100KL"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f7e3ed01-bf61-4fa4-94e2-60f5b80465bd")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Digikey PN" "311-100KHRCT-ND"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "6390c735-d945-4dfa-9278-e3fcd9f59d1b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/a3f3b3cb-ad78-4c13-ba45-eb5d7efe511d/03592b94-aaf0-4d3f-8838-edfcf6e469cb/1e318054-04a4-48a4-82a6-eac39285e536")
 		(sheetname "I2C Bus Protection 2")
@@ -26925,6 +31176,58 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Digikey" "https://www.digikey.com/en/products/detail/yageo/RC0603FR-074K7L/727212"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "9caf1c9b-e781-498b-b2ae-ca8b85d21c11")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MPN" "RC0603FR-074K7L"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ab7e5ded-9646-45d5-bcd3-cad46ba71ea6")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Part" "RC0603FR-074K7L"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "46653422-df8e-4439-85da-db1903f84f32")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Digikey PN" "311-4.70KHRCT-ND"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "28256fb3-7540-4745-81e7-068053b08010")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -27155,6 +31458,58 @@
 				)
 			)
 		)
+		(property "Digikey" "https://www.digikey.com/en/products/detail/bourns-inc/CR0603-J-000ELF/3593211?s=N4IgTCBcDaIMICUAMA2JBmAtAKQPSaUIFEAZAMRAF0BfIA"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "14c4cd09-cf78-4193-9131-bb4b62ef619f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MPN" "CR0603-J/-000ELF"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d7907f29-5c80-4f41-a293-b6f8c02d64bf")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Part" "CR0603-J/-000ELF"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "aa234a5a-a7bd-482f-ba08-4c5e187ddba0")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Digikey PN" "CR0603-J/-000ELFCT-ND"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d8571349-72f1-4e97-8a46-172d2971d783")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/a3f3b3cb-ad78-4c13-ba45-eb5d7efe511d/03592b94-aaf0-4d3f-8838-edfcf6e469cb/1a13e8e0-c7d7-447c-89cc-18e1dadfd805")
 		(sheetname "I2C Bus Protection 2")
@@ -27316,7 +31671,7 @@
 				)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" "TP"
 			(at 3.2832 2.2064 0)
 			(layer "F.Fab")
 			(uuid "9911683f-6311-499a-959b-4b37c8fbfa93")
@@ -27359,6 +31714,58 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Digikey" "https://www.digikey.com/en/products/detail/keystone-electronics/5001/255327?s=N4IgTCBcDaINYFMCeBnALgewHYIAQFYAGQgRhAF0BfIA"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "560bf1c8-6e61-4af1-b57d-de82fdd1197f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MPN" "5001"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f036d3b4-1472-49bd-99b8-a264255c9a05")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Part" "5001"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b88348ab-0c56-4116-93ce-129fc6368f17")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Digikey PN" "36-5001-ND"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "2e26d8d0-fa8a-4e39-95a7-ed9b1449bce0")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -27486,6 +31893,58 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Digikey" "https://www.digikey.com/en/products/detail/yageo/RC0603FR-07100KL/726889?s=N4IgTCBcDaIEoGEAMA2JBmAYnAtEg7AIxJIDSAMiALoC%2BQA"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "82360fa2-2aca-4ad9-a8d1-d2417a3cb8cb")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MPN" "RC0603FR-07100KL"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f79fcc41-2cd8-4d9a-b8b1-46cc92e01bbe")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Part" "RC0603FR-07100KL"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e6db33c8-792b-459d-918a-c8f56b7edde6")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Digikey PN" "311-100KHRCT-ND"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "5e59f22f-66c1-47b6-ad77-e2eb00464223")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -27696,6 +32155,58 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Digikey" "https://www.digikey.com/en/products/detail/infineon-technologies/IRLML2803TRPBF/811435"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "522cb3fb-d580-4f3d-b8ae-959691568912")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MPN" "IRLML2803TRPBF"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "524308a9-daec-4fb4-8522-b19e517e04f4")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Part" "IRLML2803TRPBF"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "cc0084b7-6fea-452b-b7ec-ca59fcc5959e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Digikey PN" "IRLML2803PBFCT-ND"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "7a0a2f92-2723-4d6c-8f40-28577dcbf92a")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -27915,7 +32426,7 @@
 				)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" "TP"
 			(at 4.1732 0.7864 0)
 			(layer "F.Fab")
 			(uuid "7577e066-18e5-422f-87b9-d8eca59a430b")
@@ -27958,6 +32469,58 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Digikey" "https://www.digikey.com/en/products/detail/keystone-electronics/5001/255327?s=N4IgTCBcDaINYFMCeBnALgewHYIAQFYAGQgRhAF0BfIA"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e9e0bbd4-8044-49e5-aca0-ba56e10d5112")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MPN" "5001"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "6c82aed0-f68b-4a91-bf87-0f8167dd646b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Part" "5001"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "dbd69f41-038e-4984-a8ce-21fea3774295")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Digikey PN" "36-5001-ND"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b840f62e-ca8d-4f0d-8689-346b5d11bd78")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -28108,6 +32671,32 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "a1d7ff7d-c49c-4ba4-aa36-3daca509adb4")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MPN" "C3216X5R1E476M160AC"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "67b2be16-37c2-4076-9c7b-26af8268b205")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Digikey PN" "445-8047-1-ND"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "af421676-617c-402a-a26f-dd0f892cf81a")
 			(effects
 				(font
 					(size 1 1)
@@ -28278,7 +32867,7 @@
 				)
 			)
 		)
-		(property "Value" "0.1u"
+		(property "Value" "100n"
 			(at 0 1.16 90)
 			(layer "F.Fab")
 			(uuid "4a933f4e-8969-43c8-916d-bf16d191bddd")
@@ -28328,7 +32917,7 @@
 				)
 			)
 		)
-		(property "Part" "CL05B104KA5NNNC"
+		(property "Part" "C0402C103K3RACTU"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -28341,12 +32930,38 @@
 				)
 			)
 		)
-		(property "Digikey" "https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL05B104KA5NNNC/5961204"
+		(property "Digikey" "https://www.digikey.com/en/products/detail/kemet/C0402C103K3RACTU/416041"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "1c6f9c06-3206-4c93-874d-e74f510a3b0f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MPN" "C0402C103K3RACTU"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f70026ec-b1dc-4f0f-a206-cf037641e418")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Digikey PN" "399-C0402C103K3RACTUCT-ND"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "738e2691-ac79-40a8-b5b5-67baacea1792")
 			(effects
 				(font
 					(size 1 1)
@@ -28558,6 +33173,58 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Digikey" "https://www.digikey.com/en/products/detail/te-connectivity-amp-connectors/282834-2/1150135"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f8d2f47a-fc37-40f9-af17-dc5544a41c02")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MPN" "282834-2"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "8528bb48-1bf3-4a39-be67-18a4d3d8dee4")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Part" "282834-2"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "300193d1-a85a-4e46-a189-de465b2a905a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Digikey PN" "A98333-ND"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "023f5b90-eec0-408c-aa7a-0cf99c294fb4")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -28861,6 +33528,58 @@
 				)
 			)
 		)
+		(property "Digikey" "https://www.digikey.com/en/products/detail/yageo/RC0603FR-07680RL/727355"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "2322df6a-86d6-4e0c-9d39-17741cfa5c73")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MPN" "RC0603FR-07680RL"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b79a682c-289b-4dc4-b59a-c355ec43bb01")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Part" "RC0603FR-07680RL"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "61ea788a-dde2-4c66-96f6-0f24f70b5d12")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Digikey PN" "311-680HRCT-ND"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "5e354573-03a3-4929-8e8a-ee65383bdeb6")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/6fe6dcb0-4022-4a1b-8f5d-25ced07893ae/03ff3b45-0f20-44b5-8c22-7a21ed385685/f2ee5fbc-78e8-403d-a3b8-b4412ca47ad0")
 		(sheetname "I2C Bus Protection 1")
@@ -29022,7 +33741,7 @@
 				)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" "TP"
 			(at 3.2832 2.2064 90)
 			(layer "F.Fab")
 			(uuid "bdaf0c8c-16db-4fd3-b81d-f8337e7f85e4")
@@ -29065,6 +33784,58 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Digikey" "https://www.digikey.com/en/products/detail/keystone-electronics/5001/255327?s=N4IgTCBcDaINYFMCeBnALgewHYIAQFYAGQgRhAF0BfIA"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f35bc821-599f-4602-947a-e55648fce908")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MPN" "5001"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "3ac5197d-51ec-4749-9ac4-b73bd01e074f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Part" "5001"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "358354fd-af6a-455f-92db-5bc4ec9a336a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Digikey PN" "36-5001-ND"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d65db0c3-b735-4361-bb0d-e30f47c2f4bb")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -29228,6 +33999,58 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "874486bf-715f-4918-8a56-6dfec81c9fc2")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Digikey" "https://www.digikey.com/en/products/detail/nexperia-usa-inc/NX3008NBKS-115/2779963"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "bb5c614d-4009-4133-8718-3f2d18545ca7")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MPN" "NX3008NBKS,115"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "2152d3c8-1b40-4d71-ae26-91698acd5168")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Part" "NX3008NBKS,115"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "63e13bee-0f76-4102-b5a4-254a52ce8912")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Digikey PN" "1727-1221-1-ND"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "cbf34b29-5f86-438a-95fb-8fa63a3e2bb5")
 			(effects
 				(font
 					(size 1 1)
@@ -29564,6 +34387,58 @@
 				)
 			)
 		)
+		(property "Digikey" "https://www.digikey.com/en/products/detail/inolux/IN-S63ATR/7604934?s=N4IgTCBcDaIHIFoDKA2AzAQQCoCUQF0BfIA"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "4151e64d-62eb-4011-9531-4912183dae59")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Part" "IN-S63ATR"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "5d30c115-8092-4f67-99a9-ab7832b09fd0")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MPN" "IN-S63ATR"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e8092947-9846-4dae-8217-f59380dc23f4")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Digikey PN" "1830-1065-1-ND"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "62d53654-3883-4241-9782-1a22dee6a202")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "LED* LED_SMD:* LED_THT:*")
 		(path "/6fe6dcb0-4022-4a1b-8f5d-25ced07893ae/97e83256-07f2-4dff-adb3-58bc2ba397ab")
 		(sheetname "Motor")
@@ -29812,6 +34687,58 @@
 				)
 			)
 		)
+		(property "Digikey" "https://www.digikey.com/en/products/detail/bourns-inc/CR0603-J-000ELF/3593211?s=N4IgTCBcDaIMICUAMA2JBmAtAKQPSaUIFEAZAMRAF0BfIA"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "3843fba7-0dec-4b61-9317-87a536498103")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MPN" "CR0603-J/-000ELF"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f00886c6-ea25-4327-96fb-0c273330f951")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Part" "CR0603-J/-000ELF"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "564cbe40-7193-4252-a5bf-20b9fa4045a9")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Digikey PN" "CR0603-J/-000ELFCT-ND"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "faf1c750-266f-40f2-9d64-927e01bae0ca")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/6fe6dcb0-4022-4a1b-8f5d-25ced07893ae/03ff3b45-0f20-44b5-8c22-7a21ed385685/06a199fc-141c-41b1-9c8b-8ed5766caaa4")
 		(sheetname "I2C Bus Protection 1")
@@ -30021,6 +34948,58 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Digikey" "https://www.digikey.com/en/products/detail/yageo/RC0603FR-0710KL/726880"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a7eb3f1b-bb15-40ec-a72f-ab9b131699b3")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MPN" "RC0603FR-0710KL"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d9adc460-a8b8-46ac-86d8-eba55636231f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Part" "RC0603FR-0710KL"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "22812cfa-7690-4d51-9355-47a0c23e4297")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Digikey PN" "311-10.0KHRCT-ND"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "58cc5124-087e-42e9-8a0b-4f0bc6e63327")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -30290,6 +35269,58 @@
 				)
 			)
 		)
+		(property "MPN" "IN-S63AT5A"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "fd308461-8864-4ec8-b165-fbdd832299d0")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Part" "IN-S63AT5A"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "74cbdef4-d72c-4633-8cd9-024c91f226a9")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Digikey" "https://www.digikey.com/en/products/detail/inolux/IN-S63AT5A/7604928?s=N4IgTCBcDaIJIDkC0BlAbAZgIIBUCsWIAugL5A"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "4347adc4-51c0-405c-8428-053cd47a51b1")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Digikey PN" "1830-1064-1-ND"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "36466edc-ed24-427c-8ff0-9c52e3f50059")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "LED* LED_SMD:* LED_THT:*")
 		(path "/6fe6dcb0-4022-4a1b-8f5d-25ced07893ae/b23ffc69-3f9d-47fb-8d28-045ab9df02c0")
 		(sheetname "Motor")
@@ -30525,7 +35556,7 @@
 				)
 			)
 		)
-		(property "MPN" "C0603C103J3GECAUTO"
+		(property "MPN" "CL10B103KO8WPNC"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -30570,6 +35601,45 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "9f5f8205-02a6-47a8-8c38-e4882b66ef32")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Digikey" "https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL10B103KO8WPNC/20498515"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "4a2c7f78-d39e-42cd-a6de-4716b5e2c226")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Part" "CL10B103KO8WPNC"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "adf6e3d3-ec0f-4198-bb42-8874029399ce")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Digikey PN" "490-4934-1-ND"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "5ffaa023-19e2-4c00-b6fa-60b1b0367be9")
 			(effects
 				(font
 					(size 1 1)
@@ -30835,6 +35905,58 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "6b8388d8-33ba-415c-b1a7-4aa2c23c273d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Digikey" "https://www.digikey.com/en/products/detail/onsemi/MBT2222ADW1T1G/1477281?s=N4IgTCBcDaILICEAqZVgIIBEDqBGJuIAugL5A"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "9875456b-f17d-49d8-b4c5-0a540555165e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MPN" "MBT2222ADW1T1G"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c9e8ff13-186c-47d7-b619-828c8fe3347b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Part" "MBT2222ADW1T1G"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "0ba7d86a-10cb-4d7e-95ce-b0d1ba62e598")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Digikey PN" "MBT2222ADW1T1GOSCT-ND"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "777abdf4-ef8c-4601-bd27-06d13a04e8fa")
 			(effects
 				(font
 					(size 1 1)
@@ -31119,6 +36241,58 @@
 				)
 			)
 		)
+		(property "Digikey" "https://www.digikey.com/en/products/detail/yageo/RC0603FR-07100KL/726889?s=N4IgTCBcDaIEoGEAMA2JBmAYnAtEg7AIxJIDSAMiALoC%2BQA"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "82033ce8-ec7d-4045-8d66-bde26d2bc7d5")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MPN" "RC0603FR-07100KL"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "560bd1e2-8be7-4b12-ba2a-c059e8135775")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Part" "RC0603FR-07100KL"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "113f81f1-c7e9-4b3f-bda6-921bde3882bf")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Digikey PN" "311-100KHRCT-ND"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a9b24e74-b592-4175-877a-128cd1144f59")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/6fe6dcb0-4022-4a1b-8f5d-25ced07893ae/03ff3b45-0f20-44b5-8c22-7a21ed385685/8b4d6076-42d1-4bd6-b0ff-79186e0de667")
 		(sheetname "I2C Bus Protection 1")
@@ -31329,6 +36503,58 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Digikey" "https://www.digikey.com/en/products/detail/molex/2005280100/12142074?s=N4IgTCBcDa4AxwKxgBwFo4EYEgLoF8g"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e7900ada-6fa9-46a5-a43b-9963f4db6fc3")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MPN" "200528-0100"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "2d908479-fe16-4e56-b5e1-4615d18e206d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Part" "200528-0100"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "de87b1b9-160a-42c7-b30a-964032043b2f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Digikey PN" "900-2005280100CT-ND"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "759ba756-b1e0-4388-abfd-5652ea666938")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -31826,7 +37052,7 @@
 				)
 			)
 		)
-		(property "Value" "10uF"
+		(property "Value" "10u"
 			(at 0 1.43 0)
 			(layer "F.Fab")
 			(uuid "33a0518e-2b89-40ac-8ad6-baedcdc31c46")
@@ -31960,6 +37186,45 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "950f312b-ac63-4430-bdc8-8082cc5f8a12")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Part" "C1608X5R1E106M080AC"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e243b06a-09f6-4396-9e25-218acab9af8a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Digikey" "https://www.digikey.com/en/products/detail/tdk-corporation/C1608X5R1E106M080AC/3648585?s=N4IgTCBcDaIMIEYBsAGAHADQKwCUEFEEUkBZdFAQThAF0BfIA"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ee186f1a-4bfa-4498-8df2-d70210b1c23d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Digikey PN" "445-9015-1-ND"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "4ed868df-48ae-4380-a2a8-fa2cf13bac1d")
 			(effects
 				(font
 					(size 1 1)
@@ -32180,6 +37445,58 @@
 				)
 			)
 		)
+		(property "Digikey" "https://www.digikey.com/en/products/detail/yageo/RC0603FR-0710KL/726880"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "cfab7e3a-7a14-497e-8c28-f88a762aed84")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MPN" "RC0603FR-0710KL"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "26c03b68-4b8b-4ee2-b21f-976397718f48")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Part" "RC0603FR-0710KL"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "5ca01285-8408-4e67-bb16-d574dc482d42")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Digikey PN" "311-10.0KHRCT-ND"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "926ed012-6fca-4022-9258-ca807bae6824")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/6fe6dcb0-4022-4a1b-8f5d-25ced07893ae/03ff3b45-0f20-44b5-8c22-7a21ed385685/960a45a8-b7f5-4625-914d-484b6b37249f")
 		(sheetname "I2C Bus Protection 1")
@@ -32341,7 +37658,7 @@
 				)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" "TP"
 			(at 3.2832 2.2064 0)
 			(layer "F.Fab")
 			(uuid "0a763ba5-604b-4bf7-a50b-d42b90bb0c92")
@@ -32384,6 +37701,58 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Digikey" "https://www.digikey.com/en/products/detail/keystone-electronics/5001/255327?s=N4IgTCBcDaINYFMCeBnALgewHYIAQFYAGQgRhAF0BfIA"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e2506eae-bc2b-42f7-90a3-3412a86e0f17")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MPN" "5001"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "1cb0f875-7355-4d78-ba5e-5670c08591d9")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Part" "5001"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "52517c54-8558-4c12-8ba6-b4f451ca58d1")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Digikey PN" "36-5001-ND"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "42e64386-b056-41a5-a5f2-1c4abd49c040")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -32560,6 +37929,45 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "9ad7a308-af5f-470a-a3aa-ea885f43013e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Digikey" "https://www.digikey.com/en/products/detail/murata-electronics/GCM32EC71E226KE36K/13572709?s=N4IgTCBcDaIOIGECyBmMBRBB2AjOsYAbANLookgC6AvkA"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c53dc1e1-0fd0-489d-a60c-7575c9122a9d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Part" "GCM32EC71E226KE36K"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f63a2d2e-0f5f-4ef7-8b9d-74dfcab0853a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Digikey PN" "490-GCM32EC71E226KE36KCT-ND"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d80891dc-7a09-46ce-a7b7-506a81ede54f")
 			(effects
 				(font
 					(size 1 1)
@@ -32780,6 +38188,58 @@
 				)
 			)
 		)
+		(property "Digikey" "https://www.digikey.com/en/products/detail/yageo/RC0603FR-0710KL/726880"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "fedfd981-9865-4bab-8809-8315148c3cca")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MPN" "RC0603FR-0710KL"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "7e9c6920-eb20-4161-9f48-a503331a0f4c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Part" "RC0603FR-0710KL"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "029014fb-6086-4260-a135-d8d43f0f6725")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Digikey PN" "311-10.0KHRCT-ND"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "76992eab-cc97-47d3-b750-8dee4235f1fd")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/a3f3b3cb-ad78-4c13-ba45-eb5d7efe511d/03592b94-aaf0-4d3f-8838-edfcf6e469cb/322b5f97-c8eb-49d9-a52b-457814347342")
 		(sheetname "I2C Bus Protection 2")
@@ -32941,7 +38401,7 @@
 				)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" "TP"
 			(at 3.2832 2.2064 90)
 			(layer "F.Fab")
 			(uuid "ec471f74-c47e-4dbd-9a8d-12a8364e6130")
@@ -32984,6 +38444,58 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Digikey" "https://www.digikey.com/en/products/detail/keystone-electronics/5001/255327?s=N4IgTCBcDaINYFMCeBnALgewHYIAQFYAGQgRhAF0BfIA"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "cb43c1e1-d83a-4ab4-b879-cb2d1038b138")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MPN" "5001"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "526275ea-22c0-457d-8949-38aaa593da38")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Part" "5001"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "5623b5fd-b981-4f4c-883e-fa09f4bb7d4b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Digikey PN" "36-5001-ND"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "5f0d0874-1620-4f30-925f-a8c96f677c44")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -33111,6 +38623,58 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Digikey" "https://www.digikey.com/en/products/detail/yageo/RC0402JR-070RL/726406"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "2b07ac64-dc2d-4b98-a400-fda68b8c9eca")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MPN" "RC0402JR-070RL"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "53d352e2-e2d0-4ca2-94f3-476d61613c0e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Part" "RC0402JR-070RL"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ea79948b-b1bd-4242-954e-5335bbd5bab0")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Digikey PN" "311-0.0JRCT-ND"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ddd34b58-5f6d-4ffe-ae04-5efb34844df4")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -33324,6 +38888,58 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Digikey" "https://www.digikey.com/en/products/detail/yageo/RC0603FR-07200KL/727044"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "098561da-ef16-4fd3-84f1-5fcadc1e8c6b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MPN" "RC0603FR-07200KL"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c2bdb608-b593-4644-9975-40f3bf4faba7")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Part" "RC0603FR-07200KL"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b7065d60-ebe1-4db2-bb80-c678dff934a9")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Digikey PN" "311-200KHRCT-ND"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "1c0aabda-d5a5-4b1e-bade-33ab4a20f567")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -33586,6 +39202,58 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "aaeadc05-b672-4b4e-81b4-9d900419c8c5")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Digikey" "https://www.digikey.com/en/products/detail/onsemi/MBT2222ADW1T1G/1477281?s=N4IgTCBcDaILICEAqZVgIIBEDqBGJuIAugL5A"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d6920e5e-8d84-4627-ba6c-a7f683cc55e5")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MPN" "MBT2222ADW1T1G"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "54e8674c-ddf6-4b8b-a814-76537fd55fbf")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Part" "MBT2222ADW1T1G"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e4b8e878-4676-446d-9451-406a6962136e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Digikey PN" "MBT2222ADW1T1GOSCT-ND"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "07e0f4a4-ecd1-4a61-9a16-e2bd5647a867")
 			(effects
 				(font
 					(size 1 1)
@@ -33870,6 +39538,58 @@
 				)
 			)
 		)
+		(property "Digikey" "https://www.digikey.com/en/products/detail/yageo/RC0603FR-0710KL/726880"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "69f3617a-a608-4a73-8f2b-2f59faf82f87")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MPN" "RC0603FR-0710KL"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "4d50879d-c506-4d63-bcf3-71f71b781e2d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Part" "RC0603FR-0710KL"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "bb3fc780-a621-4b48-be47-72d36fab9f63")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Digikey PN" "311-10.0KHRCT-ND"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a3a80a28-3b17-4cba-ba34-25b73cdf1727")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/6fe6dcb0-4022-4a1b-8f5d-25ced07893ae/6492614e-a1f6-4e2b-b79c-59e350868f64")
 		(sheetname "Motor")
@@ -34034,7 +39754,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" "304D-262503"
 			(at -28.45 38.35 0)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -34081,6 +39801,62 @@
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "4d1f4b71-cd80-40af-aeb3-e6b7e7a00b38")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Digikey" "https://www.digikey.com/en/products/detail/attend-technology/304D-262503/23626212?s=N4IgTCBcDaIMwAYAsARAtGAbGArAuIAugL5A"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "a014ee60-00dc-4689-9b21-1cbf83d8b767")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "MPN" "304D-262503"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "4907f844-614c-4fa1-9c40-0c30a4fe638e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Part" "304D-262503"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "411c5ff3-3737-4933-9d32-4833705f7ba1")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Digikey PN" "4827-304D-262503CT-ND"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "80e3a2ae-086d-4fba-95e3-fbfc4f78f7b2")
 			(effects
 				(font
 					(size 1 1)
@@ -42313,8 +48089,8 @@
 				(xy 127.5 59) (xy 126.5 59) (xy 126 59.5) (xy 116.95 59.5) (xy 113.95 62.5) (xy 113.95 72) (xy 116.45 74.5)
 				(xy 116.95 74.5) (xy 117.45 75) (xy 117.45 78.5) (xy 117.95 79) (xy 125.45 79) (xy 126.45 78) (xy 130.55 78)
 				(xy 130.55 76) (xy 125.45 76) (xy 124.45 77) (xy 119.45 77) (xy 118.95 76.5) (xy 118.95 73.5) (xy 118.45 73)
-				(xy 117.45 73) (xy 117.45 73) (xy 116.95 72.5) (xy 115.95 71.5) (xy 115.95 63.5) (xy 117.95 61.5)
-				(xy 126 61.5) (xy 126.5 62) (xy 127.5 62)
+				(xy 117.45 73) (xy 116.95 72.5) (xy 115.95 71.5) (xy 115.95 63.5) (xy 117.95 61.5) (xy 126 61.5)
+				(xy 126.5 62) (xy 127.5 62)
 			)
 		)
 		(filled_polygon
@@ -42393,9 +48169,8 @@
 		)
 		(polygon
 			(pts
-				(xy 177 70) (xy 179.5 70) (xy 179.5 62.5) (xy 176 59) (xy 176 59) (xy 159 59) (xy 159.05 63) (xy 159 64)
-				(xy 159 64.5) (xy 160.5 64.5) (xy 160.5 62.5) (xy 161.5 61.5) (xy 176 61.5) (xy 177.5 63) (xy 177.5 68)
-				(xy 177 68)
+				(xy 177 70) (xy 179.5 70) (xy 179.5 62.5) (xy 176 59) (xy 159 59) (xy 159.05 63) (xy 159 64) (xy 159 64.5)
+				(xy 160.5 64.5) (xy 160.5 62.5) (xy 161.5 61.5) (xy 176 61.5) (xy 177.5 63) (xy 177.5 68) (xy 177 68)
 			)
 		)
 		(filled_polygon

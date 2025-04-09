@@ -549,7 +549,7 @@
 		(exclude_from_sim yes)
 		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "34acd71f-0d12-44c5-ac94-1e5b62ff96b5")
 		(property "Reference" "H2"
@@ -595,6 +595,15 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey PN" ""
+			(at 58.42 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "dd25195a-723b-444c-a126-3822c98f8f54")
 		)
@@ -614,7 +623,7 @@
 		(exclude_from_sim yes)
 		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "6f955ff0-8388-4158-beee-558f35d4773e")
 		(property "Reference" "H1"
@@ -652,6 +661,15 @@
 			)
 		)
 		(property "Description" "Mounting Hole with connection"
+			(at 38.1 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey PN" ""
 			(at 38.1 160.02 0)
 			(effects
 				(font
@@ -744,7 +762,7 @@
 		(exclude_from_sim yes)
 		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "e19ab597-6c8e-4975-8cc8-a565addd8081")
 		(property "Reference" "H3"
@@ -790,6 +808,15 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey PN" ""
+			(at 78.74 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "f907e1dc-4097-47bd-b14f-f80068894003")
 		)
@@ -809,7 +836,7 @@
 		(exclude_from_sim yes)
 		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "e72a69a8-0617-453c-84fb-516d3ce86f02")
 		(property "Reference" "H4"
@@ -847,6 +874,15 @@
 			)
 		)
 		(property "Description" "Mounting Hole with connection"
+			(at 99.06 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey PN" ""
 			(at 99.06 160.02 0)
 			(effects
 				(font
