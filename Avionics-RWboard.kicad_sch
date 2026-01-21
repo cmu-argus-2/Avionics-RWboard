@@ -1,7 +1,7 @@
 (kicad_sch
-	(version 20231120)
+	(version 20250114)
 	(generator "eeschema")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(uuid "833dc880-24c2-430b-8cf7-cc984eb87a9d")
 	(paper "A4")
 	(title_block
@@ -11,9 +11,13 @@
 	)
 	(lib_symbols
 		(symbol "Mechanical:MountingHole_Pad"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 1.016) hide)
+				(offset 1.016)
+				(hide yes)
+			)
 			(exclude_from_sim yes)
 			(in_bom no)
 			(on_board yes)
@@ -111,12 +115,17 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "power:GND"
 			(power)
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0) hide)
+				(offset 0)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -207,7 +216,21 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
+	)
+	(text "Board Mounts"
+		(exclude_from_sim no)
+		(at 25.654 151.638 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+				(thickness 0.508)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "9b0aa3b9-15c7-4e9d-941b-795c1a7e2030")
 	)
 	(junction
 		(at 40.64 166.37)
@@ -528,19 +551,6 @@
 			(type default)
 		)
 		(uuid "fa1a9dd6-bda6-4409-beb8-67d267aaf832")
-	)
-	(text "Board Mounts"
-		(exclude_from_sim no)
-		(at 25.654 151.638 0)
-		(effects
-			(font
-				(size 2.54 2.54)
-				(thickness 0.508)
-				(bold yes)
-			)
-			(justify left bottom)
-		)
-		(uuid "9b0aa3b9-15c7-4e9d-941b-795c1a7e2030")
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole_Pad")
@@ -906,6 +916,10 @@
 	(sheet
 		(at 25.4 101.6)
 		(size 25.4 25.4)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -936,43 +950,43 @@
 		)
 		(pin "RW_MOTOR_FLT" output
 			(at 50.8 111.76 0)
+			(uuid "45340e56-46ec-4d41-b7b1-be1003268571")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "45340e56-46ec-4d41-b7b1-be1003268571")
 		)
 		(pin "RW_MOTOR_ALRM" output
 			(at 50.8 109.22 0)
+			(uuid "8d5a0ca9-3895-4500-9645-e540dff331e9")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "8d5a0ca9-3895-4500-9645-e540dff331e9")
 		)
 		(pin "SCL" bidirectional
 			(at 50.8 121.92 0)
+			(uuid "373048d7-ae0b-4f14-bb1d-bf18a0efd9a2")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "373048d7-ae0b-4f14-bb1d-bf18a0efd9a2")
 		)
 		(pin "SDA" bidirectional
 			(at 50.8 119.38 0)
+			(uuid "4c722477-06b5-42b4-b705-22da4c244812")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "4c722477-06b5-42b4-b705-22da4c244812")
 		)
 		(instances
 			(project "Avionics-RWboard"
@@ -985,6 +999,10 @@
 	(sheet
 		(at 76.2 50.8)
 		(size 25.4 25.4)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -1015,43 +1033,43 @@
 		)
 		(pin "RW_EN" input
 			(at 76.2 55.88 180)
+			(uuid "798ce145-9163-441a-a0ea-89b8e582b784")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "798ce145-9163-441a-a0ea-89b8e582b784")
 		)
 		(pin "SDA" bidirectional
 			(at 76.2 63.5 180)
+			(uuid "75592617-1d7a-4cbf-a944-f22f73b6e5dd")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "75592617-1d7a-4cbf-a944-f22f73b6e5dd")
 		)
 		(pin "SCL" bidirectional
 			(at 76.2 66.04 180)
+			(uuid "d67b1069-8553-479d-83c0-eebb0d064a79")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "d67b1069-8553-479d-83c0-eebb0d064a79")
 		)
 		(pin "RW_POWER_FLT" output
 			(at 76.2 58.42 180)
+			(uuid "f5ded448-91ae-445b-a0bd-f3a793b322df")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "f5ded448-91ae-445b-a0bd-f3a793b322df")
 		)
 		(instances
 			(project "Avionics-RWboard"
@@ -1064,6 +1082,10 @@
 	(sheet
 		(at 25.4 50.8)
 		(size 25.4 25.4)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -1094,63 +1116,63 @@
 		)
 		(pin "RW_EN" output
 			(at 50.8 55.88 0)
+			(uuid "a9b33c7c-20b8-4f05-a44f-c0ac9b20dbfe")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "a9b33c7c-20b8-4f05-a44f-c0ac9b20dbfe")
 		)
 		(pin "SDA" bidirectional
 			(at 50.8 63.5 0)
+			(uuid "6d9747e2-8b6b-47d7-96a3-f55b7934a203")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "6d9747e2-8b6b-47d7-96a3-f55b7934a203")
 		)
 		(pin "SCL" bidirectional
 			(at 50.8 66.04 0)
+			(uuid "a2750676-9078-4467-ab0d-3aad2cad0263")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "a2750676-9078-4467-ab0d-3aad2cad0263")
 		)
 		(pin "RW_POWER_FLT" input
 			(at 50.8 58.42 0)
+			(uuid "80b3f30f-3481-44af-a16a-4dde6739b49c")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "80b3f30f-3481-44af-a16a-4dde6739b49c")
 		)
 		(pin "RW_MOTOR_FLT" input
 			(at 50.8 71.12 0)
+			(uuid "df63911e-6ca3-49d3-8eb5-2654951c5609")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "df63911e-6ca3-49d3-8eb5-2654951c5609")
 		)
 		(pin "RW_MOTOR_ALRM" input
 			(at 50.8 73.66 0)
+			(uuid "26f3e5f0-138c-4bac-9b63-50e24d196cd2")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "26f3e5f0-138c-4bac-9b63-50e24d196cd2")
 		)
 		(instances
 			(project "Avionics-RWboard"
@@ -1165,4 +1187,5 @@
 			(page "1")
 		)
 	)
+	(embedded_fonts no)
 )
